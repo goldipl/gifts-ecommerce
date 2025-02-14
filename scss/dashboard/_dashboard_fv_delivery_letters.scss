@@ -1,0 +1,134 @@
+.dashboard-table {
+  padding: 20px 40px;
+  table {
+    width: 100%;
+    tr {
+      border: 1px solid $grey8;
+      background-color: $white;
+      height: 50px;
+      &:first-of-type {
+        border: 1px solid $light_grey;
+        background-color: $light_grey;
+      }
+      &.spacer15 {
+        height: 15px;
+        border: 0;
+      }
+      &.spacer10 {
+        height: 10px;
+        border: 0;
+      }
+      th {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        color: $text_color;
+        margin: 0;
+        height: 50px;
+        min-width: 100px;
+        padding: 0 25px;
+      }
+      td {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        height: 50px;
+        min-width: 100px;
+        padding: 0 25px;
+        a {
+          text-decoration: none;
+          color: $text_color;
+          img {
+            margin: 0 auto;
+          }
+          &:hover {
+            color: $main_color;
+            img {
+              filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg)
+                brightness(99%) contrast(91%);
+            }
+          }
+        }
+        &.download-icon {
+          white-space: inherit;
+        }
+        &.status {
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+          margin: 0;
+          color: $text_color;
+          &.green {
+            color: $dashboard_green;
+          }
+          &.orange {
+            color: $dashboard_orange;
+          }
+          &.red {
+            color: $dashboard_red;
+          }
+        }
+        &.delivery-number {
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          margin: 0;
+          color: $main_color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .dashboard-table {
+    padding: 16px;
+    overflow-x: scroll;
+    table {
+      tr {
+        th,
+        td {
+          white-space: pre;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .dashboard-table {
+    position: relative;
+    padding-bottom: 28px;
+    background-color: $white;
+    &::before {
+      content: "Dotknij i przesuń, żeby zobaczyć więcej";
+      position: absolute;
+      width: 204px;
+      height: 10px;
+      bottom: 8px;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 16px;
+      color: $grey_main;
+      right: 18px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 14px;
+      height: 20px;
+      bottom: 2px;
+      right: 11px;
+      background: url("./../assets/icons/common/swipe-hand.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

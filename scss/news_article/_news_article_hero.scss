@@ -1,0 +1,18 @@
+.news_article_hero {
+    img {
+        margin-left: -200px;
+        margin-top: -16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .news_article_hero {
+        height: 40vh;
+        img {
+            object-fit: cover;
+            height: inherit;
+            margin: 0 0 0 -12px;
+            width: 100vw;
+        }
+    }
+}
