@@ -90,6 +90,14 @@
   }
 }
 
+@media (min-width: 992px) {
+  #hero-left-menu {
+    .navbar-collapse.collapse {
+      display: block !important;
+    }
+  }
+}
+
 @media (max-width: 991px) {
   #hero-left-menu {
     margin-top: 54px;

@@ -294,7 +294,12 @@ nav .navbar-bottom .main-nav-item > a {
 nav .navbar-bottom .main-nav-item > a.show::after {
   transition: 0.6s;
   transform: rotate(180deg);
-  top: 13px;
+  top: 17px;
+}
+@media (max-width: 992px) {
+  nav .navbar-bottom .main-nav-item > a.show::after {
+    top: 9px;
+  }
 }
 
 @media (max-width: 1576px) {
@@ -1503,6 +1508,11 @@ label.add-files:focus, label.add-files:hover {
   padding: 12px 39px;
 }
 
+@media (min-width: 992px) {
+  #hero-left-menu .navbar-collapse.collapse {
+    display: block !important;
+  }
+}
 @media (max-width: 991px) {
   #hero-left-menu {
     margin-top: 54px;
