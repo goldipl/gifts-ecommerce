@@ -11,6 +11,10 @@ nav {
     text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
   }
 
+  .navbar-toggler:focus {
+    box-shadow: unset !important;
+  }
+
   .navbar-brand {
     img {
       font-size: 12px;
@@ -126,6 +130,9 @@ nav {
         background-size: contain;
         width: 14px;
         height: 14px;
+        @media (max-width: 992px) {
+          top: 13px;
+        }
       }
     }
     .nav-link.dropdown-toggle.show {
@@ -156,8 +163,9 @@ nav {
       color: $text_color;
       &.show {
         &::after {
+          transition: 0.6s;
           transform: rotate(180deg);
-          top: 16px;
+          top: 13px;
         }
       }
     }
@@ -361,7 +369,8 @@ nav {
           border: 0;
           border-radius: 0;
           &.show {
-            background-color: $light_grey;
+            border-top: 1px solid $main_color;
+            border-bottom: 1px solid $main_color;
             .dropdown-menu {
               &.show {
                 background-color: $white;

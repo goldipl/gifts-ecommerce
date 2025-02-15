@@ -3,3 +3,17 @@
   height: 660px;
   margin-bottom: 64px;
 }
+
+@media (max-width: 991px) {
+  #hero-open-section {
+    flex-direction: column;
+    height: 456px;
+    border-bottom: 1px solid $grey;
+    .swiper {
+      margin-left: -16px;
+      margin-right: -16px;
+      width: calc(100% + 32px) !important;
+      height: 456px !important;
+    }
+  }
+}

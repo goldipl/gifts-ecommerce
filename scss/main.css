@@ -151,6 +151,9 @@ nav .dropdown-item:hover {
   background-color: unset;
   text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
+nav .navbar-toggler:focus {
+  box-shadow: unset !important;
+}
 nav .navbar-brand img {
   font-size: 12px;
 }
@@ -264,6 +267,11 @@ nav .navbar-bottom .nav-link.dropdown-toggle::after {
   width: 14px;
   height: 14px;
 }
+@media (max-width: 992px) {
+  nav .navbar-bottom .nav-link.dropdown-toggle::after {
+    top: 13px;
+  }
+}
 nav .navbar-bottom .nav-link.dropdown-toggle.show {
   color: #c90c0f;
 }
@@ -284,8 +292,9 @@ nav .navbar-bottom .main-nav-item > a {
   color: #374957;
 }
 nav .navbar-bottom .main-nav-item > a.show::after {
+  transition: 0.6s;
   transform: rotate(180deg);
-  top: 16px;
+  top: 13px;
 }
 
 @media (max-width: 1576px) {
@@ -470,7 +479,8 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     border-radius: 0;
   }
   nav .navbar-bottom .main-nav-item .dropdown-menu.show {
-    background-color: #f4f4f4;
+    border-top: 1px solid #c90c0f;
+    border-bottom: 1px solid #c90c0f;
   }
   nav .navbar-bottom .main-nav-item .dropdown-menu.show .dropdown-menu.show {
     background-color: #ffffff;
@@ -1396,6 +1406,19 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 64px;
 }
 
+@media (max-width: 991px) {
+  #hero-open-section {
+    flex-direction: column;
+    height: 456px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  #hero-open-section .swiper {
+    margin-left: -16px;
+    margin-right: -16px;
+    width: calc(100% + 32px) !important;
+    height: 456px !important;
+  }
+}
 #hero-left-menu {
   position: relative;
   margin-top: -54px;
@@ -1417,9 +1440,10 @@ label.add-files:focus, label.add-files:hover {
   background-color: unset;
   text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
-#hero-left-menu .hero-left-menu .navbar-toggler-icon {
-  display: block;
-  background-color: black;
+#hero-left-menu .hero-left-menu .navbar-toggler {
+  display: none;
+}
+#hero-left-menu .hero-left-menu .navbar-toggler-text {
   display: none;
 }
 #hero-left-menu .hero-left-menu .navbar-nav {
@@ -1481,7 +1505,82 @@ label.add-files:focus, label.add-files:hover {
 
 @media (max-width: 991px) {
   #hero-left-menu {
-    margin-top: 8px;
+    margin-top: 54px;
+  }
+  #hero-left-menu .hero-left-menu {
+    margin-right: 0;
+    width: 100%;
+  }
+  #hero-left-menu .hero-left-menu .navbar-nav {
+    width: 100%;
+  }
+  #hero-left-menu .hero-left-menu .navbar-nav .nav-item-chevron-right {
+    transform: rotate(90deg);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
+  #hero-left-menu .hero-left-menu .navbar-nav .nav-item {
+    margin: 0;
+    padding: 0 10px 0 14px;
+  }
+  #hero-left-menu .hero-left-menu .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+  #hero-left-menu .hero-left-menu .navbar-nav .nav-item.dropdown:has(.nav-link.dropdown-toggle.show) .nav-item-chevron-right {
+    transition: 0.6s;
+    transform: rotate(-90deg);
+  }
+  #hero-left-menu .hero-left-menu .navbar-nav .nav-item.dropdown .dropdown-menu {
+    top: -3px !important;
+    left: 10px !important;
+    z-index: 12 !important;
+    padding: 8px !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border: 1px solid #c90c0f;
+  }
+  #hero-left-menu .hero-left-menu .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+  }
+  #hero-left-menu .hero-left-menu:has(.navbar-collapse.show) {
+    height: 0;
+    border: 0;
+  }
+  #hero-left-menu .navbar-collapse {
+    display: flex;
+    margin-top: -40px;
+  }
+  #hero-left-menu .navbar-collapse.show {
+    display: none;
+  }
+  #hero-left-menu .navbar-toggler {
+    position: relative;
+    top: -48px;
+    display: block !important;
+    width: 56px;
+    min-height: 40px;
+    height: 40px;
+    border-radius: 6px;
+    transition: unset !important;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0.25rem 0.75rem;
+  }
+  #hero-left-menu .navbar-toggler-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  #hero-left-menu .navbar-toggler-text {
+    position: relative;
+    top: -21px;
+    left: 56px;
+    display: inline-flex !important;
+    white-space: pre;
   }
 }
 #swiper {

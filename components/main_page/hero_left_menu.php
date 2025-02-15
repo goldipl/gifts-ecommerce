@@ -2,6 +2,7 @@
   <nav class="hero-left-menu">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-text">Kategorie produktów</span>
     </button>
     <div class="collapse navbar-collapse show" id="navbarNav">
       <ul class="navbar-nav">
