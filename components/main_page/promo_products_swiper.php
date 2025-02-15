@@ -1,5 +1,5 @@
 <section id="promo_products_swiper" class="container position-relative">
-    <div class="promo_products_swiper">
+    <div class="our_products_swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slide 01 -->
