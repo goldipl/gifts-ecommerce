@@ -1587,7 +1587,8 @@ label.add-files:focus, label.add-files:hover {
   }
   #hero-left-menu .navbar-toggler-text {
     position: relative;
-    top: -21px;
+    font-size: 14px;
+    top: -23px;
     left: 56px;
     display: inline-flex !important;
     white-space: pre;
