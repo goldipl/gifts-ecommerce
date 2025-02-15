@@ -204,7 +204,7 @@ nav .nav-account-cart a:hover span {
   color: #c90c0f;
 }
 nav .nav-account-cart a:hover svg {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 nav .nav-account-cart a.nav-cart-icon {
   position: relative;
@@ -545,7 +545,7 @@ footer .footer__container__top .third-column a:hover {
   color: #c90c0f;
 }
 footer .footer__container__top .third-column a:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 footer .footer__container__top .fourth-column .footer-contacts-box h2 {
   font-size: 24px;
@@ -1904,7 +1904,7 @@ label.add-files:focus, label.add-files:hover {
   color: #c90c0f;
 }
 .mp-check-all-btn:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .mp-check-all-btn a {
   display: flex;
@@ -3222,7 +3222,7 @@ label.add-files:focus, label.add-files:hover {
   margin-left: 11px;
 }
 .product_card_gallery_info .product-gallery .slider-one .product-icons a .download-icon:hover {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .product_card_gallery_info .product-gallery .slider-one .product-icons a .zoom-icon,
 .product_card_gallery_info .product-gallery .slider-one .product-icons span .zoom-icon {
@@ -3230,7 +3230,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .product_card_gallery_info .product-gallery .slider-one .product-icons a .zoom-icon:hover,
 .product_card_gallery_info .product-gallery .slider-one .product-icons span .zoom-icon:hover {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .product_card_gallery_info .product-gallery .gallery img {
   width: 100%;
@@ -7029,7 +7029,7 @@ label.add-files:focus, label.add-files:hover {
   color: #c90c0f;
 }
 .dashboard-menu .menu-links-container .menu-links-box .menu-link-big:hover img, .dashboard-menu .menu-links-container .menu-links-box .menu-link-big.active img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-menu .menu-links-container .menu-links-box .menu-link-big img {
   margin-left: -36px;
@@ -8088,7 +8088,7 @@ label.add-files:focus, label.add-files:hover {
   color: #c90c0f;
 }
 .dashboard-table table tr td a:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-table table tr td.download-icon {
   white-space: inherit;
@@ -8231,7 +8231,7 @@ label.add-files:focus, label.add-files:hover {
   height: 100%;
 }
 .dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-delivery-addresses__slot .delivery-box-content.add-address .add-address-box:hover span {
   color: #c90c0f;
@@ -8263,7 +8263,7 @@ label.add-files:focus, label.add-files:hover {
   text-decoration: none;
 }
 .dashboard-delivery-addresses__slot .delivery-box-bottom .bottom-icons .edit:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-delivery-addresses__slot .delivery-box-bottom .bottom-icons .delete {
   margin-left: 15px;
@@ -8273,7 +8273,7 @@ label.add-files:focus, label.add-files:hover {
   margin-right: 11px;
 }
 .dashboard-delivery-addresses__slot .delivery-box-bottom .bottom-icons .delete:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 
 @media (max-width: 1640px) {
@@ -8380,7 +8380,7 @@ label.add-files:focus, label.add-files:hover {
   text-decoration: none;
 }
 .dashboard-visualizations__slot .product-content__top a:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-visualizations__slot .product-content__bottom {
   display: flex;
@@ -8539,7 +8539,7 @@ label.add-files:focus, label.add-files:hover {
   min-width: 23px;
 }
 .dashboard-logos__slot .product-content .product-icons .download:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-logos__slot .product-content .product-icons .delete {
   margin-left: 14px;
@@ -8547,7 +8547,7 @@ label.add-files:focus, label.add-files:hover {
   min-width: 17px;
 }
 .dashboard-logos__slot .product-content .product-icons .delete:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 
 @media (max-width: 1640px) {
@@ -8700,7 +8700,7 @@ label.add-files:focus, label.add-files:hover {
   min-width: 23px;
 }
 .dashboard-img-boxes__slot .product-content .product-icons .download:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-img-boxes__slot .product-content .product-icons .delete {
   margin-left: 14px;
@@ -8708,7 +8708,7 @@ label.add-files:focus, label.add-files:hover {
   min-width: 24px;
 }
 .dashboard-img-boxes__slot .product-content .product-icons .delete:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-img-boxes__slot .add-catalog {
   display: flex;
@@ -8726,7 +8726,7 @@ label.add-files:focus, label.add-files:hover {
   height: 100%;
 }
 .dashboard-img-boxes__slot .add-catalog-box:hover img {
-  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .dashboard-img-boxes__slot .add-catalog-box:hover span {
   color: #c90c0f;
