@@ -96,7 +96,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">Kontakt
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">Kontakt
                                     </a>
                                 </div>
                             </td>
@@ -131,7 +131,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
@@ -142,7 +142,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
@@ -153,7 +153,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
@@ -164,7 +164,7 @@
                             <td>
                                 <div class="two-lines">
                                     <a class="mail-contact" href="#">
-                                        <img src="./assets/icons/product_page/orange-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
+                                        <img src="./assets/icons/product_page/color-envelope.svg" alt="envelope">ZAMÓW BEZPŁATNĄ WIZUALIZACJĘ
                                     </a>
                                 </div>
                             </td>
