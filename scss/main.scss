@@ -1,9 +1,11 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+
 @import "./reset";
 @import "./breakpoints";
 @import "./variables";
 @import "./global";
+
 @import "./common/topbar";
 @import "./common/nav";
 @import "./common/footer";
@@ -16,8 +18,10 @@
 @import "./common/custom_radio_checkbox";
 @import "./common/common_progress_bar";
 @import "./common/common_steps";
+
+@import "./main_page/hero_open_section";
+@import "./main_page/hero_left_menu";
 @import "./main_page/swiper";
-@import "./main_page/info_section";
 @import "./main_page/promo_products";
 @import "./main_page/our_products";
 @import "./main_page/titles";
@@ -28,23 +32,28 @@
 @import "./main_page/blog";
 @import "./main_page/about_us";
 @import "./main_page/our_brands";
+
 @import "./news/news_title";
 @import "./news/news_articles";
 @import "./news_article/news_article_hero";
 @import "./news_article/news_article_content";
 @import "./news_article/news_article_more_news";
+
 @import "./blog/blog_articles";
 @import "./faq/faq_content";
 @import "./product_card/product_card_gallery_info";
 @import "./product_card/product_card_tabs";
+
 @import "./cart/cart_step_one";
 @import "./cart/cart_step_two";
 @import "./cart/cart_step_three";
 @import "./cart/cart_step_four";
 @import "./cart/cart_step_five";
+
 @import "./contact/contact_content";
 @import "./contact/contact_sales_department";
 @import "./contact/contact_other_departments";
+
 @import "./dashboard/dashboard_grid";
 @import "./dashboard/dashboard_menu";
 @import "./dashboard/dashboard_main_page";
@@ -61,6 +70,7 @@
 @import "./dashboard/dashboard_pricelists";
 @import "./dashboard/dashboard_img_boxes";
 @import "./dashboard/dashboard_webapi";
+
 @import "./category/category_grid";
 @import "./category/category_menu";
 @import "./category/category_left_filters";
@@ -69,5 +79,6 @@
 @import "./category/category_top_pagination";
 @import "./category/category_seo_text";
 @import "./category/category_title";
+
 @import "./register/register_content";
 @import "./register/country_modal";

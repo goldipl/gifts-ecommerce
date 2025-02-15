@@ -1,0 +1,94 @@
+#hero-left-menu {
+  position: relative;
+  margin-top: -54px;
+  z-index: 10;
+  .hero-left-menu {
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    height: 723px;
+    margin-right: 22px;
+    border: 1px solid $border_grey;
+    border-radius: 10px;
+    background-color: $white;
+
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+      color: $main_color;
+      background-color: unset;
+      text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
+    }
+
+    .navbar-toggler-icon {
+      display: block;
+      background-color: black;
+      display: none;
+    }
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      .nav-item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 48px;
+        min-height: 48px;
+        padding: 0 20px;
+        border-bottom: 1px solid $border_grey;
+        .left-menu-icon {
+          height: 20px;
+          width: 22px;
+        }
+        &:hover {
+          .nav-link {
+            color: $main_color;
+          }
+          .left-menu-icon {
+            filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg)
+              brightness(73%) contrast(130%);
+          }
+        }
+        &-chevron-right {
+          position: absolute;
+          top: calc(50% - 6px);
+          right: 23px;
+        }
+        .nav-link {
+          display: flex;
+          align-items: center;
+          height: 48px;
+          font-weight: 600;
+          font-size: 16px;
+          letter-spacing: 0%;
+          padding: 6px 32px 6px 14px;
+          width: 100%;
+          &::after {
+            display: none;
+          }
+          &.show {
+            color: $main_color;
+          }
+        }
+        &:last-of-type {
+          border-bottom: unset;
+        }
+        &.dropdown {
+          .dropdown-menu {
+            top: -51px !important;
+            left: 294px !important;
+            z-index: -1 !important;
+            width: max-content;
+            padding: 12px 39px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  #hero-left-menu {
+    margin-top: 8px;
+  }
+}

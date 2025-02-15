@@ -17,8 +17,10 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <?php include "./components/main_page/hero_swiper.php"; ?> 
-            <?php include "./components/main_page/info_section.php"; ?> 
+            <div id="hero-open-section" class="container">
+                <?php include "./components/main_page/hero_left_menu.php"; ?> 
+                <?php include "./components/main_page/hero_swiper.php"; ?> 
+            </div>
             <?php include "./components/main_page/promo_products.php"; ?> 
             <?php include "./components/main_page/promo_products_swiper.php"; ?> 
             <?php include "./components/main_page/our_products.php"; ?> 

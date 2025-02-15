@@ -1,8 +1,16 @@
 header {
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  height: 230px;
+  border-bottom: 1px solid $grey;
 }
 
 nav {
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    color: $main_color;
+    background-color: unset;
+    text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
+  }
+
   .navbar-brand {
     img {
       font-size: 12px;
@@ -18,12 +26,17 @@ nav {
       width: 568px;
       height: 60px;
       background-color: $light_grey;
-      padding: 0 60px 0 38px;
+      padding: 0 120px 0 24px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 14.4px;
+      color: $grey12;
       &::placeholder {
         font-size: 16px;
-        font-weight: 300;
-        line-height: 90%;
-        color: $grey2;
+        font-weight: 400;
+        line-height: 14.4px;
+        color: $grey12;
       }
     }
     button {
@@ -31,7 +44,6 @@ nav {
       position: absolute;
       top: calc(50% - 12.5px);
       right: 30px;
-      font-size: 0;
       content: "";
       display: block;
       background: url("./../assets/icons/common/header/magnifier.svg");
@@ -40,6 +52,15 @@ nav {
       background-size: contain;
       background-repeat: no-repeat;
       cursor: pointer;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 14.4px;
+      color: $grey13;
+      background-position-x: 64px;
+      padding-right: 64px;
+      &:hover {
+        color: $main_color;
+      }
     }
   }
   .nav-account-cart {
@@ -68,7 +89,7 @@ nav {
           justify-content: center;
           top: -6px;
           right: -6px;
-          background-color: $main_color;
+          background-color: $green;
           border-radius: 100%;
           z-index: 10;
           width: 22px;
@@ -90,22 +111,32 @@ nav {
   .dropend {
     position: static;
   }
-  .dropdown-item:focus,
-  .dropdown-item:hover {
-    background-color: $menu_hover_color;
-    text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
-  }
-  .dropdown-toggle::after {
-    border-top: 0.3em solid $menu_arrows_color;
-    border-right: 0.3em solid $transparent;
-    border-bottom: 0;
-    border-left: 0.3em solid $transparent;
-    &:hover {
+  .navbar-bottom {
+    .nav-link.dropdown-toggle {
+      position: relative;
+      &::after {
+        border: 0;
+        position: absolute;
+        content: "";
+        top: 22px;
+        right: -14px;
+        display: block;
+        background: url("./../assets/icons/common/header/menu-arrow-down.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 14px;
+        height: 14px;
+      }
+    }
+    .nav-link.dropdown-toggle.show {
       color: $main_color;
     }
-  }
-  .navbar-bottom {
     .main-nav-item {
+      > a {
+        &:hover {
+          color: $main_color;
+        }
+      }
       &:first-of-type {
         > a {
           padding-left: 0;
@@ -118,23 +149,15 @@ nav {
       }
     }
     .main-nav-item > a {
+      font-weight: 700;
       font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 177.023%;
-      text-transform: uppercase;
+      line-height: 35.4px;
+      letter-spacing: 0%;
       color: $text_color;
-      &:hover,
-      &.active {
-        color: $main_color;
-        text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
-        &::after {
-          border-top: 0.3em solid $main_color !important;
-        }
-      }
       &.show {
         &::after {
           transform: rotate(180deg);
+          top: 16px;
         }
       }
     }
@@ -158,23 +181,43 @@ nav {
       display: none;
     }
     .navbar-first-row {
-      height: 100px;
+      height: 126px;
     }
     .navbar-top {
       position: absolute;
       top: 0;
       left: 0;
       display: flex;
-      height: 100px;
+      height: 126px;
     }
     .navbar-bottom {
-      position: absolute;
-      top: 100px;
-      left: 0;
       display: flex;
-      height: 60px;
+      position: absolute;
+      top: 140px;
+      left: 400px;
+      height: 55px;
       .main-nav-item {
-        height: 60px;
+        height: 55px;
+        margin-right: 33px;
+        &:has(.nav-link.dropdown-toggle) {
+          margin-right: 45px;
+        }
+      }
+      .dropdown-menu {
+        width: max-content;
+        top: 98%;
+        .nav-item {
+          width: 100%;
+          .nav-link {
+            width: 100%;
+            padding: 4px 32px;
+            white-space: pre;
+            &:hover {
+              color: $main_color;
+              text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
+            }
+          }
+        }
       }
     }
     .dropend .dropdown-menu[data-bs-popper] {
@@ -199,7 +242,8 @@ nav {
       --bs-dropdown-padding-y: 0 !important;
       min-height: 36px;
       padding: 21px 39px;
-      background-color: $light_grey;
+      border-radius: 10px !important;
+      background-color: $white;
       li {
         margin-left: -39px;
         margin-right: -39px;
@@ -235,15 +279,43 @@ nav {
 }
 
 @media (max-width: 991px) {
+  header {
+    height: 96px;
+  }
   nav {
     height: auto;
+    .navbar-menu {
+      background-color: $white;
+      z-index: 15;
+      #nav-searchbar button {
+        font-size: 0;
+        right: 0;
+        padding-right: 16px;
+        background-position-x: unset;
+      }
+      .navbar-bottom .main-nav-item > a {
+        width: calc(100% - 16px);
+        line-height: 1.1;
+      }
+      .dropdown-menu {
+        .nav-link {
+          padding: 4px 8px;
+          font-size: 14px;
+        }
+      }
+    }
     .container-fluid {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
+      &:has(.navbar-collapse.show) {
+        border-bottom: 2px solid $main_color;
+      }
     }
     .navbar-brand {
       img {
         margin-left: 0;
+        height: 32px;
+        width: auto;
       }
     }
     #nav-searchbar {
