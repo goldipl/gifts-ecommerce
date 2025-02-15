@@ -2,7 +2,7 @@
     <div class="footer__container__top d-flex flex-row justify-content-between">
         <div class="d-flex flex-column col-3 first-column">
             <div class="footer-logo">
-                <img src="./assets/icons/common/footer/logo-macma-footer.svg" alt="GIFTS24 - Dystrybutor gadżetów reklamowych" width="200" height="42">
+                <img src="./assets/icons/common/footer/GIFTS24-logo.svg" alt="GIFTS24 - Dystrybutor gadżetów reklamowych" width="200" height="42">
             </div>
             <div class="footer-text">
                 <strong>Tysiące gadżetów w jednych miejscu!</strong>
