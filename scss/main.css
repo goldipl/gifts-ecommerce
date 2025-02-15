@@ -1942,64 +1942,6 @@ label.add-files:focus, label.add-files:hover {
   color: #c90c0f;
 }
 
-.mp-bell-promo-box {
-  position: relative;
-  background-color: #c90c0f;
-  width: -moz-max-content;
-  width: max-content;
-  height: 105px;
-  margin-right: 40px;
-  margin-left: 16px;
-}
-.mp-bell-promo-box--text p {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin: 0;
-  text-align: right;
-}
-.mp-bell-promo-box--text p span {
-  display: flex;
-  font-weight: 700;
-}
-.mp-bell-promo-box--data {
-  margin-left: 32px;
-  margin-right: 24px;
-}
-.mp-bell-promo-box--data div.calendar-card-top {
-  width: 77px;
-  height: auto;
-  background-color: #ffffff;
-  border-bottom: 1px solid #c90c0f;
-}
-.mp-bell-promo-box--data div.calendar-card-top p {
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  color: #c90c0f;
-  margin: 0;
-}
-.mp-bell-promo-box--data div.calendar-card-bottom {
-  width: 77px;
-  height: auto;
-  background-color: #ffffff;
-}
-.mp-bell-promo-box--data div.calendar-card-bottom p {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 150%;
-  color: #c90c0f;
-  margin: 0;
-}
-
 .mp-check-all-btn {
   position: relative;
 }
@@ -2034,14 +1976,6 @@ label.add-files:focus, label.add-files:hover {
     top: 0;
     right: 0;
   }
-  #promo_products_container .container .mp-bell-btn-box {
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 24px;
-  }
-  #promo_products_container .container .mp-bell-btn-box .mp-bell-promo-box {
-    margin: auto 0;
-  }
 }
 @media (max-width: 991px) {
   #promo_products_container .mp-titles .flex-row h1,
@@ -2071,20 +2005,6 @@ label.add-files:focus, label.add-files:hover {
     font-size: 20px;
     line-height: 140%;
     width: 60vw;
-  }
-  .mp-bell-promo-box--text p {
-    font-size: 14px;
-    line-height: 140%;
-  }
-  .mp-bell-promo-box--data {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-  .mp-bell-promo-box--data div.calendar-card-top {
-    height: 48px;
-  }
-  .mp-bell-promo-box--data div.calendar-card-top p {
-    font-size: 22px;
   }
   .mp-check-all-btn {
     padding: 8px 0 !important;
