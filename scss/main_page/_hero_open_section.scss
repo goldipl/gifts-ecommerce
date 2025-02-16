@@ -9,6 +9,9 @@
     flex-direction: column;
     height: 456px;
     border-bottom: 1px solid $grey;
+    &:has(#navbarNav.collapse:not(.show)) {
+      height: 100%;
+    }
     .swiper {
       margin-left: -16px;
       margin-right: -16px;

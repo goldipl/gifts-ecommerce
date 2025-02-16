@@ -1417,6 +1417,9 @@ label.add-files:focus, label.add-files:hover {
     height: 456px;
     border-bottom: 1px solid #e6e6e6;
   }
+  #hero-open-section:has(#navbarNav.collapse:not(.show)) {
+    height: 100%;
+  }
   #hero-open-section .swiper {
     margin-left: -16px;
     margin-right: -16px;
