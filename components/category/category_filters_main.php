@@ -46,24 +46,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -91,8 +74,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
+            <div class="your-price">
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
             <a href="" class="products-buy-button">
                 <span>Do Koszyka</span>
@@ -106,24 +89,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -160,24 +126,7 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -214,24 +163,7 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -280,24 +212,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -325,8 +240,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
+            <div class="your-price">
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
             <a href="" class="products-buy-button">
                 <span>Do Koszyka</span>
@@ -340,24 +255,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -394,24 +292,7 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -448,24 +329,7 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -514,24 +378,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -559,8 +406,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
+            <div class="your-price">
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
             <a href="" class="products-buy-button">
                 <span>Do Koszyka</span>
@@ -574,24 +421,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -628,24 +458,7 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -682,24 +495,7 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -748,24 +544,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -793,8 +572,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
+            <div class="your-price">
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
             <a href="" class="products-buy-button">
                 <span>Do Koszyka</span>
@@ -808,24 +587,7 @@
             </div>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -862,24 +624,7 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
     <div class="category-filters-main__slot">
         <div class="category-filters-main__slot__top">
@@ -916,23 +661,6 @@
             </a>
         </div>
         <!-- Product hover box -->
-        <div class="product-hover-box">
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/cart.svg" alt="cart icon" width="20" height="20">
-                <span>Do koszyka</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/calculator.svg" alt="calculator icon" width="20" height="20">
-                <span>Kalkulator</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/offertspage.svg" alt="offertspage icon" width="20" height="20">
-                <span>Ofertownik</span>
-            </a>
-            <a href="#" class="product-hover-box__slot">
-                <img src="./assets/icons/category/more.svg" alt="more icon" width="20" height="20">
-                <span>Więcej</span>
-            </a>
-        </div>
+        
     </div>
 </div>
