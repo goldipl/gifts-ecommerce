@@ -22,6 +22,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>100,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -51,6 +55,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>16,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -80,6 +88,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>80,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -109,6 +121,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>110,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -138,6 +154,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -167,6 +187,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>110,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -196,6 +220,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>110,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -225,6 +253,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -254,6 +286,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">
@@ -283,6 +319,10 @@
                         <div class="your-price">
                             <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
+                        <a href="" class="products-buy-button">
+                            <span>Do Koszyka</span>
+                            <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+                        </a>
                     </div>
                     <!-- Product label -->
                     <div class="product-label-box">

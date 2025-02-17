@@ -26,25 +26,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -105,25 +92,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -178,25 +152,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
@@ -245,25 +206,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
@@ -312,25 +260,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -391,25 +326,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -464,25 +386,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
@@ -531,25 +440,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
@@ -598,25 +494,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -677,25 +560,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -750,25 +620,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
@@ -817,25 +674,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
@@ -884,25 +728,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -963,25 +794,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product label -->
         <div class="product-label-box">
@@ -1036,25 +854,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
@@ -1103,25 +908,12 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span> netto
-                </p>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto </p>
             </div>
-            <div class="table-delivery">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th><b>24h/48h</b></th>
-                            <th><b>2-3 dni</b></th>
-                            <th><b>Dostawa</b></th>
-                        </tr>
-                        <tr>
-                            <td>30 348</td>
-                            <td>45 675</td>
-                            <td>100 000</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <a href="" class="products-buy-button">
+                <span>Do Koszyka</span>
+                <img src="./assets/icons/common/plus-circle.svg" alt="Dodaj" width="18" height="18">
+            </a>
         </div>
         <!-- Product hover box -->
         <div class="product-hover-box">
