@@ -1,5 +1,8 @@
 .categories-tabs-swiper {
   margin: 68px auto;
+  * {
+    user-select: none;
+  }
   .tab-nav-arrows {
     #prevTabBtn {
       all: unset;
