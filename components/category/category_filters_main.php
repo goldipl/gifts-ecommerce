@@ -25,12 +25,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -108,10 +104,6 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="promo-price">
                 <p class="text-center">Cena promo <span>100,88 PLN</span>
                 </p>
@@ -185,12 +177,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -256,12 +244,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -327,12 +311,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -410,10 +390,6 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="promo-price">
                 <p class="text-center">Cena promo <span>100,88 PLN</span>
                 </p>
@@ -487,12 +463,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -558,12 +530,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -629,12 +597,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -712,10 +676,6 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="promo-price">
                 <p class="text-center">Cena promo <span>100,88 PLN</span>
                 </p>
@@ -789,12 +749,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -860,12 +816,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -931,12 +883,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -1014,10 +962,6 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="promo-price">
                 <p class="text-center">Cena promo <span>100,88 PLN</span>
                 </p>
@@ -1091,12 +1035,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">
@@ -1162,12 +1102,8 @@
             </div>
         </div>
         <div class="category-filters-main__slot__bottom">
-            <div class="catalog-price">
-                <p class="text-center">Cena kat. <span>111,88 PLN</span>
-                </p>
-            </div>
             <div class="your-price">
-                <p class="text-center">Twoja cena <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span>
                 </p>
             </div>
             <div class="table-delivery">

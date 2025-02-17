@@ -136,12 +136,8 @@
         <div class="product-price-box">
             <div class="product-price-box_top">
                 <div class="product-price-box_top__left">
-                    <div class="catalog-price">
-                        <span>Cena katalogowa <p>2,88 PLN</p>
-                        </span>
-                    </div>
                     <div class="your-price">
-                        <span>Twoja cena <p>2,55 PLN</p>
+                        <span>Cena: <p>2,55 PLN</p>
                         </span>
                     </div>
                 </div>

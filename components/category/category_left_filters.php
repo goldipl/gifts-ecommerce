@@ -33,7 +33,7 @@
                     <span class="custom-checkbox-checkmark"></span>
                 </label>
                 <label class="custom-checkbox-container">
-                    Twoja cena <input type="checkbox" class="custom_input" name="priceType" onclick="handleCheckboxClick(this)">
+                    Cena: <input type="checkbox" class="custom_input" name="priceType" onclick="handleCheckboxClick(this)">
                     <span class="custom-checkbox-checkmark"></span>
                 </label>
             </div>

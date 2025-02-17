@@ -12,7 +12,7 @@
                                 <th>Ilość</th>
                                 <th>Cena<br>katalogowa</th>
                                 <th>Rabat</th>
-                                <th>Twoja cena<br>netto szt.</th>
+                                <th>Cena:<br>netto szt.</th>
                                 <th>Wartość<br>netto</th>
                                 <th>Wartość<br>brutto</th>
                                 <th>Usuń</th>

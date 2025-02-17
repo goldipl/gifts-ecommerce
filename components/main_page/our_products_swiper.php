@@ -19,11 +19,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>111,88 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>100,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>100,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -51,11 +48,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>17,49 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>16,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>16,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -83,11 +77,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>83,40 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>80,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>80,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -115,11 +106,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>114,88 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>110,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>110,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -147,11 +135,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>3,34 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -179,11 +164,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>114,88 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>110,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>110,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -211,11 +193,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>114,88 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>110,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>110,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -243,11 +222,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>3,34 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -275,11 +251,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>3,34 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -307,11 +280,8 @@
                         </div>
                     </div>
                     <div class="swiper_products_block_box__bottom">
-                        <div class="catalog-price">
-                            <p class="text-center">Cena kat. <span>3,34 PLN</span></p>
-                        </div>
                         <div class="your-price">
-                            <p class="text-center">Twoja cena <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
                         </div>
                     </div>
                     <!-- Product label -->
