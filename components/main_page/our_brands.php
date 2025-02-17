@@ -6,8 +6,6 @@
                     Zaufali nam
                 </h2>
             </div>
-            <div class="d-flex flex-row mp-title">
-            </div>
         </div>
         <div class="d-flex flex-row mp-bell-btn-box">
         </div>

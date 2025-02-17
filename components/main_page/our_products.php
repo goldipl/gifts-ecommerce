@@ -3,8 +3,9 @@
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row mp-title">
                 <h2 class="p-0">
-                    Nowości <small>Cały czas dbamy o to żeby nasz asortment się powiekszał</small>
+                    Nowości 
                 </h2>
+                <small>Cały czas dbamy o to żeby nasz asortment się powiekszał</small>
             </div>
         </div>
         <div class="d-flex flex-row mp-bell-btn-box">

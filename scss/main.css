@@ -1914,6 +1914,9 @@ label.add-files:focus, label.add-files:hover {
     max-height: 646px;
   }
 }
+.categories-tabs-swiper {
+  margin: 68px auto;
+}
 .categories-tabs-swiper .tab-nav-arrows #prevTabBtn {
   all: unset;
   display: flex;
@@ -1957,9 +1960,13 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 10px;
 }
 
+@media (max-width: 991px) {
+  .categories-tabs-swiper {
+    margin: 32px 0;
+  }
+}
 #promo_products_swiper {
   position: relative;
-  padding: 37px 0 47px 0;
 }
 
 .promo_products_swiper {
@@ -1968,8 +1975,6 @@ label.add-files:focus, label.add-files:hover {
 
 #our_products_swiper {
   position: relative;
-  padding: 37px 0 47px 0;
-  margin-bottom: 106px;
 }
 
 #our_products_container {
@@ -2040,26 +2045,29 @@ label.add-files:focus, label.add-files:hover {
 .mp-titles .flex-row h1 {
   display: inline-flex;
   align-items: baseline;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 36px;
   line-height: 43.2px;
   color: #374957;
-}
-.mp-titles .flex-row h2 small,
-.mp-titles .flex-row h1 small {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25.6px;
-  margin-left: 16px;
 }
 .mp-titles .flex-row h2 span,
 .mp-titles .flex-row h1 span {
   font-weight: 900;
   color: #c90c0f;
 }
+.mp-titles .flex-row small {
+  display: inline-flex;
+  align-items: flex-end;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.1;
+  margin-left: 16px;
+}
 
 .mp-check-all-btn {
   position: relative;
+  align-items: center;
 }
 .mp-check-all-btn:hover a {
   color: #c90c0f;
@@ -2069,18 +2077,16 @@ label.add-files:focus, label.add-files:hover {
 }
 .mp-check-all-btn a {
   display: flex;
-  width: 79px;
-  font-size: 18px;
-  font-style: normal;
+  align-items: center;
   font-weight: 400;
-  line-height: 130%;
+  font-size: 18px;
+  line-height: 23.4px;
   color: #374957;
   text-align: right;
   text-decoration: none;
-  margin-right: 41px;
 }
 .mp-check-all-btn a img {
-  margin: 0 0 0 11px;
+  margin: 0 0 0 10px;
 }
 
 @media (max-width: 1199px) {
@@ -2122,8 +2128,7 @@ label.add-files:focus, label.add-files:hover {
     line-height: 140%;
     width: 60vw;
   }
-  .mp-titles .flex-row h1 small,
-  .mp-titles .flex-row h2 small {
+  .mp-titles .flex-row small {
     font-size: 14px;
     line-height: 1.1;
   }
@@ -2580,8 +2585,7 @@ label.add-files:focus, label.add-files:hover {
 
 .blog_swiper {
   overflow: hidden;
-  margin-bottom: 70px;
-  padding-bottom: 79px;
+  margin-bottom: 87px;
 }
 .blog_swiper .swiper-slide {
   position: relative;
@@ -2602,11 +2606,10 @@ label.add-files:focus, label.add-files:hover {
   }
   .blog_swiper {
     margin-bottom: 24px;
-    padding-bottom: 24px;
   }
 }
 #about_us {
-  margin-bottom: 77px;
+  margin-bottom: 56px;
 }
 #about_us .mp-titles {
   padding: 0 !important;
@@ -2740,7 +2743,6 @@ label.add-files:focus, label.add-files:hover {
 .news_articles {
   position: relative;
   background-color: #f4f4f4;
-  padding: 37px 0 47px 0;
 }
 .news_articles::before {
   position: absolute;
@@ -2888,9 +2890,6 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 @media (max-width: 760px) {
-  .news_articles {
-    padding: 16px 0 24px 0;
-  }
   .news_articles__slot {
     width: 100%;
     margin-right: 0;
@@ -3056,7 +3055,6 @@ label.add-files:focus, label.add-files:hover {
 .blog_news_articles {
   position: relative;
   background-color: #f4f4f4;
-  padding: 37px 0 47px 0;
 }
 .blog_news_articles::before {
   position: absolute;

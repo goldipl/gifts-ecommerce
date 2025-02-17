@@ -1,7 +1,6 @@
 .news_articles {
   position: relative;
   background-color: $light_grey;
-  padding: 37px 0 47px 0;
   &::before {
     position: absolute;
     display: block;
@@ -163,7 +162,6 @@
 
 @media (max-width: 760px) {
   .news_articles {
-    padding: 16px 0 24px 0;
     &__slot {
       width: 100%;
       margin-right: 0;

@@ -3,8 +3,9 @@
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row mp-title">
                 <h2 class="p-0">
-                    <span>Najnowsze</span> wpisy
+                    Wpisy
                 </h2>
+                <small>Opisujemy nasze doświadczenia, oraz produkty</small>
             </div>
         </div>
         <div class="d-flex flex-row mp-bell-btn-box">

@@ -1,4 +1,5 @@
 .categories-tabs-swiper {
+  margin: 68px auto;
   .tab-nav-arrows {
     #prevTabBtn {
       all: unset;
@@ -42,5 +43,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .categories-tabs-swiper {
+    margin: 32px 0;
   }
 }

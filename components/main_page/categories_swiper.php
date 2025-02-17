@@ -4,8 +4,9 @@
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row mp-title">
                 <h2 class="p-0">
-                    KATEGORIE <small>Wybierz produkt dla siebie. Posiadamy az 52144 produktów do wyboru</small>
+                    KATEGORIE
                 </h2>
+                <small>Wybierz produkt dla siebie. Posiadamy az 52144 produktów do wyboru</small>
             </div>
         </div>
         <!-- Navigation Arrows for Tabs -->
