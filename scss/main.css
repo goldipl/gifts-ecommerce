@@ -1963,9 +1963,12 @@ label.add-files:focus, label.add-files:hover {
 }
 .categories-tabs-swiper .nav-tabs {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   align-items: flex-start;
+  gap: 32px;
   border: 0;
+  overflow: hidden;
 }
 .categories-tabs-swiper .nav-tabs .nav-link {
   border: 0;

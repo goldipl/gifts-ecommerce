@@ -39,7 +39,79 @@
             <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab">
                 <div class="nav-tab-item">
                     <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/pencils-gadgets.svg" alt="nav tab img" width="59" height="48">
-                    <span class="nav-tab-item__text">Gadżety do domu</span>
+                    <span class="nav-tab-item__text">Artykuły piśmiennicze z logo</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/travel-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Gadżety dla podróżników</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/office-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Gadżety do biura z nadrukiem</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab6-tab" data-bs-toggle="tab" data-bs-target="#tab6" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/tshirt-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Tekstylia reklamowe</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab7-tab" data-bs-toggle="tab" data-bs-target="#tab7" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/sport-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Sportowe gadżety reklamowe</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab8-tab" data-bs-toggle="tab" data-bs-target="#tab8" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/backpack-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Torby i plecaki reklamowe</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab9-tab" data-bs-toggle="tab" data-bs-target="#tab9" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/advertising-tools.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Narzędzia Reklamowe</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab10-tab" data-bs-toggle="tab" data-bs-target="#tab10" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/personal-accessories-advertising.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Osobiste akcesoria reklamowe</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab11-tab" data-bs-toggle="tab" data-bs-target="#tab11" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/gadgets-premium.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Gadżety reklamowe premium</span>
+                </div>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab12-tab" data-bs-toggle="tab" data-bs-target="#tab12" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/christmas-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Gadżety świąteczne</span>
                 </div>
             </button>
         </li>
@@ -92,18 +164,6 @@
         </div>
 
         <div class="tab-pane fade" id="tab12" role="tabpanel">
-            <?php include "./components/main_page/our_products_swiper.php"; ?>
-        </div>
-
-        <div class="tab-pane fade" id="tab13" role="tabpanel">
-            <?php include "./components/main_page/our_products_swiper.php"; ?>
-        </div>
-
-        <div class="tab-pane fade" id="tab14" role="tabpanel">
-            <?php include "./components/main_page/our_products_swiper.php"; ?>
-        </div>
-
-        <div class="tab-pane fade" id="tab15" role="tabpanel">
             <?php include "./components/main_page/our_products_swiper.php"; ?>
         </div>
     </div>

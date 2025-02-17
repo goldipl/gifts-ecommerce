@@ -47,9 +47,12 @@
 
   .nav-tabs {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: flex-start;
+    gap: 32px;
     border: 0;
+    overflow: hidden;
     .nav-link {
       border: 0;
       max-width: 154px;
