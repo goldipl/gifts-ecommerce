@@ -49,14 +49,20 @@
         text-decoration: none;
       }
     }
-    h1,
-    h2 {
+    h2,
+    h1 {
+      display: inline-flex;
+      align-items: baseline;
+      font-weight: 900;
       font-size: 36px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 120%;
-      text-transform: uppercase;
+      line-height: 43.2px;
       color: $text_color;
+      small {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25.6px;
+        margin-left: 16px;
+      }
       span {
         font-weight: 900;
         color: $main_color;
@@ -133,6 +139,10 @@
         font-size: 20px;
         line-height: 140%;
         width: 60vw;
+        small {
+          font-size: 14px;
+          line-height: 1.1;
+        }
       }
     }
   }

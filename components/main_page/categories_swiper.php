@@ -1,8 +1,18 @@
 <div class="container categories-tabs-swiper">
-    <!-- Navigation Arrows for Tabs -->
-    <div class="tab-nav-arrows">
-        <button id="prevTabBtn">← Previous</button>
-        <button id="nextTabBtn">Next →</button>
+
+    <div class="d-flex flex-row justify-content-between items-center">
+        <div class="d-flex flex-column py-4 mp-titles">
+            <div class="d-flex flex-row mp-title">
+                <h2 class="p-0">
+                    KATEGORIE <small>Wybierz produkt dla siebie. Posiadamy az 52144 produktów do wyboru</small>
+                </h2>
+            </div>
+        </div>
+        <!-- Navigation Arrows for Tabs -->
+        <div class="tab-nav-arrows">
+            <button id="prevTabBtn">Previous</button>
+            <button id="nextTabBtn">Next</button>
+        </div>
     </div>
 
     <!-- Nav Tabs -->
@@ -18,11 +28,11 @@
     <!-- Tab Content -->
     <div class="tab-content mt-3">
         <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-            <?php include "./components/main_page/promo_products_swiper.php"; ?>
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
         </div>
 
         <div class="tab-pane fade" id="tab2" role="tabpanel">
-            <?php include "./components/main_page/promo_products_swiper.php"; ?>
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
         </div>
     </div>
 </div>

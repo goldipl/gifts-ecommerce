@@ -66,7 +66,7 @@ const our_products_swiper = new Swiper('.our_products_swiper', {
   loop: true,
   slidesPerView: 5,
   slidesPerGroup: 1,
-  spaceBetween: 24,
+  spaceBetween: 0,
 
   // Navigation arrows
   navigation: {
@@ -96,7 +96,7 @@ const blog_swiper = new Swiper('.blog_swiper', {
   loop: true,
   slidesPerView: 3,
   slidesPerGroup: 1,
-  spaceBetween: 40,
+  spaceBetween: 0,
 
   // Navigation arrows
   navigation: {
