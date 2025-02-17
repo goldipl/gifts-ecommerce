@@ -1,10 +1,71 @@
 #topbar {
   background-color: $white;
-  height: 36px;
+  height: 39px;
   border-bottom: 1px solid $grey;
   .container {
     height: 36px;
     padding: 0;
+    .left-topbar {
+      display: flex;
+      align-items: center;
+      height: 39px;
+      .topbar-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: $grey12;
+        border-right: 1px solid $grey7;
+        padding: 0 16px;
+        &:hover {
+          color: $main_color;
+        }
+      }
+      .topbar-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: $grey12;
+        margin: 0;
+        padding-left: 16px;
+        span {
+          color: $main_color;
+        }
+      }
+    }
+    .topbar-links {
+      img {
+        display: inline-flex;
+        margin: 0 9px;
+      }
+      a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: $grey12;
+        &.gtm-mail {
+          display: flex;
+          align-items: center;
+          border-right: 1px solid $grey7;
+          padding-right: 16px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 14px;
+          color: $grey12;
+        }
+        &.gtm-phone {
+          display: flex;
+          align-items: center;
+          padding-left: 8px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 14px;
+          color: $grey12;
+        }
+        &:hover {
+          color: $main_color;
+        }
+      }
+    }
     .topbar-lang {
       a:last-of-type {
         padding-right: 0 !important;
@@ -18,9 +79,6 @@
         line-height: 90%;
         color: $black;
         text-decoration: none;
-        img {
-          filter: invert(1);
-        }
         &:first-of-type {
           padding-left: 0 !important;
         }
@@ -59,22 +117,38 @@
 
 @media (max-width: 992px) {
   #topbar {
+    height: auto;
+    margin-top: 4px;
     > .container {
-      padding-left: 1rem !important;
-      padding-right: 1rem !important;
-    }
-  }
-  .topbar-links {
-    a {
-      font-size: 12px !important;
-      padding: 1rem 0.5rem !important;
-      &:nth-of-type(1),
-      &:nth-of-type(2),
-      &:nth-of-type(3),
-      &:nth-of-type(4),
-      &:nth-of-type(5),
-      &:nth-of-type(6) {
-        display: none;
+      height: 40px;
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: flex-start !important;
+      align-items: flex-end !important;
+      .left-topbar {
+        height: auto;
+        a,
+        span,
+        p {
+          font-size: 12px !important;
+          padding: 2px 8px !important;
+        }
+        .topbar-text {
+          padding-right: 0 !important;
+        }
+      }
+      .topbar-links {
+        a,
+        span,
+        p {
+          font-size: 12px !important;
+          padding: 2px 8px !important;
+        }
+        img {
+          margin-left: 2px !important;
+        }
       }
     }
   }
