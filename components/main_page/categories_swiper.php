@@ -11,18 +11,29 @@
         </div>
         <!-- Navigation Arrows for Tabs -->
         <div class="tab-nav-arrows">
-            <button id="prevTabBtn">Previous</button>
-            <button id="nextTabBtn">Next</button>
+            <button id="prevTabBtn"></button>
+            <button id="nextTabBtn"></button>
         </div>
     </div>
 
     <!-- Nav Tabs -->
     <ul class="nav nav-tabs" id="categoryTabs" role="tablist">
         <li class="nav-item">
-            <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab">Gadżety dla dzieci</button>
+            <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/gadgets-for-children.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">GADŻETY REKLAMOWE 
+                    DLA DZIECI</span>
+                </div>
+            </button>
         </li>
         <li class="nav-item">
-            <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab">Kubki i akcesoria</button>
+            <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/house-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Gadżety do domu</span>
+                </div>
+            </button>
         </li>
     </ul>
 
