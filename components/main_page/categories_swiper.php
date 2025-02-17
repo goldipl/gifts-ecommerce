@@ -1,6 +1,6 @@
 <div class="container categories-tabs-swiper">
 
-    <div class="d-flex flex-row justify-content-between items-center">
+    <div class="title-btns-arrows d-flex flex-row justify-content-between items-center">
         <div class="d-flex flex-column py-4 mp-titles">
             <div class="d-flex flex-row mp-title">
                 <h2 class="p-0">
