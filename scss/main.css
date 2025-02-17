@@ -2189,6 +2189,7 @@ label.add-files:focus, label.add-files:hover {
 .swiper_products_block_box {
   position: relative;
   border: 1px solid #d4d1d1;
+  border-right: 0;
   background-color: #ffffff;
   height: 555px;
   transition: 0.6s;
@@ -2289,7 +2290,6 @@ label.add-files:focus, label.add-files:hover {
 }
 .swiper_products_block_box__bottom {
   width: 100%;
-  border-top: 1px solid #e6e6e6;
 }
 .swiper_products_block_box__bottom .catalog-price p {
   font-size: 16px;
@@ -2325,6 +2325,10 @@ label.add-files:focus, label.add-files:hover {
 .swiper_products_block_box__bottom .promo-price p span {
   font-size: 24px;
   color: #4081ff;
+}
+
+.swiper-slide:last-of-type .swiper_products_block_box {
+  border-right: 1px solid #d4d1d1;
 }
 
 @media (max-width: 1380px) {

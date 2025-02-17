@@ -1,6 +1,7 @@
 .swiper_products_block_box {
   position: relative;
   border: 1px solid $border_grey;
+  border-right: 0;
   background-color: $white;
   height: 555px;
   transition: 0.6s;
@@ -101,7 +102,6 @@
   }
   &__bottom {
     width: 100%;
-    border-top: 1px solid $grey;
     .catalog-price {
       p {
         font-size: 16px;
@@ -144,6 +144,10 @@
       }
     }
   }
+}
+
+.swiper-slide:last-of-type .swiper_products_block_box {
+  border-right: 1px solid $border_grey;
 }
 
 @media (max-width: 1380px) {

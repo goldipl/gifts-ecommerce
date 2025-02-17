@@ -35,6 +35,14 @@
                 </div>
             </button>
         </li>
+        <li class="nav-item">
+            <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab">
+                <div class="nav-tab-item">
+                    <img class="nav-tab-item__img" src="./assets/icons/main_page/categories_swiper/pencils-gadgets.svg" alt="nav tab img" width="59" height="48">
+                    <span class="nav-tab-item__text">Gadżety do domu</span>
+                </div>
+            </button>
+        </li>
     </ul>
 
     <!-- Tab Content -->
@@ -44,6 +52,58 @@
         </div>
 
         <div class="tab-pane fade" id="tab2" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab3" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab4" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab5" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab6" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab7" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab8" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab9" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab10" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab11" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab12" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab13" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab14" role="tabpanel">
+            <?php include "./components/main_page/our_products_swiper.php"; ?>
+        </div>
+
+        <div class="tab-pane fade" id="tab15" role="tabpanel">
             <?php include "./components/main_page/our_products_swiper.php"; ?>
         </div>
     </div>
