@@ -1,0 +1,28 @@
+.categories-tabs-swiper {
+  .swiper {
+    width: 100%;
+    height: 100%;
+    &-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+  }
+  .tab-nav-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}
