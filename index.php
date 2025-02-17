@@ -25,7 +25,6 @@
             <?php include "./components/main_page/promo_products_swiper.php"; ?> 
             <?php include "./components/main_page/our_products.php"; ?> 
             <?php include "./components/main_page/our_products_swiper.php"; ?> 
-            <?php include "./components/main_page/articles.php"; ?> 
             <?php include "./components/main_page/blog.php"; ?> 
             <?php include "./components/main_page/blog_swiper.php"; ?> 
             <?php include "./components/main_page/about_us.php"; ?> 
