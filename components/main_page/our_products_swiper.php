@@ -20,7 +20,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>100,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>100,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -49,7 +49,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>16,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>16,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -78,7 +78,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>80,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>80,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -107,7 +107,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>110,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>110,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -136,7 +136,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -165,7 +165,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>110,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>110,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -194,7 +194,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>110,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>110,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -223,7 +223,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -252,7 +252,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->
@@ -281,7 +281,7 @@
                     </div>
                     <div class="swiper_products_block_box__bottom">
                         <div class="your-price">
-                            <p class="text-center">Cena: <span>2,88 PLN</span></p>
+                            <p class="text-center">Cena: <span>2,88 PLN</span> netto</p>
                         </div>
                     </div>
                     <!-- Product label -->

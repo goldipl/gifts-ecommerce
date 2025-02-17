@@ -26,7 +26,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -105,7 +105,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -178,7 +178,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -245,7 +245,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -312,7 +312,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -391,7 +391,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -464,7 +464,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -531,7 +531,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -598,7 +598,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -677,7 +677,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -750,7 +750,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -817,7 +817,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -884,7 +884,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -963,7 +963,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="promo-price">
-                <p class="text-center">Cena promo <span>100,88 PLN</span>
+                <p class="text-center">Cena promo <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -1036,7 +1036,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
@@ -1103,7 +1103,7 @@
         </div>
         <div class="category-filters-main__slot__bottom">
             <div class="your-price">
-                <p class="text-center">Cena: <span>100,88 PLN</span>
+                <p class="text-center">Cena: <span>100,88 PLN</span> netto
                 </p>
             </div>
             <div class="table-delivery">
