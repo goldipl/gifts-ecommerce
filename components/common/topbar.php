@@ -4,7 +4,7 @@
                 <a class="topbar-link" href="./index.php#about_us" class="p-3">
                     O nas
                 </a>
-                <a class="topbar-link" href="./newsletter.php" class="p-3">
+                <a class="topbar-link" href="" class="p-3">
                     Ulubione
                 </a>
                 <p class="topbar-text">
