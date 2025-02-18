@@ -1236,6 +1236,13 @@ label.add-files:focus, label.add-files:hover {
 .pagination {
   width: 100%;
   padding-bottom: 59px;
+  margin-top: 40px;
+}
+@media (max-width: 992px) {
+  .pagination {
+    margin-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 .pagination_container {
   display: flex;
@@ -9378,15 +9385,22 @@ main.grey-background {
   margin-right: 24px;
   margin-bottom: 15px;
   background-color: #ffffff;
-  border: 1px solid #e6e6e6;
 }
 .category-menu .accordion-header button {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 177.023%;
   color: #374957;
-  padding: 20px 20px 20px 38px;
+  padding: 20px 20px 20px 0;
+}
+.category-menu .accordion-header button svg {
+  display: flex;
+  margin-right: 12px;
+  height: 18px;
+  width: auto;
 }
 .category-menu .accordion-item {
   border-bottom: 0;
@@ -9398,8 +9412,10 @@ main.grey-background {
   padding: 0 !important;
 }
 .category-menu .accordion-item .accordion-body .menu-slot {
-  padding: 10px 10px 10px 38px;
-  border-bottom: 1px solid #f4f4f4;
+  padding: 4px 4px 4px 38px;
+}
+.category-menu .accordion-item .accordion-body .menu-slot:first-of-type {
+  padding-top: 20px;
 }
 .category-menu .accordion-item .accordion-body .menu-slot a {
   font-size: 14px;
@@ -9411,6 +9427,7 @@ main.grey-background {
 }
 .category-menu .accordion-item .accordion-body .menu-slot a:hover, .category-menu .accordion-item .accordion-body .menu-slot a.active {
   color: #c90c0f !important;
+  text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
 .category-menu .accordion-button {
   border-bottom: 1px solid #e6e6e6;
@@ -9418,17 +9435,31 @@ main.grey-background {
   box-shadow: none !important;
 }
 .category-menu .accordion-button::after {
-  background-image: url(./../assets/icons/common/grey-arrow-down.svg);
-  background-size: 9px;
+  border: 0;
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 24px;
+  display: block;
+  background: url(./../assets/icons/common/header/menu-arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
 }
 .category-menu .accordion-button:not(.collapsed)::after {
-  background-image: url(./../assets/icons/common/grey-arrow-down.svg);
-  background-size: 9px;
+  border: 0;
+  position: absolute;
+  content: "";
+  top: 24px;
+  right: 24px;
+  display: block;
+  background: url(./../assets/icons/common/header/menu-arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: center;
-  transform: rotate(180deg);
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  transform: rotate(-180deg);
 }
 
 @media (max-width: 992px) {

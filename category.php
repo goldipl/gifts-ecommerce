@@ -70,8 +70,7 @@
                         </p>
                         </div>
                         <?php include "./components/category/category_filters_main.php"; ?> 
-                        <?php include "./components/common/pagination.php"; ?> 
-                        <?php include "./components/category/category_seo_text.php"; ?> 
+                        <?php include "./components/common/pagination.php"; ?>
                     </div>
                 </div>
             </div> 
