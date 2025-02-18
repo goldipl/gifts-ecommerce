@@ -10,12 +10,16 @@
                     </div>
                     <div class="article_swiper_box__text">
                         <div class="article_swiper_box__text--date">
-                            <p>Poniedziałek, 12 czerwca 2023</p>
+                            <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
+                            <p>27 Grudzień, 2024</p>
                         </div>
                         <div class="article_swiper_box__text--title">
                             <h3>
                                 <a href="#">Letnie orzeźwienie w reklamie</a>
                             </h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus dictum turpis id diam accumsan, ut rhoncus purusviverra. 
+                            </p>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -31,12 +35,16 @@
                     </div>
                     <div class="article_swiper_box__text">
                         <div class="article_swiper_box__text--date">
-                            <p>Poniedziałek, 12 czerwca 2023</p>
+                            <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
+                            <p>27 Grudzień, 2024</p>
                         </div>
                         <div class="article_swiper_box__text--title">
                             <h3>
                                 <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                             </h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus dictum turpis id diam accumsan, ut rhoncus purusviverra. 
+                            </p>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -52,12 +60,16 @@
                     </div>
                     <div class="article_swiper_box__text">
                         <div class="article_swiper_box__text--date">
-                            <p>Poniedziałek, 12 czerwca 2023</p>
+                            <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
+                            <p>27 Grudzień, 2024</p>
                         </div>
                         <div class="article_swiper_box__text--title">
                             <h3>
                                 <a href="#">Jak wybrać najlepszą hurtownię gadżetów reklamowych?</a>
                             </h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus dictum turpis id diam accumsan, ut rhoncus purusviverra. 
+                            </p>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -73,12 +85,16 @@
                     </div>
                     <div class="article_swiper_box__text">
                         <div class="article_swiper_box__text--date">
-                            <p>Poniedziałek, 12 czerwca 2023</p>
+                            <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
+                            <p>27 Grudzień, 2024</p>
                         </div>
                         <div class="article_swiper_box__text--title">
                             <h3>
                                 <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                             </h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus dictum turpis id diam accumsan, ut rhoncus purusviverra. 
+                            </p>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -94,12 +110,16 @@
                     </div>
                     <div class="article_swiper_box__text">
                         <div class="article_swiper_box__text--date">
-                            <p>Poniedziałek, 12 czerwca 2023</p>
+                            <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
+                            <p>27 Grudzień, 2024</p>
                         </div>
                         <div class="article_swiper_box__text--title">
                             <h3>
                                 <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                             </h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus dictum turpis id diam accumsan, ut rhoncus purusviverra. 
+                            </p>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>
@@ -115,12 +135,16 @@
                     </div>
                     <div class="article_swiper_box__text">
                         <div class="article_swiper_box__text--date">
-                            <p>Poniedziałek, 12 czerwca 2023</p>
+                            <img src="./assets/icons/blog/calendar-icon.svg" alt="kalendarz" width="13" height="13">
+                            <p>27 Grudzień, 2024</p>
                         </div>
                         <div class="article_swiper_box__text--title">
                             <h3>
                                 <a href="#">High season w branży gadżetów reklamowych. Jak się do niego przygotować?</a>
                             </h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus dictum turpis id diam accumsan, ut rhoncus purusviverra. 
+                            </p>
                         </div>
                         <div class="article_swiper_box__text--see-more">
                             <a href="#" rel="nofollow">Zobacz więcej</a>

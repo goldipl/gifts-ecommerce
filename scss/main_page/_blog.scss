@@ -5,20 +5,10 @@
 
 .blog_swiper {
   overflow: hidden;
+  height: 562px;
   margin-bottom: 87px;
   .swiper-slide {
     position: relative;
-    .article_swiper_box__text {
-      background-color: $blog_grey_opacity;
-      &--date,
-      &--title,
-      &--see-more {
-        p,
-        a {
-          color: $white;
-        }
-      }
-    }
   }
 }
 
