@@ -1235,7 +1235,6 @@ label.add-files:focus, label.add-files:hover {
 
 .pagination {
   width: 100%;
-  background-color: #f4f4f4;
   padding-bottom: 59px;
 }
 .pagination_container {
@@ -9330,9 +9329,6 @@ main.grey-background {
   background-color: #f4f4f4;
 }
 
-.category-wrapper {
-  background-color: #f4f4f4;
-}
 .category-wrapper .container {
   display: flex;
   flex-direction: row;
@@ -10123,6 +10119,7 @@ main.grey-background {
 }
 .category-top-pagination__slot .pagination {
   padding: 0;
+  background-color: #ffffff;
 }
 .category-top-pagination__slot .pagination .dots {
   margin-bottom: 15px;
