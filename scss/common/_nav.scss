@@ -69,16 +69,29 @@ nav {
   }
   .nav-account-cart {
     a {
-      span {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 103%;
-        color: $text_color;
-        width: 62px;
+      .nav-cart-text {
+        margin: 0 16px 0 8px;
+        .cart-upper-text {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 15.82px;
+          color: $grey12;
+          white-space: pre;
+        }
+        .cart-bottom-text {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 15.82px;
+          color: $grey12;
+          white-space: pre;
+        }
       }
       &:hover {
-        span {
-          color: $main_color;
+        .nav-cart-text {
+          .cart-upper-text,
+          .cart-bottom-text {
+            color: $main_color;
+          }
         }
         svg {
           filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg)
@@ -348,6 +361,9 @@ nav {
       justify-content: flex-end;
       margin-right: 6px;
       a {
+        .nav-cart-text {
+          margin-left: 0;
+        }
         span {
           font-size: 15px;
         }

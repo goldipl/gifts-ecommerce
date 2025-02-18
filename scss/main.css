@@ -289,14 +289,25 @@ nav #nav-searchbar button {
 nav #nav-searchbar button:hover {
   color: #c90c0f;
 }
-nav .nav-account-cart a span {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 103%;
-  color: #374957;
-  width: 62px;
+nav .nav-account-cart a .nav-cart-text {
+  margin: 0 16px 0 8px;
 }
-nav .nav-account-cart a:hover span {
+nav .nav-account-cart a .nav-cart-text .cart-upper-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15.82px;
+  color: #2e2e2e;
+  white-space: pre;
+}
+nav .nav-account-cart a .nav-cart-text .cart-bottom-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15.82px;
+  color: #2e2e2e;
+  white-space: pre;
+}
+nav .nav-account-cart a:hover .nav-cart-text .cart-upper-text,
+nav .nav-account-cart a:hover .nav-cart-text .cart-bottom-text {
   color: #c90c0f;
 }
 nav .nav-account-cart a:hover svg {
@@ -537,6 +548,9 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     width: 100%;
     justify-content: flex-end;
     margin-right: 6px;
+  }
+  nav .nav-account-cart a .nav-cart-text {
+    margin-left: 0;
   }
   nav .nav-account-cart a span {
     font-size: 15px;
