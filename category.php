@@ -63,7 +63,6 @@
                     </aside>
                     <div class="category-wrapper__right">
                         <?php include "./components/category/category_top_filters.php"; ?> 
-                        <?php include "./components/category/category_top_pagination.php"; ?> 
                         <?php include "./components/category/category_filters_main.php"; ?> 
                         <?php include "./components/common/pagination.php"; ?> 
                         <?php include "./components/category/category_seo_text.php"; ?> 
