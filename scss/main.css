@@ -10168,23 +10168,28 @@ main.grey-background {
   }
 }
 .container.category-title h1 {
-  font-size: 40px;
+  font-family: Roboto;
   font-weight: 600;
-  line-height: 120%;
+  font-size: 24px;
+  line-height: 42.49px;
   text-transform: uppercase;
   color: #374957;
-  margin: 0 0 22px 0;
+}
+.container.category-seo-text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #4a6375;
 }
 
-@media (max-width: 1199px) {
-  .container.category-title h1 {
-    font-size: 24px;
-    margin: 0 0 16px 0;
-  }
-}
 @media (max-width: 991px) {
   .container.category-title h1 {
     font-size: 20px;
+    line-height: 1.2;
+  }
+  .container.category-seo-text p {
+    font-size: 14px;
+    line-height: 1.1;
   }
 }
 .grey-background {

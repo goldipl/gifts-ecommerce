@@ -1,23 +1,20 @@
 .container {
   &.category-title {
     h1 {
-      font-size: 40px;
+      font-family: Roboto;
       font-weight: 600;
-      line-height: 120%;
+      font-size: 24px;
+      line-height: 42.49px;
       text-transform: uppercase;
       color: $text_color;
-      margin: 0 0 22px 0;
     }
   }
-}
-
-@media (max-width: 1199px) {
-  .container {
-    &.category-title {
-      h1 {
-        font-size: 24px;
-        margin: 0 0 16px 0;
-      }
+  &.category-seo-text {
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25.6px;
+      color: $small_text_color;
     }
   }
 }
@@ -27,6 +24,13 @@
     &.category-title {
       h1 {
         font-size: 20px;
+        line-height: 1.2;
+      }
+    }
+    &.category-seo-text {
+      p {
+        font-size: 14px;
+        line-height: 1.1;
       }
     }
   }
