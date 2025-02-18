@@ -4,10 +4,10 @@
   border-right: 0;
   background-color: $white;
   height: 555px;
-  transition: 0.6s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
-    transition: 0.6s;
-    box-shadow: 10px 10px 10px 18px #0000001a;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
   .product-label-box {
     position: absolute;
