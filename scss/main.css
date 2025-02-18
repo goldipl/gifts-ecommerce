@@ -58,25 +58,25 @@ body #main-wrapper {
   /* For Webkit browsers (Chrome, Safari) */
   ::-webkit-scrollbar-thumb {
     background-color: #c90c0f;
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
   /* For Firefox */
   ::-moz-scrollbar-thumb {
     background-color: #c90c0f;
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
   /* For Internet Explorer and Edge */
   ::-ms-thumb {
     background-color: #c90c0f;
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
   /* For standard scrollbars (if supported) */
   ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
 }
 #topbar {

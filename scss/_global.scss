@@ -46,27 +46,27 @@ body {
   /* For Webkit browsers (Chrome, Safari) */
   ::-webkit-scrollbar-thumb {
     background-color: $main_color;
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
 
   /* For Firefox */
   ::-moz-scrollbar-thumb {
     background-color: $main_color;
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
 
   /* For Internet Explorer and Edge */
   ::-ms-thumb {
     background-color: $main_color;
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
 
   /* For standard scrollbars (if supported) */
   ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
   }
 }
