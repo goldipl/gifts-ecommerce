@@ -1,21 +1,13 @@
 <div class="footer__container container">
-    <div class="footer__container__top d-flex flex-row justify-content-between">
-        <div class="d-flex flex-column col-3 first-column">
-            <div class="footer-logo">
-                <img src="./assets/icons/common/footer/GIFTS24-logo.svg" alt="GIFTS24 - Dystrybutor gadżetów reklamowych" width="200" height="42">
-            </div>
-            <div class="footer-text">
-                <strong>Tysiące gadżetów w jednych miejscu!</strong>
-            </div>
-            <div class="footer-text">
-                <p>Macma jest jednym z największych importerów i dostawców gadżetów reklamowych w Europie. Istniejemy już od 2003 roku, co pozwoliło nam na zdobycie doświadczenia i dużej znajomości branży reklamowej.</p>
-            </div>
-            <div class="footer-text newsletter-title">
-                <strong>Zapisz się do newslettera</strong>
-            </div>
+    <div class="footer__container__newsletter">
+        <div class="footer__container__newsletter__left">
+            <h3>Zapisz się do newslettera</h3>
+            <p>Zarejestruj się teraz, aby otrzymywać najnowsze informacje o promocjach i kuponach. Nie martw się, nie spamujemy!</p>
+        </div>
+        <div class="footer__container__newsletter__right">
             <form class="newsletter-form">
                 <div class="d-inline-flex">
-                    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="newsletter" id="newsletter_input" placeholder="Wpisz adres email" required>
+                    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="newsletter" id="newsletter_input" placeholder="Wpisz swój adres email" required>
                     <button id="newsletter_btn">Wyślij</button>
                 </div>
                 <div class="d-flex mt-2 accepts-info">
@@ -26,45 +18,64 @@
                 </div>
             </form>
         </div>
+    </div>
+    <div class="footer__container__top d-flex flex-row justify-content-between">
+        <div class="d-flex flex-column col-3 first-column">
+            <div class="footer-logo">
+                <img src="./assets/icons/common/footer/GIFTS24-logo.svg" alt="GIFTS24 - Dystrybutor gadżetów reklamowych" width="200" height="42">
+            </div>
+            <div class="footer-text">
+                <p><u><a href="http://www.Gifts24.pl">www.Gifts24.pl</a></u> została stworzona z myślą o wszystkich tych, którzy szukają profesjonalnych rozwiązań za  rozsądną cenę. Staramy się indywidualnie podchodzić do klienta, doradzić najlepsze rozwiązanie. Nie każdy jest ekspertem w dziedzinie reklamy dlatego jesteśmy MY aby pomagać Naszym klientom.</p>
+            </div>
+            <div class="footer-text">
+                <div class="footer-socials-box d-flex flex-row">
+                    <a href="https://www.facebook.com/MacmaPolska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/facebook.svg" alt="facebook logo" width="26" height="26"></a>
+                    <a href="https://www.youtube.com/channel/UCc1vJYla9NRpnTaPV5hXjSA" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/youtube.svg" alt="youtube logo" width="26" height="26"></a>
+                    <a href="https://www.instagram.com/macma_polska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26"></a>
+                    <a href="https://www.linkedin.com/company/macma-polska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/linkedin.svg" alt="linkedin logo" width="26" height="26"></a>
+                </div>
+            </div>
+        </div>
         <div class="d-flex flex-column align-items-center col-3 second-column">
             <div class="footer-menu-box d-flex flex-column">
                 <h2>Menu</h2>
-                <a href="#">Oferta</a>
-                <a href="#">Marki</a>
-                <a href="#">Tematyczne</a>
-                <a href="#">Promocje</a>
-                <a href="#">Znakowanie</a>
-                <a href="#">Katalogi</a>
-                <a href="#">Import</a>
+                <a href="#">O Firmie</a>
+                <a href="#">Jak Kupować</a>
+                <a href="#">Ostatnio Oglądane</a>
+                <a href="#">Wysyłka</a>
+                <a href="#">Płatności</a>
+                <a href="#">Nowości</a>
+                <a href="#">Kontakt</a>
+                <a href="#">Blog</a>
             </div>
         </div>
         <div class="d-flex flex-column align-items-center col-3 third-column">
-            <div class="footer-socials-box d-flex flex-column">
-                <h2>Social media</h2>
-                <a href="https://www.facebook.com/MacmaPolska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/facebook.svg" alt="facebook logo" width="26" height="26">Facebook</a>
-                <a href="https://www.youtube.com/channel/UCc1vJYla9NRpnTaPV5hXjSA" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/youtube.svg" alt="youtube logo" width="26" height="26">YouTube</a>
-                <a href="https://www.instagram.com/macma_polska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26">Instagram Macma</a>
-                <a href="https://www.instagram.com/mcollection_gifts/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/instagram.svg" alt="instagram logo" width="26" height="26">Instagram M-Collection</a>
-                <a href="https://www.linkedin.com/company/macma-polska/" rel="nofollow" target="_blank"><img src="./assets/icons/common/footer/linkedin.svg" alt="linkedin logo" width="26" height="26">LinkedIn</a>
+        <div class="footer-menu-box d-flex flex-column">
+                <h2>Popularne kategorie</h2>
+                <a href="#">Gadżety Reklamowe Dla Dzieci</a>
+                <a href="#">Gadżety Do Domu</a>
+                <a href="#">Artykuły Piśmiennicze Z Logo</a>
+                <a href="#">Gadżety Dla Podróżników</a>
+                <a href="#">Sportowe gadżety reklamowe</a>
+                <a href="#">Gadżety Reklamowe Premium</a>
+                <a href="#">Pamięć USB z nadrukiem</a>
+                <a href="#">Wyprzedaż Koniec Serii Voyager</a>
+                <a href="#">Ceramika reklamowa</a>
             </div>
         </div>
         <div class="d-flex flex-column align-items-center col-3 fourth-column">
             <div class="footer-contacts-box d-flex flex-column">
                 <h2>Kontakt</h2>
                 <div class="footer-contact-box">
-                    <strong>Biuro</strong>
-                    <p>tel. <a class="gtm-phone" href="tel:+48 71 330 54 60">+48 71 330 54 60</a></p>
-                    <p>e-mail: <a class="gtm-mail" href="mailto:biuro@macma.pl">biuro@macma.pl</a></p>
+                    <p><img width="17" height="14" src="./assets/icons/common/topbar/topbar-envelope.svg" alt="e-mail"> <a class="gtm-mail" href="mailto:biuro@gifts24.pl">biuro@gifts24.pl</a></p>
+                    <p><img width="15" height="15" src="./assets/icons/common/topbar/topbar-telephone.svg" alt="telefon"> <a class="gtm-phone red" href="tel:+48 505 178 262">+48 505 178 262</a></p>
                 </div>
                 <div class="footer-contact-box">
-                    <strong>Drukarnia</strong>
-                    <p>tel. <a class="gtm-phone" href="tel:+48 71 397 87 00">+48 71 397 87 00</a></p>
-                    <p>e-mail: <a class="gtm-mail" href="mailto:drukarnia@macma.pl">drukarnia@macma.pl</a></p>
-                </div>
-                <div class="footer-contact-box">
-                    <strong>Magazyn</strong>
-                    <p>tel. <a class="gtm-phone" href="tel:+48 71 397 87 18">+48 71 397 87 18</a></p>
-                    <p>e-mail: <a class="gtm-mail" href="mailto:magazyn2@macma.pl">magazyn2@macma.pl</a></p>
+                    <strong>Dział Handlowy:</strong>
+                    <p>tel.: <a class="gtm-phone" href="tel:+48 32 750 86 56">+48 32 750 86 56</a></p>
+                    <p>tel.: <a class="gtm-phone" href="tel:+48 71 722 08 26">+48 71 722 08 26</a></p>
+                    <p>kom. <a class="gtm-phone" href="tel:+48 505 178 262">+48 505 178 262</a></p>
+                    <p>fax: <a class="gtm-phone" href="tel:+48 71 722 08 25">+48 71 722 08 25</a></p>
                 </div>
             </div>
         </div>
