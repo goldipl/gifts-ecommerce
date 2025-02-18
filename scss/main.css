@@ -9495,14 +9495,13 @@ main.grey-background {
   transform: rotate(180deg);
 }
 .category-left-filters-box .category-left-filters {
+  display: flex;
   flex-direction: column;
   width: 296px;
   height: auto;
   margin-right: 24px;
   margin-bottom: 65px;
   background-color: #ffffff;
-  border: 1px solid #e6e6e6;
-  padding: 29px 39px;
 }
 .category-left-filters-box .category-left-filters.show {
   display: flex;
@@ -9513,10 +9512,14 @@ main.grey-background {
 .category-left-filters-box .category-left-filters__slot .header h3 {
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 177.023%;
   color: #374957;
   margin: 20px 0;
+}
+.category-left-filters-box .category-left-filters__slot .header.bottom-line {
+  border-bottom: 1px solid #d4d1d1;
+  margin-bottom: 15px;
 }
 .category-left-filters-box .category-left-filters__slot .content.hidden {
   display: none;
