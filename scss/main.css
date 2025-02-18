@@ -2851,6 +2851,8 @@ label.add-files:focus, label.add-files:hover {
   overflow: hidden;
   height: 562px;
   margin-bottom: 87px;
+  box-shadow: 0px -1px 40px 5px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 10px;
 }
 .blog_swiper .swiper-slide {
   position: relative;
