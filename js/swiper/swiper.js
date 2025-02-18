@@ -94,7 +94,7 @@ const blog_swiper = new Swiper('.blog_swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 4,
   slidesPerGroup: 1,
   spaceBetween: 0,
 
@@ -106,7 +106,7 @@ const blog_swiper = new Swiper('.blog_swiper', {
   breakpoints: {
     // when window width is >= 1240px
      1240: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     // when window width is >= 992px
     992: {
