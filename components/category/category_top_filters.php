@@ -1,9 +1,16 @@
 <div class="category-top-filters">
     <div class="category-top-filters__slot">
-        <label for="show-all-colors">Pokaż wszystkie kolory:</label>
-        <select name="show-all-colors" id="show-all-colors" class="form-select">
-            <option value="Nie">Nie</option>
-            <option value="Tak">Tak</option>
+        <label for="sort-by-availability">Dostępność:</label>
+        <select name="sort-by-availability" id="sort-by-availability" class="form-select">
+            <option value="Dostepny">Dostepny</option>
+            <option value="Niedostępny">Niedostępny</option>
+        </select>
+    </div>
+    <div class="category-top-filters__slot">
+        <label for="sort-by-price">Sortuj wg cena:</label>
+        <select name="sort-by-price" id="sort-by-price" class="form-select">
+            <option value="od 20zł do 40zł">od 20zł do 40zł</option>
+            <option value="od 41zł do 80zł">od 41zł do 80zł</option>
         </select>
     </div>
     <div class="category-top-filters__slot">
