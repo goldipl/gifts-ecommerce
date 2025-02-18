@@ -38,7 +38,7 @@
             <?php include "./components/common/topbar.php"; ?> 
             <?php include "./components/common/nav.php"; ?> 
         </header>
-        <main id="main-wrapper" class="grey-background">
+        <main id="main-wrapper">
             <div class="breadcrumbs container">
                 <ul>
                     <li class="breadcrumb-item">
