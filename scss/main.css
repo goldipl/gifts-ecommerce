@@ -2873,14 +2873,23 @@ label.add-files:focus, label.add-files:hover {
 #about_us .mp-titles .flex-row .promo-box {
   margin-bottom: 40px;
 }
+#about_us .article-text-sg {
+  padding: 58px 42px;
+  box-shadow: 0px -1px 40px 5px rgba(0, 0, 0, 0.0784313725);
+  margin: 27px auto 0 auto;
+  border-radius: 10px;
+}
 #about_us .article-text-sg h3 {
   font-size: 28px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
   margin: 0 0 30px 0;
   color: #374957;
+}
+#about_us .article-text-sg h3.thin {
+  font-weight: 400;
 }
 #about_us .article-text-sg h3 span {
   color: #c90c0f;
