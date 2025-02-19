@@ -728,7 +728,7 @@ footer .footer__container__top .first-column .footer-text p {
 }
 @media (max-width: 992px) {
   footer .footer__container__top .first-column .footer-text p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.2;
   }
 }
@@ -902,7 +902,7 @@ footer .footer__container__bottom .contip img {
     line-height: 1.2;
   }
   footer .footer__container__newsletter__left p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.2;
   }
   footer .footer__container__newsletter__right .newsletter-form input {
@@ -962,6 +962,7 @@ footer .footer__container__bottom .contip img {
   footer .footer__container__top .third-column a {
     font-size: 13px;
     line-height: 120%;
+    margin-bottom: 9px;
   }
   footer .footer__container__top .fourth-column .footer-contacts-box h2 {
     font-size: 20px;
@@ -971,12 +972,15 @@ footer .footer__container__bottom .contip img {
     margin: 0 0 15px 0;
   }
   footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box strong {
-    font-size: 12px;
+    display: inline-flex;
+    font-size: 14px;
     line-height: 120%;
+    margin-bottom: 9px;
   }
   footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p {
     font-size: 12px;
     line-height: 120%;
+    margin-bottom: 9px;
   }
   footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p a {
     font-size: 12px;
