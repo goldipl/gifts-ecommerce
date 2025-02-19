@@ -4027,7 +4027,13 @@ label.add-files:focus, label.add-files:hover {
   gap: 16px;
 }
 .product_card_gallery_info .product-info .price-input button.add-to-cart:hover {
-  opacity: 0.8;
+  background-color: #ffffff;
+}
+.product_card_gallery_info .product-info .price-input button.add-to-cart:hover span {
+  color: #c90c0f;
+}
+.product_card_gallery_info .product-info .price-input button.add-to-cart:hover img {
+  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .product_card_gallery_info .product-info .price-input button.add-to-cart span {
   font-weight: 600;
@@ -4057,6 +4063,83 @@ label.add-files:focus, label.add-files:hover {
     width: 100%;
   }
 }
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content {
+  padding: 16px 28px 28px 28px;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .delivery-text img {
+  margin-right: 14px;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content strong {
+  display: inline-flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #333333;
+  margin: 15px 0;
+  width: 100%;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content strong.green {
+  display: inline;
+  color: #68b236;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content p {
+  display: inline-flex;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 2px;
+  width: 100%;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content p.green {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1;
+  color: #68b236;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content p.green span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 44px;
+  margin-left: 8px;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .add-to-cart.white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 63px;
+  border: 1px solid #c90c0f;
+  background-color: #ffffff;
+  border-radius: 8px;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .add-to-cart.white:hover {
+  background-color: #c90c0f;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .add-to-cart.white:hover span {
+  color: #ffffff;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .add-to-cart.white:hover img {
+  filter: invert(1) brightness(20);
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .add-to-cart.white span {
+  font-weight: 600;
+  font-size: 21.08px;
+  line-height: 33.72px;
+  color: #c90c0f;
+}
+@media (max-width: 991px) {
+  .product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .add-to-cart.white span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .product_card_gallery_info .product-info .branding-custom-select .branding-select-text-content .add-to-cart.white img {
+    width: 20px;
+    height: auto;
+  }
+}
 .product_card_gallery_info .product-info .branding-custom-select .select-box {
   display: flex;
   justify-content: space-between;
@@ -4074,15 +4157,66 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-info .branding-custom-select .select-box:hover {
   border-color: #68b236;
 }
-.product_card_gallery_info .product-info .branding-custom-select .options {
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options {
   display: none;
   position: absolute;
   width: 100%;
   background: #f5f5f5;
   border: 1px solid #d4d1d1;
   border-top: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options * {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options td {
+  border: 1px solid #d4d1d1;
+  width: 100%;
+  padding: 0 28px;
+  height: 45px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #333333;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options td .counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options td button {
+  all: unset;
+  cursor: pointer;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options td input {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #333333;
+  all: unset;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options td select {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #333333;
+}
+.product_card_gallery_info .product-info .branding-custom-select .branding-product-options td select:hover, .product_card_gallery_info .product-info .branding-custom-select .branding-product-options td select:focus {
+  border: 0;
+  outline: 0;
 }
 .product_card_gallery_info .product-info .branding-custom-select .option {
   padding: 10px;
@@ -4111,7 +4245,7 @@ label.add-files:focus, label.add-files:hover {
   top: 22px;
   transform: rotate(180deg);
 }
-.product_card_gallery_info .product-info .branding-custom-select.open .options {
+.product_card_gallery_info .product-info .branding-custom-select.open .branding-product-options {
   display: block;
 }
 

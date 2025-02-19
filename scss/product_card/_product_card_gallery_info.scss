@@ -368,7 +368,14 @@
           border-radius: 8px;
           gap: 16px;
           &:hover {
-            opacity: 0.8;
+            background-color: $white;
+            span {
+              color: $main_color;
+            }
+            img {
+              filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg)
+                brightness(73%) contrast(130%);
+            }
           }
           span {
             font-weight: 600;
@@ -398,6 +405,87 @@
       @media (max-width: 1200px) {
         width: 100%;
       }
+
+      .branding-select-text-content {
+        padding: 16px 28px 28px 28px;
+        .delivery-text {
+          img {
+            margin-right: 14px;
+          }
+        }
+        strong {
+          display: inline-flex;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 18.75px;
+          color: $grey_main;
+          margin: 15px 0;
+          width: 100%;
+          &.green {
+            display: inline;
+            color: $green;
+          }
+        }
+        p {
+          display: inline-flex;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          color: $grey_main;
+          margin-bottom: 2px;
+          width: 100%;
+          &.green {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 1;
+            color: $green;
+            span {
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 44px;
+              margin-left: 8px;
+            }
+          }
+        }
+        .add-to-cart.white {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 300px;
+          height: 63px;
+          border: 1px solid $main_color;
+          background-color: $white;
+          border-radius: 8px;
+          gap: 16px;
+          margin-bottom: 22px;
+          &:hover {
+            background-color: $main_color;
+            span {
+              color: $white;
+            }
+            img {
+              filter: invert(1) brightness(20);
+            }
+          }
+          span {
+            font-weight: 600;
+            font-size: 21.08px;
+            line-height: 33.72px;
+            color: $main_color;
+          }
+          @media (max-width: 991px) {
+            span {
+              font-size: 16px;
+              line-height: 22px;
+            }
+            img {
+              width: 20px;
+              height: auto;
+            }
+          }
+        }
+      }
+
       .select-box {
         display: flex;
         justify-content: space-between;
@@ -417,15 +505,66 @@
         border-color: $green;
       }
 
-      .options {
+      .branding-product-options {
         display: none;
         position: absolute;
         width: 100%;
         background: $grey15;
         border: 1px solid $border_grey;
         border-top: none;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         z-index: 10;
+        * {
+          user-select: none;
+        }
+        td {
+          border: 1px solid $border_grey;
+          width: 100%;
+          padding: 0 28px;
+          height: 45px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16.41px;
+          letter-spacing: 0%;
+          text-align: left;
+          color: $grey_main;
+
+          .counter {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+          button {
+            all: unset;
+            cursor: pointer;
+          }
+          input {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16.41px;
+            letter-spacing: 0%;
+            text-align: left;
+            color: $grey_main;
+            all: unset;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0);
+          }
+          select {
+            margin: 0;
+            border: 0;
+            width: 100%;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16.41px;
+            letter-spacing: 0%;
+            text-align: left;
+            color: $grey_main;
+            &:hover,
+            &:focus {
+              border: 0;
+              outline: 0;
+            }
+          }
+        }
       }
 
       .option {
@@ -461,7 +600,7 @@
         transform: rotate(180deg);
       }
 
-      &.open .options {
+      &.open .branding-product-options {
         display: block;
       }
     }
