@@ -129,7 +129,7 @@
       </div>
     </div>
     <div class="colors-availability-wrapper">
-      <p class="product-info_availability-colors-title">Dostępne kolory:</p>
+      <p class="product-info_availability-colors-title">Warianty kolorystyczne:</p>
       <div class="product-info_availability-colors">
         <a href="#" class="color grey"></a>
         <a href="#" class="color red"></a>

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -633,6 +633,7 @@ footer .footer__container__newsletter__left h3 {
   color: #374957;
 }
 footer .footer__container__newsletter__left p {
+  font-family: "Roboto Condensed", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 25.6px;
@@ -720,6 +721,7 @@ footer .footer__container__top .first-column .footer-text strong {
   margin: 0;
 }
 footer .footer__container__top .first-column .footer-text p {
+  font-family: "Roboto Condensed", serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -994,6 +996,9 @@ footer .footer__container__bottom .contip img {
 .breadcrumbs {
   padding-top: 26px;
   margin-bottom: 26px;
+}
+.breadcrumbs * {
+  font-family: "Roboto Condensed", serif;
 }
 .breadcrumbs ul {
   display: inline-flex;
@@ -1687,6 +1692,7 @@ label.add-files:focus, label.add-files:hover {
   letter-spacing: 0%;
   padding: 6px 32px 6px 14px;
   width: 100%;
+  font-family: "Roboto Condensed", serif;
 }
 #hero-left-menu .hero-left-menu .navbar-nav .nav-item .nav-link::after {
   display: none;
@@ -2218,7 +2224,8 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 10px;
 }
 .categories-tabs-swiper .nav-tabs .nav-link .nav-tab-item__text {
-  font-weight: 400;
+  font-family: "Roboto Condensed", serif;
+  font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -2354,6 +2361,7 @@ label.add-files:focus, label.add-files:hover {
   filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 .mp-check-all-btn a {
+  font-family: "Roboto Condensed", serif;
   display: flex;
   align-items: center;
   font-weight: 400;
@@ -2878,6 +2886,7 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 24px;
 }
 .article_swiper_box__text--title h3 a {
+  font-family: "Roboto Condensed", serif;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -2893,6 +2902,7 @@ label.add-files:focus, label.add-files:hover {
   text-decoration: none;
 }
 .article_swiper_box__text--title p {
+  font-family: "Roboto Condensed", serif;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -3003,6 +3013,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 900;
 }
 #about_us .article-text-sg p {
+  font-family: "Roboto Condensed", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3835,6 +3846,7 @@ label.add-files:focus, label.add-files:hover {
   gap: 11px;
 }
 .product_card_gallery_info .product-info_quantity .info_quantity_text p {
+  font-family: "Roboto Condensed", serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -3902,6 +3914,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .product_card_gallery_info .product-info_availability-colors-title {
+  font-family: "Roboto Condensed", serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -3989,6 +4002,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .product_card_gallery_info .product-info .price-input #price-value {
+  font-family: "Roboto Condensed", serif;
   width: 131px;
   height: 63px;
   border: 1px solid #374957;
@@ -4016,6 +4030,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 16px;
 }
 .product_card_gallery_info .product-info .price-input button.add-to-cart {
+  font-family: "Roboto Condensed", serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4057,6 +4072,9 @@ label.add-files:focus, label.add-files:hover {
   font-size: 16px;
   height: 58px;
   width: 545px;
+}
+.product_card_gallery_info .product-info .branding-custom-select * {
+  font-family: "Roboto Condensed", serif;
 }
 @media (max-width: 1200px) {
   .product_card_gallery_info .product-info .branding-custom-select {
@@ -4141,6 +4159,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .product_card_gallery_info .product-info .branding-custom-select .select-box {
+  font-family: "Roboto Condensed", serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -4367,6 +4386,7 @@ label.add-files:focus, label.add-files:hover {
   height: 67px;
   background-color: #f0f0f0;
   color: #8a8a8a;
+  font-family: "Roboto Condensed", serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 177.023%;
@@ -4419,6 +4439,7 @@ label.add-files:focus, label.add-files:hover {
   border: 0;
 }
 .product_card_tabs .tab-content .tab-pane p {
+  font-family: "Roboto Condensed", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -4427,6 +4448,7 @@ label.add-files:focus, label.add-files:hover {
   color: #4a6375;
 }
 .product_card_tabs .tab-content .tab-pane h2 {
+  font-family: "Roboto Condensed", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -4436,6 +4458,7 @@ label.add-files:focus, label.add-files:hover {
   color: #4a6375;
 }
 .product_card_tabs .tab-content .tab-pane h3 {
+  font-family: "Roboto Condensed", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -4457,6 +4480,7 @@ label.add-files:focus, label.add-files:hover {
   border: 2px solid #c90c0f;
 }
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td {
+  font-family: "Roboto Condensed", serif;
   height: auto;
   padding: 16px 0;
   padding-left: 48px;
@@ -4468,6 +4492,7 @@ label.add-files:focus, label.add-files:hover {
   line-height: 31.86px;
 }
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td a {
+  font-family: "Roboto Condensed", serif;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -9588,6 +9613,7 @@ main.grey-background {
   background-color: #ffffff;
 }
 .category-menu .accordion-header button {
+  font-family: "Roboto Condensed", serif;
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -9711,6 +9737,7 @@ main.grey-background {
   margin-top: 0;
 }
 .category-left-filters-box .category-left-filters__slot .header h3 {
+  font-family: "Roboto Condensed", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -9736,6 +9763,7 @@ main.grey-background {
   flex-direction: column;
 }
 .category-left-filters-box .category-left-filters__slot .content .custom-checkbox-container {
+  font-family: "Roboto Condensed", serif;
   display: inline-flex;
   align-items: center;
   font-size: 12px;
@@ -9872,6 +9900,7 @@ main.grey-background {
   padding-right: 0;
 }
 .category-top-filters__slot label {
+  font-family: "Roboto Condensed", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -9879,6 +9908,7 @@ main.grey-background {
   color: #8a8a8a;
 }
 .category-top-filters__slot select {
+  font-family: "Roboto Condensed", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -10380,7 +10410,7 @@ main.grey-background {
   }
 }
 .container.category-title h1 {
-  font-family: Roboto;
+  font-family: "Roboto Condensed", serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 42.49px;
@@ -10388,6 +10418,7 @@ main.grey-background {
   color: #374957;
 }
 .container.category-seo-text p {
+  font-family: "Roboto Condensed", serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 25.6px;
