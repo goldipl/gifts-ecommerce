@@ -3939,6 +3939,7 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 991px) {
   .product_card_gallery_info .product-info .brutto-netto-box label {
     font-size: 14px;
+    line-height: 33px;
   }
 }
 .product_card_gallery_info .product-info .price-value-box p {
