@@ -1258,8 +1258,8 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border: 1px solid #eeeeee;
   background-color: #ffffff;
   margin-right: 13px;
@@ -1275,18 +1275,24 @@ label.add-files:focus, label.add-files:hover {
   text-decoration: none;
   margin: 0;
 }
+.pagination_container .element.prev {
+  border-radius: 10px 0 0 10px;
+}
 .pagination_container .element.prev img {
   transform: rotate(180deg);
 }
-.pagination_container .element.active {
+.pagination_container .element.active, .pagination_container .element:hover {
   background-color: #c90c0f;
   border-color: #c90c0f;
 }
-.pagination_container .element.active p {
+.pagination_container .element.active p, .pagination_container .element:hover p {
   color: #ffffff;
 }
-.pagination_container .element:hover {
-  border: 1px solid #c90c0f;
+.pagination_container .element.active img, .pagination_container .element:hover img {
+  filter: invert(1) brightness(2);
+}
+.pagination_container .element.next {
+  border-radius: 0 10px 10px 0;
 }
 .pagination_container .element.last img {
   width: 35px;

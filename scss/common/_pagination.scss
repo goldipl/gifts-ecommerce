@@ -19,8 +19,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 35px;
-      height: 35px;
+      width: 50px;
+      height: 50px;
       border: 1px solid $light_grey2;
       background-color: $white;
       margin-right: 13px;
@@ -36,19 +36,24 @@
         margin: 0;
       }
       &.prev {
+        border-radius: 10px 0 0 10px;
         img {
           transform: rotate(180deg);
         }
       }
-      &.active {
+      &.active,
+      &:hover {
         background-color: $main_color;
         border-color: $main_color;
         p {
           color: $white;
         }
+        img {
+          filter: invert(1) brightness(2);
+        }
       }
-      &:hover {
-        border: 1px solid $main_color;
+      &.next {
+        border-radius: 0 10px 10px 0;
       }
       &.last {
         img {
