@@ -470,6 +470,7 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     margin-bottom: 6px;
   }
   nav .dropdown-menu li a {
+    font-family: "Roboto Condensed", serif;
     padding-left: 39px;
     padding-right: 39px;
   }
@@ -1757,6 +1758,7 @@ label.add-files:focus, label.add-files:hover {
     border: 1px solid #c90c0f;
   }
   #hero-left-menu .hero-left-menu .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+    font-family: "Roboto Condensed", serif;
     font-size: 14px;
   }
   #hero-left-menu .hero-left-menu:has(.navbar-collapse.show) {
