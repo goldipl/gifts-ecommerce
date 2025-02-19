@@ -1271,6 +1271,12 @@ label.add-files:focus, label.add-files:hover {
   box-sizing: border-box;
   text-decoration: none;
 }
+@media (max-width: 992px) {
+  .pagination_container .element {
+    width: 34px;
+    height: 34px;
+  }
+}
 .pagination_container .element p {
   font-size: 16px;
   font-weight: 400;
