@@ -1027,8 +1027,7 @@ footer .footer__container__bottom .contip img {
   background-position: center center;
 }
 .breadcrumbs ul li.breadcrumb-item a,
-.breadcrumbs ul li.breadcrumb-item p,
-.breadcrumbs ul li.breadcrumb-item span {
+.breadcrumbs ul li.breadcrumb-item p {
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
@@ -1037,9 +1036,16 @@ footer .footer__container__bottom .contip img {
   margin: 0;
 }
 .breadcrumbs ul li.breadcrumb-item a:hover,
-.breadcrumbs ul li.breadcrumb-item p:hover,
-.breadcrumbs ul li.breadcrumb-item span:hover {
+.breadcrumbs ul li.breadcrumb-item p:hover {
   color: #c90c0f;
+}
+.breadcrumbs ul li.breadcrumb-item span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-decoration: none;
+  margin: 0;
+  color: #1d1d1b;
 }
 
 @media (max-width: 1260px) {

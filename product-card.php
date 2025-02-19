@@ -30,7 +30,7 @@
                         <a href="#">Długopisy metalowe</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Długopis metalowy</a>
+                        <span>Długopis metalowy</span>
                     </li>
                 </ul>
             </div>

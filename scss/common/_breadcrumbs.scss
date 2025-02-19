@@ -31,8 +31,7 @@
         background-position: center center;
       }
       a,
-      p,
-      span {
+      p {
         font-weight: 400;
         font-size: 14px;
         line-height: 160%;
@@ -42,6 +41,14 @@
         &:hover {
           color: $main_color;
         }
+      }
+      span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        text-decoration: none;
+        margin: 0;
+        color: $black2;
       }
     }
   }
