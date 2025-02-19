@@ -285,8 +285,8 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                     <svg class="left-menu-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.0117 11.0001C19.0117 15.371 15.4684 18.9144 11.0974 18.9144C6.72646 18.9144 3.18311 15.371 3.18311 11.0001C3.18311 6.6292 6.72646 3.08582 11.0974 3.08582C15.4684 3.08582 19.0117 6.6292 19.0117 11.0001Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
                         <path d="M15.1911 11.0003C15.1911 13.2611 13.3583 15.0939 11.0975 15.0939C8.83666 15.0939 7.00391 13.2611 7.00391 11.0003C7.00391 8.73941 8.83666 6.90666 11.0975 6.90666C13.3583 6.90666 15.1911 8.73941 15.1911 11.0003Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
@@ -302,7 +302,7 @@
                         <path d="M18.4661 9.63555H19.877C20.605 9.63555 21.1951 10.2465 21.1951 11.0001C21.1951 11.7537 20.605 12.3646 19.877 12.3646H18.4662" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
                     </svg> Osobiste akcesoria reklamowe reklamowe </button>
             </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
@@ -323,8 +323,8 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <h2 class="accordion-header" id="headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                     <svg class="left-menu-icon" width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.2706 5.57608C10.522 5.57608 8.29395 7.80418 8.29395 10.5527" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
                         <path d="M3.31738 5.57629C6.06593 5.57629 8.29404 3.31133 8.29404 0.562774" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
@@ -344,7 +344,7 @@
                         <path d="M12.7185 1.6687V0.562778" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
                     </svg> Gadżety reklamowe premium </button>
             </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
@@ -365,8 +365,8 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <h2 class="accordion-header" id="headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                     <svg class="left-menu-icon" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8.54565 16.626H6.7876V19.0158H8.54565V16.626Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                         <path d="M3.8546 12.4946L1 16.6259H14.3334L11.469 12.4803" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -375,7 +375,7 @@
                         <path d="M7.6668 4.31948L6.43114 4.75516L6.4672 3.45529L5.66748 2.42468L6.92539 2.05702L7.6668 0.984375L8.40821 2.05702L9.66612 2.42468L8.8664 3.45529L8.90246 4.75516L7.6668 4.31948Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg> Gadżety świąteczne reklamowe </button>
             </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
@@ -396,14 +396,14 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <h2 class="accordion-header" id="headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                     <svg class="left-menu-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.9599 0.984264V3.22883C16.7608 3.22883 19.0312 5.4899 19.0312 8.27911V11.7208C19.0312 14.51 16.7608 16.7711 13.9599 16.7711C13.9599 18.0107 12.9508 19.0156 11.706 19.0156H3.25381C2.00901 19.0156 0.999889 18.0107 0.999889 16.7711V0.984264H13.9599Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
                         <path d="M13.7963 14.3624C15.4025 14.3624 16.7046 13.1518 16.7046 11.6584V8.34156C16.7046 6.8482 15.4025 5.63757 13.7963 5.63757V14.3624Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10"></path>
                     </svg> Ceramika reklamowa </button>
             </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
@@ -424,8 +424,8 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <h2 class="accordion-header" id="headingFourteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
                     <svg class="left-menu-icon" width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.02783 21.0977C3.25104 21.0977 1 18.8466 1 16.0698V7.27112H11.0557V16.0698C11.0557 18.8466 8.80462 21.0977 6.02783 21.0977Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                         <path d="M2.25708 7.27112V0.902531H9.79883V7.27112" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -434,7 +434,7 @@
                         <path d="M1 9.78503H11.0557" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg> Pamięć USB z nadrukiem </button>
             </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
@@ -455,8 +455,8 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <h2 class="accordion-header" id="headingFifteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
                     <svg class="left-menu-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.8379 3.98952C15.8379 4.09398 15.9223 4.17838 16.0267 4.17838C16.1312 4.17838 16.2156 4.09398 16.2156 3.98952C16.2156 3.88505 16.1312 3.80066 16.0267 3.80066C15.9223 3.80066 15.8379 3.88505 15.8379 3.98952Z" fill="#374957" stroke="#374957" stroke-width="1.5"></path>
                         <path d="M18.6792 9.75131C18.9048 9.52562 19.0314 9.21999 19.0314 8.90111V2.18659C19.0314 1.86772 18.9048 1.56208 18.6792 1.33669C18.4538 1.111 18.1482 0.984478 17.8293 0.984478H11.1147C10.7959 0.984478 10.4903 1.111 10.2645 1.33669L1.35228 10.249C0.882572 10.7187 0.882572 11.4796 1.35228 11.949L8.06683 18.6636C8.53625 19.1333 9.29716 19.1333 9.76691 18.6636C11.8702 16.5602 17.2517 11.1788 18.6792 9.75131Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -465,7 +465,7 @@
                         <path d="M6.4104 10H13.6229" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg> Wyprzedaż Koniec Serii Voyager </button>
             </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="menu-slot">
                         <a href="#">Akcesoria 01</a>
