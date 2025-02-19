@@ -2909,6 +2909,9 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 991px) {
+  .article_swiper_box {
+    padding: 8px;
+  }
   .article_swiper_box__image {
     width: 100%;
     height: auto;
@@ -3014,6 +3017,9 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 991px) {
+  #about_us .article-text-sg {
+    padding: 16px;
+  }
   #about_us .article-text-sg h3 {
     font-size: 21px;
     margin: 0 0 24px 0;
