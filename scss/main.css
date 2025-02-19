@@ -3675,6 +3675,7 @@ label.add-files:focus, label.add-files:hover {
 .product_card_gallery_info .product-gallery .slider-one {
   border: 1px solid #d4d1d1;
   border-radius: 20px;
+  height: 510px;
 }
 .product_card_gallery_info .product-gallery .slider-one .product-label-box {
   position: absolute;
