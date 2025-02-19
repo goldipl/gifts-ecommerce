@@ -1,7 +1,7 @@
 .product_card_gallery_info {
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
+  margin-bottom: 62px;
   .product-gallery {
     position: relative;
     display: flex;
@@ -177,6 +177,9 @@
       line-height: 18.75px;
       color: $grey14;
       margin: 0 0 24px 0;
+      @media (max-width: 991px) {
+        margin-bottom: 15px;
+      }
       span {
         color: $text_color;
       }
@@ -195,6 +198,10 @@
           line-height: 18.75px;
           color: $text_color;
           margin: 0;
+          @media (max-width: 991px) {
+            font-size: 14px;
+            line-height: 1.1;
+          }
         }
       }
       .info_quantity_box {
@@ -215,6 +222,9 @@
           text-align: center;
           color: $text_color;
           margin: 0;
+          @media (max-width: 991px) {
+            font-size: 13px;
+          }
         }
         p {
           font-weight: 700;
@@ -223,6 +233,9 @@
           text-align: center;
           color: $green;
           margin: 0;
+          @media (max-width: 991px) {
+            font-size: 13px;
+          }
         }
       }
     }
@@ -236,6 +249,9 @@
       padding-bottom: 19px;
       margin-bottom: 17px;
       border-bottom: 1px solid $border_grey;
+      @media (max-width: 991px) {
+        padding-bottom: 12px !important;
+      }
     }
     &_availability-colors-title {
       font-weight: 500;
@@ -243,6 +259,10 @@
       line-height: 18.75px;
       color: $text_color;
       margin: 0 16px 0 0;
+      @media (max-width: 991px) {
+        font-size: 14px !important;
+        line-height: 1.1;
+      }
     }
     &_availability-colors {
       .color {
@@ -268,6 +288,9 @@
         &:nth-of-type(2) {
           margin-left: 24px;
         }
+        @media (max-width: 991px) {
+          font-size: 14px;
+        }
       }
     }
     .price-value-box {
@@ -277,18 +300,38 @@
         line-height: 24px;
         color: $grey_main;
         margin: 0;
+        @media (max-width: 991px) {
+          font-size: 14px;
+          line-height: 1.1;
+        }
         span {
           font-weight: 700;
           font-size: 50px;
           line-height: 75px;
           color: $green;
+          @media (max-width: 991px) {
+            font-size: 32px;
+            line-height: 44px;
+          }
         }
       }
     }
     .price-input {
       display: flex;
+      justify-content: flex-start;
       align-items: center;
       margin: 10px 0 32px 0;
+      @media (max-width: 1200px) {
+        flex-direction: column;
+      }
+      @media (max-width: 991px) {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        .price-value-btn-box {
+          margin-bottom: 16px;
+        }
+      }
       #price-value {
         width: 131px;
         height: 63px;
@@ -300,6 +343,9 @@
         font-size: 18px;
         line-height: 25.78px;
         color: $grey_main;
+        @media (max-width: 991px) {
+          height: 40px;
+        }
       }
       button {
         all: unset;
@@ -329,6 +375,16 @@
             line-height: 33.72px;
             color: $white;
           }
+          @media (max-width: 991px) {
+            span {
+              font-size: 16px;
+              line-height: 22px;
+            }
+            img {
+              width: 20px;
+              height: auto;
+            }
+          }
         }
       }
     }
@@ -338,6 +394,9 @@
       font-size: 16px;
       height: 58px;
       width: 545px;
+      @media (max-width: 1200px) {
+        width: 100%;
+      }
       .select-box {
         display: flex;
         justify-content: space-between;
@@ -412,7 +471,7 @@
   cursor: pointer !important;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
   .product_card_gallery_info {
     .product-info {
       margin-left: 10px;
@@ -433,7 +492,7 @@
       }
       &_availability-colors-title {
         font-size: 18px;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
       }
       &_availability-colors {
         margin-bottom: 32px;
@@ -506,7 +565,7 @@
       }
       &_title {
         h1 {
-          font-size: 20px;
+          font-size: 26px;
         }
       }
       &_code,
@@ -519,7 +578,7 @@
         font-size: 16px;
       }
       &_availability-colors {
-        margin-bottom: 24px;
+        margin-bottom: 0 !important;
       }
     }
   }

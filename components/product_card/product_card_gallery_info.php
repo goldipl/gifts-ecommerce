@@ -154,13 +154,15 @@
         <p>Cena od: <span>1,66 PLN</span></p>
     </div>
     <div class="price-input">
-        <button class="minus-btn" onclick="decrease()">
-            <img src="./assets/icons/product_page/minus-circle.svg" alt="minus" width="26" height="26">
-        </button>
-        <input type="text" id="price-value" value="0" min="0">
-        <button class="plus-btn" onclick="increase()">
-            <img src="./assets/icons/product_page/plus-circle.svg" alt="plus" width="26" height="26">
-        </button>
+        <div class="price-value-btn-box">
+            <button class="minus-btn" onclick="decrease()">
+                <img src="./assets/icons/product_page/minus-circle.svg" alt="minus" width="26" height="26">
+            </button>
+            <input type="text" id="price-value" value="0" min="0">
+            <button class="plus-btn" onclick="increase()">
+                <img src="./assets/icons/product_page/plus-circle.svg" alt="plus" width="26" height="26">
+            </button>
+        </div>
         <button class="add-to-cart">
             <span>Do Koszyka</span>
             <img src="./assets/icons/product_page/cart.svg" alt="koszyk" width="26" height="26">
