@@ -28,19 +28,19 @@
   left: 2px;
   height: 18px;
   width: 18px;
-  background-color: #eee;
+  background-color: $white;
   border-radius: 50%;
   border: 1px solid $main_color;
 }
 
 /* On mouse-over, add a grey background color */
 .custom-radio-container:hover input ~ .custom-radio-checkmark {
-  background-color: #d9d9d9;
+  background-color: $white;
 }
 
 /* When the radio button is checked, add a background */
 .custom-radio-container input:checked ~ .custom-radio-checkmark {
-  background-color: #d9d9d9;
+  background-color: $white;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
