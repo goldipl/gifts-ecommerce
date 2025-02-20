@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Get the button element
-    const orangeBtnColors = document.querySelector('#collapse12 button.orange-btn');
+    const orangeBtnColors = document.querySelector('#collapse12 button.color-btn');
 
     // Add click event listener to the button
     orangeBtnColors.addEventListener('click', function () {
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Get the button element
-    const orangeBtnQuantity = document.querySelector('#collapse13 button.orange-btn');
+    const orangeBtnQuantity = document.querySelector('#collapse13 button.color-btn');
 
     // Add click event listener to the button
     orangeBtnQuantity.addEventListener('click', function () {
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Get the button element
-    const orangeBtnBranding = document.querySelector('#collapse14 button.orange-btn');
+    const orangeBtnBranding = document.querySelector('#collapse14 button.color-btn');
 
     // Add click event listener to the button
     orangeBtnBranding.addEventListener('click', function () {

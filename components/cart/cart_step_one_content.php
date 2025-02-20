@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="bottom-cart-button">
-                    <a href="#" class="orange-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                     </div>
                 </div>
                 <div class="add-product-box">

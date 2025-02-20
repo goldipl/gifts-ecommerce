@@ -82,7 +82,7 @@
                                 <span class="custom-checkbox-checkmark"></span>
                             </label>
                             <p class="desc">Oświadczam, że zapoznałem się z <a href="#">Regulaminem sklepu</a> internetowego macma.pl oraz <a href="#">Regulaminem reklamacji i zwrotów</a>, ich treść jest dla mnie zrozumiała i w całości je akceptuję.</p>
-                            <button class="orange-btn">Zapłać <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></button>
+                            <button class="color-btn">Zapłać <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></button>
                             <p class="desc pay-info">Zamówienie z obowiązkiem zapłaty</p>
                         </div>
                     </div>

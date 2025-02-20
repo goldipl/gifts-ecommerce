@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="button-box">
-                <button class="orange-btn">Wyślij <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18"></button>
+                <button class="color-btn">Wyślij <img src="./assets/icons/dashboard/save-btn.svg" alt="save btn icon" width="18" height="18"></button>
             </div>
         </form>
     </div>
