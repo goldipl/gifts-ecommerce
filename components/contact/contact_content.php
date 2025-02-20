@@ -7,13 +7,16 @@
             <div class="contact-grey-box">
                 <div class="grey-left-col">
                     <h3>Skontaktuj się</h3>
-                    <a class="gtm-phone" href="tel:032 750 86 56">032 750 86 56</a>
-                    <a class="gtm-phone" href="tel:071 722 08 26">071 722 08 26</a>
-                    <a class="gtm-phone" href="tel:505 178 262">505 178 262</a>
-                    <a class="gtm-mail" href="mailto: biuro@gifts24.pl"> biuro@gifts24.pl</a>
+                    <a class="gtm-phone" href="tel:032 750 86 56"><img src="./assets/icons/contact/telephone.svg" width="22" height="22" alt="telefon">032 750 86 56</a>
+                    <a class="gtm-phone" href="tel:071 722 08 26"><img src="./assets/icons/contact/telephone.svg" width="22" height="22" alt="telefon">071 722 08 26</a>
+                    <a class="gtm-phone" href="tel:505 178 262"><img src="./assets/icons/contact/smartphone.svg" width="22" height="22" alt="telefon">505 178 262</a>
+                    <a class="gtm-mail" href="mailto: biuro@gifts24.pl"><img src="./assets/icons/contact/letter.svg" width="22" height="22" alt="email"> biuro@gifts24.pl</a>
                 </div>
                 <div class="grey-right-col">
                     <h3>Adres</h3>
+                    <p>Biznes Promotion</p>
+                    <p>ul. Trzebnicka 26</p>
+                    <p>51-217 Pruszowice</p>
                 </div>
             </div>
         </div>
@@ -41,7 +44,7 @@
                             <textarea class="form-textarea" name="msgarea" id="msgarea" placeholder="Tutaj możesz wpisać swoją wiadomość"></textarea>
                         </div>
                         <div class="checkbox-button-box">
-                            <button class="orange-btn">Wyślij <img src="./assets/icons/contact/white-arrow.svg" width="21" height="10" alt="strzałka"></button>
+                            <button class="color-btn">Wyślij <img src="./assets/icons/contact/white-arrow.svg" width="21" height="10" alt="strzałka"></button>
                         </div>
                     </div>
                 </form>
