@@ -554,7 +554,7 @@
             color: $grey_main;
             all: unset;
             text-align: center;
-            background-color: rgba(255, 255, 255, 0);
+            background-color: $transparent;
           }
           select {
             margin: 0;
