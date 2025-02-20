@@ -3474,26 +3474,22 @@ label.add-files:focus, label.add-files:hover {
   position: relative;
   display: grid !important;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
 @media (max-width: 1600px) {
   .blog_news_articles {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
   }
 }
 @media (max-width: 1275px) {
   .blog_news_articles {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
   }
 }
 @media (max-width: 992px) {
   .blog_news_articles {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
   }
   .blog_news_articles__slot {
     height: auto;
