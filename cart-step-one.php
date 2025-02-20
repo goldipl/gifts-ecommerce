@@ -16,9 +16,6 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="progress common-progress-bar">
-                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
             <div class="common-steps-container">
                 <div class="container">
                     <div class="common-steps-container-slot">
