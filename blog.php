@@ -26,7 +26,6 @@
                     </li>
                 </ul>
             </div>
-            <?php include "./components/blog/blog_news_title.php"; ?> 
             <?php include "./components/blog/blog_news_articles.php"; ?> 
             <?php include "./components/common/pagination.php"; ?> 
         </main>
