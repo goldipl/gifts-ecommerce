@@ -8925,7 +8925,7 @@ main.grey-background {
   width: auto;
 }
 .category-menu .accordion-item {
-  border-bottom: 0;
+  border: 0;
 }
 .category-menu .accordion-item:last-of-type button {
   border-bottom: 0;
@@ -9214,6 +9214,9 @@ main.grey-background {
   background-color: #ffffff;
   padding-left: 15px;
   cursor: pointer;
+  border: 0;
+  width: unset;
+  padding: 0 32px 0 16px;
 }
 
 @media (max-width: 992px) {
