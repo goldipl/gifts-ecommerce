@@ -4902,6 +4902,24 @@ label.add-files:focus, label.add-files:hover {
   height: 18px;
 }
 
+@media (max-width: 992px) {
+  .cart-steps {
+    padding: 20px 0;
+  }
+  .cart-steps-slot span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cart-steps-divider {
+    top: -7px;
+    margin: 0 12px;
+    width: 6px;
+    height: 10px;
+  }
+  .cart-steps-divider img {
+    height: 12px;
+  }
+}
 .cart_container {
   background-color: #f4f4f4;
   padding-bottom: 74px;
