@@ -4088,6 +4088,8 @@ label.add-files:focus, label.add-files:hover {
   letter-spacing: 0%;
   text-align: left;
   color: #333333;
+  background-color: unset;
+  cursor: pointer;
 }
 .product_card_gallery_info .product-info .branding-custom-select .branding-product-options td select:hover, .product_card_gallery_info .product-info .branding-custom-select .branding-product-options td select:focus {
   border: 0;

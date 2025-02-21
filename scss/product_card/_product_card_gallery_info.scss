@@ -566,6 +566,8 @@
             letter-spacing: 0%;
             text-align: left;
             color: $grey_main;
+            background-color: unset;
+            cursor: pointer;
             &:hover,
             &:focus {
               border: 0;
