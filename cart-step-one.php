@@ -16,25 +16,6 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="common-steps-container">
-                <div class="container">
-                    <div class="common-steps-container-slot">
-                        <p class="active">1. Produkty</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>2. Znakowanie</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>3. Wysyłka</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>4. Twoje dane</p>
-                    </div>
-                    <div class="common-steps-container-slot">
-                        <p>5. Finalizacja</p>
-                    </div>
-                </div>
-            </div>
             <?php include "./components/cart/cart_step_one_content.php"; ?> 
         </main>
         <footer> 
