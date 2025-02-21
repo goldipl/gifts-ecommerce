@@ -45,7 +45,7 @@
                 <td></td>
                 <td></td>
                 <td>
-                  <input type="number" name="product-quantity" id="product-quantity">
+                  <input type="number" name="product-quantity" id="product-quantity" min="0">
                 </td>
                 <td></td>
                 <td>
