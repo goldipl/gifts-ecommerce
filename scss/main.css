@@ -1908,10 +1908,6 @@ label.add-files:focus, label.add-files:hover {
   background-color: #c90c0f;
 }
 
-.our_brands_swiper .swiper-slide img {
-  filter: grayscale(100%);
-}
-
 #import-page-swiper {
   width: 76%;
 }
