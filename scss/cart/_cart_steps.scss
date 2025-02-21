@@ -1,0 +1,28 @@
+.cart-steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0 55px 0;
+  &-slot {
+    span {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 29.3px;
+      color: $grey7;
+    }
+    &.active {
+      span {
+        color: $green;
+      }
+    }
+  }
+  &-divider {
+    position: relative;
+    top: -4px;
+    display: block;
+    margin: 0 40px;
+    width: 8px;
+    height: 18px;
+  }
+}
