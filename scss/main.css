@@ -4882,7 +4882,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 40px 0 55px 0;
+  padding: 40px 0;
 }
 .cart-steps-slot span {
   font-weight: 700;
