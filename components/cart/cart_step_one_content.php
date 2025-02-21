@@ -46,7 +46,7 @@
                                 <td>1,34 PLN</td>
                                 <td>
                                     <a class="delete-icon" href="#">
-                                        <img src="./assets/icons/cart/delete.svg" alt="delete" width="17" height="20">
+                                        <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="17" height="20">
                                     </a>
                                 </td>
                             </tr>
@@ -79,7 +79,7 @@
                                 <td>1,34 PLN</td>
                                 <td>
                                     <a class="delete-icon" href="#">
-                                        <img src="./assets/icons/cart/delete.svg" alt="delete" width="17" height="20">
+                                        <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="17" height="20">
                                     </a>
                                 </td>
                             </tr>
@@ -87,23 +87,12 @@
                     </table>
                 </div>
                 <div class="bottom-cart-box-with-btn">
-                    <div class="bottom-cart-box">
-                        <div class="bottom-cart-box--text">
-                            <p>Wpisz ilość dla wszystkich pozycji:</p>
-                        </div>
-                        <div class="bottom-cart-box--input">
-                            <input type="text" name="all-quantity" id="all-quantity">
-                        </div>
-                        <div class="bottom-cart-box--btn">
-                            <button class="confirm-btn">Zatwierdź</button>
-                        </div>
+                    <div class="bottom-cart-button">
+                        <a href="#" class="color-btn prev">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                     </div>
                     <div class="bottom-cart-button">
-                    <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
+                        <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
                     </div>
-                </div>
-                <div class="add-product-box">
-                    <button class="add-product">Dodaj produkt</button>
                 </div>
             </div>
             <aside class="sumary_box">
