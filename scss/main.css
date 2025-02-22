@@ -4631,6 +4631,9 @@ label.add-files:focus, label.add-files:hover {
 .cart_container .cart-table_box .cart-products-table tbody {
   background-color: #ffffff;
 }
+.cart_container .cart-table_box .cart-products-table tbody tr:has(.product-brandings) td {
+  vertical-align: baseline;
+}
 .cart_container .cart-table_box .cart-products-table tbody tr:first-of-type {
   border-radius: 10px;
   border: 1px solid #a4a4a4;
@@ -4851,6 +4854,10 @@ label.add-files:focus, label.add-files:hover {
   line-height: 18.75px;
   color: #a4a4a4;
   text-transform: uppercase;
+  padding: 12px;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr th:first-of-type {
+  padding-left: 26px;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr th:last-of-type {
   border-right: 1px solid #a4a4a4;
@@ -4862,14 +4869,19 @@ label.add-files:focus, label.add-files:hover {
   height: auto;
   width: auto;
   text-align: left;
-  padding: 12px 0;
-  vertical-align: baseline;
+  padding: 12px;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td:first-of-type {
-  padding-left: 50px;
+  padding-left: 26px;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td:last-of-type {
   padding-right: 50px;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td.number {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #a4a4a4;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td input {
   width: 69px;
