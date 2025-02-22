@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GIFTS24 - Koszyk - Twój koszyk</title>
+        <title>GIFTS24 - Koszyk - Zaloguj się</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/select2.min.css" />
@@ -18,13 +18,13 @@
         <main id="main-wrapper">
             <div class="cart_container step_two">
                 <div class="cart-steps">
-                    <div class="cart-steps-slot active">
+                    <div class="cart-steps-slot">
                     <span>Twój koszyk</span>
                     </div>
                     <div class="cart-steps-divider">
                     <img src="./assets/icons/cart/steps-grey-chevron-right.svg" alt="chevron" width="8" height="18">
                     </div>
-                    <div class="cart-steps-slot">
+                    <div class="cart-steps-slot active">
                     <span>Adres dostawy</span>
                     </div>
                     <div class="cart-steps-divider">
@@ -34,7 +34,7 @@
                     <span>Płatność</span>
                     </div>
                 </div>
-                <?php include "./components/cart/cart_step_one_content.php"; ?> 
+                <?php include "./components/register/login_content.php"; ?> 
             </div>
         </main>
         <footer> 

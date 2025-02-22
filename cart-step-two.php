@@ -16,7 +16,26 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <?php include "./components/cart/cart_step_two_content.php"; ?> 
+            <div class="cart_container step_two">
+                <div class="cart-steps">
+                    <div class="cart-steps-slot">
+                    <span>Twój koszyk</span>
+                    </div>
+                    <div class="cart-steps-divider">
+                    <img src="./assets/icons/cart/steps-grey-chevron-right.svg" alt="chevron" width="8" height="18">
+                    </div>
+                    <div class="cart-steps-slot active">
+                    <span>Adres dostawy</span>
+                    </div>
+                    <div class="cart-steps-divider">
+                    <img src="./assets/icons/cart/steps-grey-chevron-right.svg" alt="chevron" width="8" height="18">
+                    </div>
+                    <div class="cart-steps-slot">
+                    <span>Płatność</span>
+                    </div>
+                </div>
+                <?php include "./components/cart/cart_step_two_content.php"; ?> 
+            </div>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 

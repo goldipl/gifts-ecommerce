@@ -78,3 +78,34 @@
     color: $main_color;
   }
 }
+
+.bottom-cart-buttons {
+  .white-btn.prev {
+    padding: 15px 35px 15px 20px;
+    height: 50px;
+    border: 1px solid $grey7;
+    margin-top: 16px;
+    img {
+      display: block;
+      object-fit: contain;
+      margin-right: 8px;
+    }
+    span {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18.75px;
+      color: $black2;
+      text-transform: uppercase;
+    }
+    &:hover {
+      border: 1px solid $main_color;
+      span {
+        color: $white;
+      }
+      img {
+        content: unset;
+        filter: invert(1) brightness(55);
+      }
+    }
+  }
+}
