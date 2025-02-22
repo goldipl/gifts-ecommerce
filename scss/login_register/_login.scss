@@ -116,6 +116,7 @@
   }
   .bottom-cart-buttons {
     .white-btn {
+      font-family: "Roboto Condensed", serif;
       width: 241px;
       height: 50px;
     }
@@ -170,9 +171,12 @@
   }
 }
 
-.login-wrapper {
+.login-wrapper,
+.register-wrapper {
+  background-color: $light_grey;
   padding-bottom: 55px;
-  .bottom-cart-buttons {
-    display: none;
+  padding-top: 35px;
+  @media (max-width: 992px) {
+    padding: 16px 0 24px 0;
   }
 }
