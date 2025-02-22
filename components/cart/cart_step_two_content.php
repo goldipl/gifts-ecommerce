@@ -1,311 +1,191 @@
-<div class="cart_container step_two">
-    <div class="container">
-        <h1>Znakowanie</h1>
-        <div class="cart-table_full_box d-flex flex-row">
-            <div class="cart-table_box d-flex flex-column">
-                <div class="cart-step-table-container">
-                    <table class="cart-products-table">
-                        <tbody>
-                            <!-- === Product 01 === -->
-                            <tr>
-                                <td><b>1</b></td>
-                                <td>
-                                    <div class="cart-branding-product-box">
-                                        <div class="cart-branding-product-box__top">
-                                            <div class="cart-branding-product-box__top__left">
-                                                <a href="#" class="title">Długopis metalowy</a>
-                                                <p class="code">Kod: <span>1333903</span></p>
-                                            </div>
-                                            <div class="cart-branding-product-box__top__right">
-                                                <label class="custom-checkbox-container">Ze znakowaniem
-                                                    <input type="checkbox" class="custom_input">
-                                                    <span class="custom-checkbox-checkmark"></span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="cart-branding-product-box__middle">
-                                            <a href="#" class="cart-branding-product-box__middle__img">
-                                                <img src="./assets/img/cart/pen.jpg" alt="product img" width="110" height="110">
-                                            </a>
-                                            <div class="cart-branding-product-box__middle__branding">
-                                                <div class="branding-radios-types">
-                                                    <label class="custom-radio-container one-logo">Znakowanie 1 logotyp
-                                                        <input type="radio" name="radio01" class="custom_input" checked>
-                                                        <span class="custom-radio-checkmark"></span>
-                                                    </label>
-                                                    <label class="custom-radio-container two-logos">Znakowanie 2 różne logotypy
-                                                        <input type="radio" name="radio01" class="custom_input">
-                                                        <span class="custom-radio-checkmark"></span>
-                                                    </label>
-                                                </div>
-                                                <div class="branding-select-types version-one-logo">
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p></p>
-                                                        </div>
-                                                        <div class="types-col select-name">
-                                                            <p>Logotyp:</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Grupa znakowania:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="product01-branding-group" id="product01-branding-group">
-                                                                <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
-                                                                <option value="T1 (tampodruk)">T1 (tampodruk)</option>
-                                                                <option value="DC1 (druk UV)">DC1 (druk UV)</option>
-                                                                <option value="S1 (sitodruk)">S1 (sitodruk)</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba miejsc:</p>
-                                                        </div>
-                                                        <div class="types-col">
-                                                            <select name="product01-loc-quantity" id="product01-loc-quantity">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba kolorów:</p>
-                                                        </div>
-                                                        <div class="types-col">
-                                                            <select name="product01-colors-quantity" id="product01-colors-quantity">
-                                                            <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cart-branding-product-box__middle__files">
-                                                <p class="title">Wgraj pliki:</p>
-                                                <p class="desc-info">Wymagamy plik w wektorach, format pliku zapisany<br> w krzywych (czcionka i obiekty).</p>
-                                                <div class="first-logo-box">
-                                                    <label for="files" class="upload-files-box">
-                                                        <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                                                        <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
-                                                        <input class="file file-block" type="file" id="files01">
-                                                    </label>
-                                                    <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="cart-branding-product-box__bottom">
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <b class="title">Koszt</b>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price">17,88 PLN</p>
-                                                <p class="price-info">Cena jednostkowa<br> produktu netto</p>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price">35,66 PLN</p>
-                                                <p class="price-info">Cena jednostkowa<br> znakowania netto</p>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price">53,54 PLN</p>
-                                                <p class="price-info">Cena jednostkowa<br> produktu ze znakowaniem netto</p>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price orange">XX,XX PLN</p>
-                                                <p class="price-info">Wartość produktów<br> ze znakowaniem netto</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <!-- === Product 02 === -->
-                            <tr>
-                                <td><b>2</b></td>
-                                <td>
-                                    <div class="cart-branding-product-box">
-                                        <div class="cart-branding-product-box__top">
-                                            <div class="cart-branding-product-box__top__left">
-                                                <a href="#" class="title">Notatnik A5</a>
-                                                <p class="code">Kod: <span>1333903</span></p>
-                                            </div>
-                                            <div class="cart-branding-product-box__top__right">
-                                                <label class="custom-checkbox-container">Ze znakowaniem
-                                                    <input type="checkbox" class="custom_input">
-                                                    <span class="custom-checkbox-checkmark"></span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="cart-branding-product-box__middle">
-                                            <a href="#" class="cart-branding-product-box__middle__img">
-                                                <img src="./assets/img/cart/notepad.jpg" alt="product img" width="110" height="110">
-                                            </a>
-                                            <div class="cart-branding-product-box__middle__branding">
-                                                <div class="branding-radios-types">
-                                                    <label class="custom-radio-container one-logo">Znakowanie 1 logotyp
-                                                        <input type="radio" name="radio02" class="custom_input">
-                                                        <span class="custom-radio-checkmark"></span>
-                                                    </label>
-                                                    <label class="custom-radio-container two-logos">Znakowanie 2 różne logotypy
-                                                        <input type="radio" name="radio02" class="custom_input" checked>
-                                                        <span class="custom-radio-checkmark"></span>
-                                                    </label>
-                                                </div>
-                                                <div class="branding-select-types version-two-logo">
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p></p>
-                                                        </div>
-                                                        <div class="types-col select-name">
-                                                            <p>Pierwszy logotyp:</p>
-                                                        </div>
-                                                        <div class="types-col select-name">
-                                                            <p>Drugi logotyp:</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Grupa znakowania:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="product02-branding-group" id="product02-branding-group">
-                                                                <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
-                                                                <option value="T1 (tampodruk)">T1 (tampodruk)</option>
-                                                                <option value="DC1 (druk UV)">DC1 (druk UV)</option>
-                                                                <option value="S1 (sitodruk)">S1 (sitodruk)</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="product02-branding-group-second" id="product02-branding-group-second">
-                                                                <option value="L0 ( grawer laserowy)">L0 ( grawer laserowy)</option>
-                                                                <option value="T1 (tampodruk)">T1 (tampodruk)</option>
-                                                                <option value="DC1 (druk UV)">DC1 (druk UV)</option>
-                                                                <option value="S1 (sitodruk)">S1 (sitodruk)</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba miejsc:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="product02-loc-quantity" id="product02-loc-quantity">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="product02-loc-quantity-second" id="product02-loc-quantity-second">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="branding-select-types__row">
-                                                        <div class="types-col">
-                                                            <p>Liczba kolorów:</p>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="product02-colors-quantity" id="product02-colors-quantity">
-                                                            <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="types-col select">
-                                                            <select name="product02-colors-quantity-second" id="product02-colors-quantity-second">
-                                                            <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cart-branding-product-box__middle__files">
-                                                <p class="title">Wgraj pliki:</p>
-                                                <p class="desc-info">Wymagamy plik w wektorach, format pliku zapisany<br> w krzywych (czcionka i obiekty).</p>
-                                                <div class="first-logo-box">
-                                                    <p class="desc-info-logo">Pierwszy logotyp:</p>
-                                                    <label for="files" class="upload-files-box">
-                                                        <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                                                        <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
-                                                        <input class="file file-block" type="file" id="files02">
-                                                    </label>
-                                                    <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
-                                                </div>
-                                                <div class="second-logo-box">
-                                                    <p class="desc-info-logo">Drugi logotyp:</p>
-                                                    <label for="files" class="upload-files-box">
-                                                        <img src="./assets/icons/upload-icon.svg" alt="upload icon" width="21" height="14">
-                                                        <p>Przeciągnij i upuść albo<br>Dodaj plik</p>
-                                                        <input class="file file-block" type="file" id="files03">
-                                                    </label>
-                                                    <p class="error-info">Proszę o wgranie pliku, to pole jest wymagane</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="cart-branding-product-box__bottom">
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <b class="title">Koszt</b>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price">17,88 PLN</p>
-                                                <p class="price-info">Cena jednostkowa<br> produktu netto</p>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price">35,66 PLN</p>
-                                                <p class="price-info">Cena jednostkowa<br> znakowania netto</p>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price">53,54 PLN</p>
-                                                <p class="price-info">Cena jednostkowa<br> produktu ze znakowaniem netto</p>
-                                            </div>
-                                            <div class="cart-branding-product-box__bottom--col">
-                                                <p class="price orange">XX,XX PLN</p>
-                                                <p class="price-info">Wartość produktów<br> ze znakowaniem netto</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="bottom-cart-box-with-btn">
-                    <div class="bottom-cart-button">
-                        <a href="#" class="white-btn prev left-btn"><img src="./assets/icons/common/buttons/button_orange_arrow.svg" alt="arrow icon" width="18" height="18"> Powrót</a>
-                    </div>
-                    <div class="bottom-cart-button right-btn">
-                        <a href="#" class="color-btn next">Dalej <img src="./assets/icons/common/buttons/button_white_arrow.svg" alt="arrow icon" width="18" height="18"></a>
-                    </div>
-                </div>
-            </div>
-            <aside class="sumary_box">
-                <div class="sumary_box--title">
-                    <p>CAŁKOWITA WARTOŚĆ PRODUKTÓW ZE ZNAKOWANIEM</p>
-                </div>
-                <div class="sumary_box--netto">
-                    <p class="netto-value">17,88 PLN</p>
-                    <p class="netto-text">Suma netto</p>
-                </div>
-                <div class="sumary_box--brutto">
-                    <p class="brutto-value">35,66 PLN</p>
-                    <p class="brutto-text">Suma brutto</p>
-                </div>
-            </aside>
-        </div>
+<div class="cart_container step_one">
+  <div class="cart-steps">
+    <div class="cart-steps-slot active">
+      <span>Twój koszyk</span>
     </div>
+    <div class="cart-steps-divider">
+      <img src="./assets/icons/cart/steps-grey-chevron-right.svg" alt="chevron" width="8" height="18">
+    </div>
+    <div class="cart-steps-slot">
+      <span>Adres dostawy</span>
+    </div>
+    <div class="cart-steps-divider">
+      <img src="./assets/icons/cart/steps-grey-chevron-right.svg" alt="chevron" width="8" height="18">
+    </div>
+    <div class="cart-steps-slot">
+      <span>Płatność</span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="cart-table_full_box d-flex flex-row">
+      <div class="cart-table_box d-flex flex-column">
+        <div class="cart-step-table-container">
+          <table class="cart-products-table">
+            <tbody>
+              <tr>
+                <th></th>
+                <th>Produkt</th>
+                <th>Cena katalogowa </th>
+                <th>Cena zakupu</th>
+                <th>Ilość</th>
+                <th>Suma netto</th>
+                <th>Edycja</th>
+              </tr>
+              <tr class="divider"></tr>
+              <div class="cart-table-slot">
+                <tr>
+                  <td>
+                      <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
+                  </td>
+                  <td>
+                      <div class="product-description">
+                          <strong>Klip do dokumentów</strong>
+                          <span>Kod produktu KC2585-40</span>
+                      </div>
+                  </td>
+                  <td>2,16 PLN</td>
+                  <td>0,88 PLN</td>
+                  <td>
+                    <input type="number" name="product-quantity" id="product-quantity" min="0">
+                  </td>
+                  <td>45,36 PLN</td>
+                  <td>
+                    <a class="delete-icon" href="#">
+                      <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
+                      <span>Usuń</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr class="cart-branding-expand-row">
+                  <td></td>
+                  <td colspan="4" class="branding-text">
+                    <strong>Znakowanie:</strong>
+                    <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>)</span>
+                  </td>
+                  <td colspan="2">
+                    <div class="expand">
+                      <span>Rozwiń znakowanie</span>
+                      <img src="./assets/icons/cart/expand-arrow-down.svg" alt="rozwiń" width="18" height="18">
+                    </div>
+                  </td>
+                </tr>
+                <tr class="cart-branding-expand-content">
+                  <td></td>
+                  <td>
+                      <div class="product-brandings">
+                        <div class="product-brandings__slot">
+                          <label for="select-branding">Znakowanie:</label>
+                          <select class="form-select" name="select-branding" id="select-branding">
+                            <option value="Sitodruk">Sitodruk</option>
+                            <option value="Sitodruk">Sitodruk</option>
+                          </select>
+                        </div>
+                        <div class="product-brandings__slot">
+                          <label for="select-position">Pozycja:</label>
+                          <select class="form-select" name="select-position" id="select-position">
+                            <option value="Przód">Przód</option>
+                            <option value="Tył">Tył</option>
+                          </select>
+                        </div>
+                        <div class="product-brandings__slot">
+                          <label for="select-colors">Ilość kolorów:</label>
+                          <select class="form-select" name="select-colors" id="select-colors">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                          </select>
+                        </div>
+                      </div>
+                  </td>
+                  <td>2,16 PLN</td>
+                  <td>3,16 PLN</td>
+                  <td>
+                    <input type="number" name="product-quantity" id="product-quantity" min="0">
+                  </td>
+                  <td>34,76 PLN</td>
+                  <td>
+                    <a class="delete-icon" href="#">
+                      <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
+                      <span>Usuń</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr class="summary">
+                  <td></td>
+                  <td colspan="6">
+                    <div class="summary-cart-box">
+                      <p class="summary-title">Podsumowanie</p>
+                      <div class="summary-files-box">
+                        <div class="summary-files-box__left">
+                          <span>Wgraj pliki:</span>
+                          <label for="files" class="add-files" id="add-files">
+                              <div class="files-top">
+                                <img class="add-files-img" src="./assets/icons/cart/upload-icon.svg" alt="upload" width="31" height="21">
+                                <p class="add-files-text">Przeciągnij i upuść albo <u>Dodaj plik</u></p>
+                              </div>
+                              <div class="files-btn">
+                                <input class="file file-block" type="file" name="product_photo" id="files">
+                              </div>
+                              <small>Wymagamy plik w wektorach format pliku pdf zapisany w krzywych  (czcionka i kontury)</small>
+                          </label>
+                        </div>
+                        <div class="summary-files-box__right">
+                            <div class="right-summary__price-text">
+                              <span>Cena:</span>
+                            </div>
+                            <div class="right-summary__price-value">
+                              <span>80,12 PLN</span>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </div>
+            </tbody>
+          </table>
+        </div>
+        <div class="bottom-cart-box-with-btn">
+          <div class="bottom-cart-buttons">
+            <a href="#" class="white-btn prev">
+                <img src="./assets/icons/cart/back-left-black-chevron.svg" alt="arrow icon" width="10" height="10">
+                <span>Kontynuuj zakupy</span> 
+            </a>
+          </div>
+        </div>
+      </div>
+      <aside class="summary-aside">
+      <div class="summary-box">
+            <div class="summary-box__title">
+              <p>Twoje zamówienie</p>
+            </div>
+            <div class="summary-box__netto">
+              <p>Cena zamówienia netto: 95,72 PLN</p>
+            </div>
+            <div class="summary-box__delivery">
+              <p>Koszt dostawy netto: 20,00 PLN</p>
+            </div>
+            <div class="summary-box__full-price">
+              <p>Cena zamówienia z dostawą brutto</p>
+              <strong>do zapłaty</strong>
+              <span class="green">100,12 PLN</span>
+              <a href="" class="color-btn">
+                <span>Dalej</span>
+                <img src="./assets/icons/product_page/cart.svg" alt="koszyk" width="17" height="17">
+              </a>
+            </div>
+          </div>
+          <div class="discount-box">
+            <p>Masz kod rabatowy?</p>
+            <div class="discount-row-box">
+              <input type="text" name="discount-input" id="discount-input" placeholder="Wpisz tutaj">
+              <button class="discount-btn">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.75 0C9.04008 0 9.31828 0.115234 9.5234 0.320352C9.72852 0.52547 9.84375 0.803669 9.84375 1.09375V7.65625H16.4062C16.6963 7.65625 16.9745 7.77148 17.1796 7.9766C17.3848 8.18172 17.5 8.45992 17.5 8.75C17.5 9.04008 17.3848 9.31828 17.1796 9.5234C16.9745 9.72852 16.6963 9.84375 16.4062 9.84375H9.84375V16.4062C9.84375 16.6963 9.72852 16.9745 9.5234 17.1796C9.31828 17.3848 9.04008 17.5 8.75 17.5C8.45992 17.5 8.18172 17.3848 7.9766 17.1796C7.77148 16.9745 7.65625 16.6963 7.65625 16.4062V9.84375H1.09375C0.803669 9.84375 0.52547 9.72852 0.320352 9.5234C0.115234 9.31828 0 9.04008 0 8.75C0 8.45992 0.115234 8.18172 0.320352 7.9766C0.52547 7.77148 0.803669 7.65625 1.09375 7.65625H7.65625V1.09375C7.65625 0.803669 7.77148 0.52547 7.9766 0.320352C8.18172 0.115234 8.45992 0 8.75 0Z" fill="#2F2C24"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+      </aside>
+    </div>
+  </div>
 </div>
