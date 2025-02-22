@@ -1,0 +1,94 @@
+.cart_container.step_two {
+  .cart-table_full_box {
+    &:has(.delivery-address-box) {
+      justify-content: center;
+      .cart-table_box {
+        width: 708px;
+        margin-right: 18px;
+      }
+      .bottom-cart-buttons {
+        .prev {
+          width: 241px;
+        }
+      }
+      .radio-checkboxes-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 36px;
+        padding-bottom: 18px;
+        width: 100%;
+        label {
+          font-size: 16px;
+          line-height: 32px;
+          margin-bottom: 0;
+          .custom-radio-checkmark {
+            border-color: $green;
+            &::after {
+              background-color: $green;
+            }
+          }
+        }
+        @media (max-width: 992px) {
+          gap: 16px;
+          label {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .delivery-address-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      max-width: 708px;
+      height: auto;
+      background-color: $white;
+      border: 1px solid $grey5;
+      border-radius: 10px;
+      padding: 40px 90px;
+      .address-inputs-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .input-slot {
+          width: 100%;
+          input,
+          select,
+          textarea {
+            width: 100%;
+            margin-top: 0;
+          }
+          label {
+            top: -6px;
+          }
+          textarea {
+            height: 71px;
+          }
+        }
+      }
+      .other-address-checkbox-wrapper {
+        margin-bottom: 12px;
+        .custom-checkbox-container.other-address-checkbox {
+          font-size: 14px;
+          padding-left: 24px;
+          .custom-checkbox-checkmark {
+            top: 2px;
+            border-radius: 0;
+            width: 16px;
+            height: 16px;
+            &::after {
+              left: 6px;
+              top: 4px;
+              width: 5px;
+              height: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -5217,6 +5217,97 @@ label.add-files:focus, label.add-files:hover {
     background-size: contain;
   }
 }
+.cart_container.step_two .cart-table_full_box:has(.delivery-address-box) {
+  justify-content: center;
+}
+.cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .cart-table_box {
+  width: 708px;
+  margin-right: 18px;
+}
+.cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .bottom-cart-buttons .prev {
+  width: 241px;
+}
+.cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 36px;
+  padding-bottom: 18px;
+  width: 100%;
+}
+.cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box label {
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+.cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box label .custom-radio-checkmark {
+  border-color: #68b236;
+}
+.cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box label .custom-radio-checkmark::after {
+  background-color: #68b236;
+}
+@media (max-width: 992px) {
+  .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box {
+    gap: 16px;
+  }
+  .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box label {
+    font-size: 14px;
+  }
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 708px;
+  height: auto;
+  background-color: #ffffff;
+  border: 1px solid #8a8a8a;
+  border-radius: 10px;
+  padding: 40px 90px;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot {
+  width: 100%;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot input,
+.cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot select,
+.cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot textarea {
+  width: 100%;
+  margin-top: 0;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot label {
+  top: -6px;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot textarea {
+  height: 71px;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .other-address-checkbox-wrapper {
+  margin-bottom: 12px;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .other-address-checkbox-wrapper .custom-checkbox-container.other-address-checkbox {
+  font-size: 14px;
+  padding-left: 24px;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .other-address-checkbox-wrapper .custom-checkbox-container.other-address-checkbox .custom-checkbox-checkmark {
+  top: 2px;
+  border-radius: 0;
+  width: 16px;
+  height: 16px;
+}
+.cart_container.step_two .cart-table_full_box .delivery-address-box .other-address-checkbox-wrapper .custom-checkbox-container.other-address-checkbox .custom-checkbox-checkmark::after {
+  left: 6px;
+  top: 4px;
+  width: 5px;
+  height: 8px;
+}
+
 .contact-container h1 {
   font-weight: 700;
   font-size: 38px;
@@ -7337,6 +7428,11 @@ main.grey-background {
   border-radius: 10px;
   padding: 40px 120px;
 }
+@media (max-width: 992px) {
+  .register-page .register-content {
+    padding: 24px;
+  }
+}
 .register-page .register-content h1 {
   font-weight: 700;
   font-size: 28px;
@@ -7344,6 +7440,13 @@ main.grey-background {
   color: #374957;
   margin-bottom: 43px;
   text-transform: uppercase;
+}
+@media (max-width: 992px) {
+  .register-page .register-content h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
 }
 .register-page .register-content .radio-checkboxes-box {
   display: flex;
@@ -7366,10 +7469,29 @@ main.grey-background {
 .register-page .register-content .radio-checkboxes-box label .custom-radio-checkmark::after {
   background-color: #68b236;
 }
+@media (max-width: 992px) {
+  .register-page .register-content .radio-checkboxes-box {
+    gap: 16px;
+  }
+  .register-page .register-content .radio-checkboxes-box label {
+    font-size: 14px;
+  }
+}
 .register-page .register-content .register-form {
   display: flex;
   flex-direction: row;
   margin-top: 18px;
+}
+@media (max-width: 1180px) {
+  .register-page .register-content .register-form {
+    flex-direction: column;
+  }
+  .register-page .register-content .register-form-left, .register-page .register-content .register-form-right {
+    width: 100% !important;
+  }
+  .register-page .register-content .register-form-left .input-slot, .register-page .register-content .register-form-right .input-slot {
+    width: 100% !important;
+  }
 }
 .register-page .register-content .register-form-wrapper {
   display: flex;
@@ -7387,6 +7509,11 @@ main.grey-background {
 }
 .register-page .register-content .register-form-left .input-slot {
   width: 456px;
+}
+@media (max-width: 1348px) {
+  .register-page .register-content .register-form-left .input-slot {
+    width: 95%;
+  }
 }
 .register-page .register-content .register-form-left .input-slot input {
   width: 100%;
@@ -7412,6 +7539,12 @@ main.grey-background {
   flex-direction: row;
   gap: 14px;
   width: 100%;
+}
+@media (max-width: 640px) {
+  .register-page .register-content .register-form-right .inputs-row {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 .register-page .register-content .register-form-right .inputs-row .input-slot {
   width: 100%;
