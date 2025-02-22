@@ -32,29 +32,63 @@
                 <th>Edycja</th>
               </tr>
               <tr class="divider"></tr>
-              <tr>
-                <td>
-                    <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
-                </td>
-                <td>
-                    <div class="product-description">
-                        <strong>Klip do dokumentów</strong>
-                        <span>Kod produktu KC2585-40</span>
+              <div class="cart-table-slot">
+                <tr>
+                  <td>
+                      <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
+                  </td>
+                  <td>
+                      <div class="product-description">
+                          <strong>Klip do dokumentów</strong>
+                          <span>Kod produktu KC2585-40</span>
+                      </div>
+                  </td>
+                  <td>2,16 PLN</td>
+                  <td>0,88 PLN</td>
+                  <td>
+                    <input type="number" name="product-quantity" id="product-quantity" min="0">
+                  </td>
+                  <td>45,36 PLN</td>
+                  <td>
+                    <a class="delete-icon" href="#">
+                      <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
+                      <span>Usuń</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr class="cart-branding-expand-row">
+                  <td></td>
+                  <td colspan="4">
+                    <strong>Znakowanie:</strong>
+                    <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>)</span>
+                  </td>
+                  <td colspan="2">
+                    <div class="expand">
+                      <span>Rozwiń znakowanie</span>
+                      <img src="./assets/icons/cart/expand-arrow-down.svg" alt="rozwiń" width="18" height="18">
                     </div>
-                </td>
-                <td></td>
-                <td></td>
-                <td>
-                  <input type="number" name="product-quantity" id="product-quantity" min="0">
-                </td>
-                <td></td>
-                <td>
-                  <a class="delete-icon" href="#">
-                    <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="17" height="20">
-                    <span>Usuń</span>
-                  </a>
-                </td>
-              </tr>
+                  </td>
+                </tr>
+                <tr class="cart-branding-expand-content">
+                  <td></td>
+                  <td>
+                      <div class="product-brandings">
+                      </div>
+                  </td>
+                  <td>2,16 PLN</td>
+                  <td>3,16 PLN</td>
+                  <td>
+                    <input type="number" name="product-quantity" id="product-quantity" min="0">
+                  </td>
+                  <td>34,76 PLN</td>
+                  <td>
+                    <a class="delete-icon" href="#">
+                      <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
+                      <span>Usuń</span>
+                    </a>
+                  </td>
+                </tr>
+              </div>
             </tbody>
           </table>
         </div>

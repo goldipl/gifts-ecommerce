@@ -52,8 +52,14 @@
             border-right: 1px solid $white;
             height: auto;
             width: auto;
-            text-align: center;
+            text-align: left;
             padding: 12px 0;
+            &:first-of-type {
+              padding-left: 50px;
+            }
+            &:last-of-type {
+              padding-right: 50px;
+            }
             input {
               width: 69px;
               height: 34px;
@@ -90,6 +96,34 @@
                 line-height: 16.41px;
                 color: $grey14;
                 margin: 0;
+              }
+            }
+            .delete-icon {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              img {
+                display: flex;
+                object-fit: contain;
+                margin-right: 10px;
+              }
+              span {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21.09px;
+                text-align: left;
+                color: $grey5;
+              }
+              &:hover {
+                img {
+                  filter: invert(12%) sepia(62%) saturate(7389%)
+                    hue-rotate(358deg) brightness(115%) contrast(86%);
+                }
+                span {
+                  color: $red;
+                }
               }
             }
             &:last-of-type {

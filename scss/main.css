@@ -4973,8 +4973,14 @@ label.add-files:focus, label.add-files:hover {
   border-right: 1px solid #ffffff;
   height: auto;
   width: auto;
-  text-align: center;
+  text-align: left;
   padding: 12px 0;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td:first-of-type {
+  padding-left: 50px;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td:last-of-type {
+  padding-right: 50px;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td input {
   width: 69px;
@@ -5014,6 +5020,32 @@ label.add-files:focus, label.add-files:hover {
   line-height: 16.41px;
   color: #898989;
   margin: 0;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td .delete-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td .delete-icon img {
+  display: flex;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 10px;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td .delete-icon span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: left;
+  color: #8a8a8a;
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td .delete-icon:hover img {
+  filter: invert(12%) sepia(62%) saturate(7389%) hue-rotate(358deg) brightness(115%) contrast(86%);
+}
+.cart_container .cart-table_box .cart-products-table tbody tr td .delete-icon:hover span {
+  color: #ed1717;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td:last-of-type {
   border-right: 1px solid #a4a4a4;
