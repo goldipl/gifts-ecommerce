@@ -48,7 +48,7 @@
                         <a href="#">Oferta</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Artykuły biurowe</a>
+                        <span>Artykuły biurowe</span>
                     </li>
                 </ul>
             </div>
