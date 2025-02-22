@@ -22,9 +22,6 @@
   &:hover {
     background-color: $white;
     color: $main_color;
-    img {
-      content: url("./../assets/icons/common/buttons/button_orange_arrow.svg");
-    }
   }
 }
 
@@ -52,13 +49,10 @@
   &:hover {
     background-color: $main_color;
     color: $white;
-    img {
-      content: url("./../assets/icons/common/buttons/button_white_arrow.svg");
-    }
   }
 }
 
-.orange-save-btn {
+.color-save-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -82,8 +76,5 @@
   &:hover {
     background-color: $white;
     color: $main_color;
-    img {
-      content: url("./../assets/icons/dashboard/save-btn-orange.svg");
-    }
   }
 }
