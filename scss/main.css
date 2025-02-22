@@ -8998,4 +8998,10 @@ main.grey-background {
     font-size: 14px;
     line-height: 1.1;
   }
+}
+.login-wrapper {
+  padding-bottom: 55px;
+}
+.login-wrapper .bottom-cart-buttons {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
