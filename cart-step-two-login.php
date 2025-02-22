@@ -34,7 +34,7 @@
                     <span>Płatność</span>
                     </div>
                 </div>
-                <?php include "./components/register/login_content.php"; ?> 
+                <?php include "./components/login_register/login_content.php"; ?> 
             </div>
         </main>
         <footer> 
