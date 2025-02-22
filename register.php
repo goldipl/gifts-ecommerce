@@ -16,8 +16,19 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <?php include "./components/register/hero.php"; ?>
-            <?php include "./components/register/register_content.php"; ?> 
+            <div class="breadcrumbs container">
+                <ul>
+                    <li class="breadcrumb-item">
+                        <a href="./index.php">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <span>Rejestracja</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-wrapper">
+                <?php include "./components/login_register/register_content.php"; ?>
+            </div> 
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
