@@ -5224,6 +5224,11 @@ label.add-files:focus, label.add-files:hover {
   width: 708px;
   margin-right: 18px;
 }
+@media (max-width: 1260px) {
+  .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .cart-table_box {
+    width: 100%;
+  }
+}
 .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .bottom-cart-buttons .prev {
   width: 241px;
 }
@@ -5231,10 +5236,16 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 36px;
   padding-bottom: 18px;
   width: 100%;
+}
+@media (max-width: 760px) {
+  .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box {
+    flex-direction: column;
+    gap: 4px !important;
+  }
 }
 .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box label {
   font-size: 16px;
@@ -5268,6 +5279,18 @@ label.add-files:focus, label.add-files:hover {
   border-radius: 10px;
   padding: 40px 90px;
 }
+@media (max-width: 1260px) {
+  .cart_container.step_two .cart-table_full_box .delivery-address-box {
+    padding: 40px;
+    max-width: unset;
+  }
+}
+@media (max-width: 760px) {
+  .cart_container.step_two .cart-table_full_box .delivery-address-box {
+    padding: 16px;
+    max-width: unset;
+  }
+}
 .cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper {
   display: flex;
   flex-direction: column;
@@ -5275,6 +5298,11 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot {
   width: 100%;
+}
+@media (max-width: 992px) {
+  .cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot {
+    margin-bottom: 16px;
+  }
 }
 .cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot input,
 .cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot select,
