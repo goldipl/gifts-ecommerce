@@ -5,7 +5,7 @@
         <table class="cart-products-table">
           <tbody>
             <tr>
-              <th></th>
+              <th>Nr</th>
               <th>Produkt</th>
               <th>Cena katalogowa </th>
               <th>Cena zakupu</th>
@@ -16,13 +16,14 @@
             <tr class="divider"></tr>
             <div class="cart-table-slot">
               <tr>
+                <td class="number">01</td>
                 <td>
-                  <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
-                </td>
-                <td>
-                  <div class="product-description">
-                    <strong>Klip do dokumentów</strong>
-                    <span>Kod produktu KC2585-40</span>
+                  <div class="d-flex">
+                    <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
+                    <div class="product-description ms-3">
+                      <strong>Klip do dokumentów</strong>
+                      <span>Kod produktu KC2585-40</span>
+                    </div>
                   </div>
                 </td>
                 <td>2,16 PLN</td>
