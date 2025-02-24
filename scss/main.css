@@ -183,7 +183,7 @@ body #main-wrapper {
     font-size: 13px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   #topbar {
     height: auto;
     margin-top: 4px;
@@ -357,7 +357,7 @@ nav .navbar-bottom .nav-link.dropdown-toggle::after {
   width: 14px;
   height: 14px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   nav .navbar-bottom .nav-link.dropdown-toggle::after {
     top: 13px;
   }
@@ -386,7 +386,7 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   transform: rotate(180deg);
   top: 17px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   nav .navbar-bottom .main-nav-item > a.show::after {
     top: 9px;
   }
@@ -729,7 +729,7 @@ footer .footer__container__top .first-column .footer-text p {
   color: #4a6375;
   margin: 0;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   footer .footer__container__top .first-column .footer-text p {
     font-size: 13px;
     line-height: 1.2;
@@ -1218,7 +1218,7 @@ footer .footer__container__bottom .contip img {
   position: relative;
   margin-bottom: 16px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .input-slot {
     margin-bottom: 10px;
   }
@@ -1314,7 +1314,7 @@ label.add-files:focus, label.add-files:hover {
   padding-bottom: 59px;
   margin-top: 40px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .pagination {
     margin-top: 24px;
     padding-bottom: 24px;
@@ -1343,7 +1343,7 @@ label.add-files:focus, label.add-files:hover {
   box-sizing: border-box;
   text-decoration: none;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .pagination_container .element {
     width: 34px;
     height: 34px;
@@ -3128,7 +3128,7 @@ label.add-files:focus, label.add-files:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .blog_news_articles {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -4584,7 +4584,7 @@ label.add-files:focus, label.add-files:hover {
   height: 18px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .cart-steps {
     padding: 20px 0;
   }
@@ -5270,7 +5270,7 @@ label.add-files:focus, label.add-files:hover {
 .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box label .custom-radio-checkmark::after {
   background-color: #68b236;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .cart_container.step_two .cart-table_full_box:has(.delivery-address-box) .radio-checkboxes-box {
     gap: 16px;
   }
@@ -5311,7 +5311,7 @@ label.add-files:focus, label.add-files:hover {
 .cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot {
   width: 100%;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .cart_container.step_two .cart-table_full_box .delivery-address-box .address-inputs-wrapper .input-slot {
     margin-bottom: 16px;
   }
@@ -5467,7 +5467,7 @@ label.add-files:focus, label.add-files:hover {
   color: #374957;
   margin: 0;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact-container h1 {
     line-height: 1.2;
     margin-bottom: 16px;
@@ -5481,7 +5481,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   max-width: 710px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact-container h4 {
     line-height: 1.1;
     margin-bottom: 8px;
@@ -5570,7 +5570,7 @@ label.add-files:focus, label.add-files:hover {
 .contact-container .contact-wrapper_col .contact-grey-box a img {
   margin-right: 20px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact-container .contact-wrapper_col .contact-grey-box {
     flex-direction: column;
     padding: 8px 24px 24px 24px;
@@ -5593,7 +5593,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   width: 100%;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact-container .contact-wrapper_col .send-form {
     flex-direction: column;
   }
@@ -5601,7 +5601,7 @@ label.add-files:focus, label.add-files:hover {
 .contact-container .contact-wrapper_col .send-form-left {
   width: 50%;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact-container .contact-wrapper_col .send-form-left {
     width: 100%;
   }
@@ -5615,7 +5615,7 @@ label.add-files:focus, label.add-files:hover {
 .contact-container .contact-wrapper_col .send-form-right {
   width: 50%;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact-container .contact-wrapper_col .send-form-right {
     width: 100%;
   }
@@ -6304,7 +6304,7 @@ main.grey-background {
     height: 100%;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .category-wrapper .container {
     flex-direction: column;
   }
@@ -6405,7 +6405,7 @@ main.grey-background {
   transform: rotate(-180deg);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .category-menu .accordion-header button {
     font-size: 15px;
     padding: 10px 10px 10px 24px;
@@ -6555,7 +6555,7 @@ main.grey-background {
   color: #c90c0f;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .category-left-filters-box .category-left-filters {
     display: none;
     padding: 24px;
@@ -6640,7 +6640,7 @@ main.grey-background {
   padding: 0 32px 0 16px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .category-top-filters {
     margin-top: 15px;
   }
@@ -7556,7 +7556,7 @@ main.grey-background {
   padding-bottom: 55px;
   padding-top: 35px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .login-wrapper,
   .register-wrapper {
     padding: 16px 0 24px 0;
@@ -7580,7 +7580,7 @@ main.grey-background {
   border-radius: 10px;
   padding: 40px 120px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .register-page .register-content {
     padding: 24px;
   }
@@ -7593,7 +7593,7 @@ main.grey-background {
   margin-bottom: 43px;
   text-transform: uppercase;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .register-page .register-content h1 {
     font-size: 24px;
     line-height: 1.2;
@@ -7621,7 +7621,7 @@ main.grey-background {
 .register-page .register-content .radio-checkboxes-box label .custom-radio-checkmark::after {
   background-color: #68b236;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .register-page .register-content .radio-checkboxes-box {
     gap: 16px;
   }
