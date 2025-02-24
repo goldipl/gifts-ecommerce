@@ -1,2 +1,113 @@
 .cart_container.step_three {
+  .cart-payment-method {
+    margin-top: 47px;
+    margin-bottom: 40px;
+    &__title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21.09px;
+      color: $grey_main;
+      margin: 0 0 24px 0;
+      text-transform: uppercase;
+    }
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 12px;
+    }
+    &__slot {
+      display: flex;
+      width: calc(50% - 22px);
+      height: 80px;
+      box-sizing: border-box;
+      border: 1px solid $grey11;
+      background-color: $white;
+      border-radius: 10px;
+      &:has(input:checked),
+      &:hover {
+        border: 1px solid $green;
+      }
+      label {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 24px;
+        margin-bottom: 0;
+        padding-left: 70px;
+        .payment-img {
+          display: flex;
+          object-fit: contain;
+          justify-content: flex-start;
+          text-align: left;
+        }
+        .payment-title {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 25.6px;
+          color: $text_color;
+        }
+        .custom-radio-checkmark {
+          top: 30px;
+          left: 30px;
+          border-color: $black;
+          &::after {
+            background: $green;
+          }
+        }
+      }
+      @media (max-width: 991px) {
+        width: 100%;
+        .payment-img {
+          width: auto;
+          height: 30px;
+        }
+        .payment-title {
+          font-size: 14px !important;
+          line-height: 1.1 !important;
+        }
+      }
+    }
+  }
+  .bottom-cart-box-with-btn {
+    .prev {
+      width: 241px;
+      height: 50px;
+    }
+  }
+  .summary-aside {
+    .summary-box {
+      border-color: $grey7;
+      * {
+        border-color: $grey7;
+      }
+    }
+    .delivery-address-aside,
+    .invoice-data-aside {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 30px 50px;
+      background-color: $white;
+      border: 1px solid $grey7;
+      border-radius: 10px;
+      width: 100%;
+      margin-bottom: 19px;
+      h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.75px;
+        color: $grey_main;
+        margin-bottom: 7px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.41px;
+        color: $grey_main;
+        margin: 0;
+      }
+    }
+  }
 }

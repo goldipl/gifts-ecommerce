@@ -16,7 +16,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div class="cart_container step_two">
+            <div class="cart_container step_three">
                 <div class="cart-steps">
                     <div class="cart-steps-slot">
                     <span>Twój koszyk</span>

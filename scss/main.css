@@ -4994,7 +4994,7 @@ label.add-files:focus, label.add-files:hover {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #a4a4a4;
   background-color: #ffffff;
   width: 100%;
   margin-bottom: 17px;
@@ -5002,7 +5002,7 @@ label.add-files:focus, label.add-files:hover {
 .cart_container .summary-aside .summary-box__title {
   text-align: center;
   padding: 18px;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #a4a4a4;
   width: 100%;
 }
 .cart_container .summary-aside .summary-box__title p {
@@ -5023,7 +5023,7 @@ label.add-files:focus, label.add-files:hover {
 .cart_container .summary-aside .summary-box__netto, .cart_container .summary-aside .summary-box__delivery {
   text-align: center;
   padding: 18px;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #a4a4a4;
   width: 100%;
 }
 .cart_container .summary-aside .summary-box__netto p, .cart_container .summary-aside .summary-box__delivery p {
@@ -5108,7 +5108,7 @@ label.add-files:focus, label.add-files:hover {
   justify-content: center;
   align-items: flex-start;
   border-radius: 10px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #a4a4a4;
   background-color: #ffffff;
   width: 100%;
   margin-bottom: 16px;
@@ -5346,6 +5346,118 @@ label.add-files:focus, label.add-files:hover {
   top: 4px;
   width: 5px;
   height: 8px;
+}
+
+.cart_container.step_three .cart-payment-method {
+  margin-top: 47px;
+  margin-bottom: 40px;
+}
+.cart_container.step_three .cart-payment-method__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #333333;
+  margin: 0 0 24px 0;
+  text-transform: uppercase;
+}
+.cart_container.step_three .cart-payment-method__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 12px;
+}
+.cart_container.step_three .cart-payment-method__slot {
+  display: flex;
+  width: calc(50% - 22px);
+  height: 80px;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.cart_container.step_three .cart-payment-method__slot:has(input:checked), .cart_container.step_three .cart-payment-method__slot:hover {
+  border: 1px solid #68b236;
+}
+.cart_container.step_three .cart-payment-method__slot label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  margin-bottom: 0;
+  padding-left: 70px;
+}
+.cart_container.step_three .cart-payment-method__slot label .payment-img {
+  display: flex;
+  -o-object-fit: contain;
+     object-fit: contain;
+  justify-content: flex-start;
+  text-align: left;
+}
+.cart_container.step_three .cart-payment-method__slot label .payment-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #374957;
+}
+.cart_container.step_three .cart-payment-method__slot label .custom-radio-checkmark {
+  top: 30px;
+  left: 30px;
+  border-color: #000000;
+}
+.cart_container.step_three .cart-payment-method__slot label .custom-radio-checkmark::after {
+  background: #68b236;
+}
+@media (max-width: 991px) {
+  .cart_container.step_three .cart-payment-method__slot {
+    width: 100%;
+  }
+  .cart_container.step_three .cart-payment-method__slot .payment-img {
+    width: auto;
+    height: 30px;
+  }
+  .cart_container.step_three .cart-payment-method__slot .payment-title {
+    font-size: 14px !important;
+    line-height: 1.1 !important;
+  }
+}
+.cart_container.step_three .bottom-cart-box-with-btn .prev {
+  width: 241px;
+  height: 50px;
+}
+.cart_container.step_three .summary-aside .summary-box {
+  border-color: #a4a4a4;
+}
+.cart_container.step_three .summary-aside .summary-box * {
+  border-color: #a4a4a4;
+}
+.cart_container.step_three .summary-aside .delivery-address-aside,
+.cart_container.step_three .summary-aside .invoice-data-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: #ffffff;
+  border: 1px solid #a4a4a4;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 19px;
+}
+.cart_container.step_three .summary-aside .delivery-address-aside h3,
+.cart_container.step_three .summary-aside .invoice-data-aside h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #333333;
+  margin-bottom: 7px;
+}
+.cart_container.step_three .summary-aside .delivery-address-aside p,
+.cart_container.step_three .summary-aside .invoice-data-aside p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #333333;
+  margin: 0;
 }
 
 .contact-container h1 {
