@@ -14,117 +14,117 @@
               <th>Edycja</th>
             </tr>
             <tr class="divider"></tr>
-            <div class="cart-table-slot">
-              <tr>
-                <td class="number">01</td>
-                <td>
-                  <div class="d-flex">
-                    <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
-                    <div class="product-description ms-3">
-                      <strong>Klip do dokumentów</strong>
-                      <span>Kod produktu KC2585-40</span>
-                    </div>
+            <!-- Product slot - start -->
+            <tr>
+              <td class="number">01</td>
+              <td>
+                <div class="d-flex">
+                  <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
+                  <div class="product-description ms-3">
+                    <strong>Klip do dokumentów</strong>
+                    <span>Kod produktu KC2585-40</span>
                   </div>
-                </td>
-                <td>2,16 PLN</td>
-                <td>0,88 PLN</td>
-                <td>
-                  <input type="number" name="product-quantity" id="product-quantity" min="0">
-                </td>
-                <td>45,36 PLN</td>
-                <td>
-                  <a class="delete-icon" href="#">
-                    <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
-                    <span>Usuń</span>
-                  </a>
-                </td>
-              </tr>
-              <tr class="cart-branding-expand-row">
-                <td></td>
-                <td colspan="4" class="branding-text">
-                  <strong>Znakowanie:</strong>
-                  <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
-                </td>
-                <td colspan="2">
-                  <div class="expand">
-                    <span>Rozwiń znakowanie</span>
-                    <img src="./assets/icons/cart/expand-arrow-down.svg" alt="rozwiń" width="18" height="18">
+                </div>
+              </td>
+              <td>2,16 PLN</td>
+              <td>0,88 PLN</td>
+              <td>
+                <input type="number" name="product-quantity" id="product-quantity" min="0">
+              </td>
+              <td>45,36 PLN</td>
+              <td>
+                <a class="delete-icon" href="#">
+                  <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
+                  <span>Usuń</span>
+                </a>
+              </td>
+            </tr>
+            <tr class="cart-branding-expand-row">
+              <td></td>
+              <td colspan="4" class="branding-text">
+                <strong>Znakowanie:</strong>
+                <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
+              </td>
+              <td colspan="2">
+                <div class="expand">
+                  <span>Rozwiń znakowanie</span>
+                  <img src="./assets/icons/cart/expand-arrow-down.svg" alt="rozwiń" width="18" height="18">
+                </div>
+              </td>
+            </tr>
+            <tr class="cart-branding-expand-content">
+              <td></td>
+              <td>
+                <div class="product-brandings">
+                  <div class="product-brandings__slot">
+                    <label for="select-branding">Znakowanie:</label>
+                    <select class="form-select" name="select-branding" id="select-branding">
+                      <option value="Sitodruk">Sitodruk</option>
+                      <option value="Sitodruk">Sitodruk</option>
+                    </select>
                   </div>
-                </td>
-              </tr>
-              <tr class="cart-branding-expand-content">
-                <td></td>
-                <td>
-                  <div class="product-brandings">
-                    <div class="product-brandings__slot">
-                      <label for="select-branding">Znakowanie:</label>
-                      <select class="form-select" name="select-branding" id="select-branding">
-                        <option value="Sitodruk">Sitodruk</option>
-                        <option value="Sitodruk">Sitodruk</option>
-                      </select>
-                    </div>
-                    <div class="product-brandings__slot">
-                      <label for="select-position">Pozycja:</label>
-                      <select class="form-select" name="select-position" id="select-position">
-                        <option value="Przód">Przód</option>
-                        <option value="Tył">Tył</option>
-                      </select>
-                    </div>
-                    <div class="product-brandings__slot">
-                      <label for="select-colors">Ilość kolorów:</label>
-                      <select class="form-select" name="select-colors" id="select-colors">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                      </select>
-                    </div>
+                  <div class="product-brandings__slot">
+                    <label for="select-position">Pozycja:</label>
+                    <select class="form-select" name="select-position" id="select-position">
+                      <option value="Przód">Przód</option>
+                      <option value="Tył">Tył</option>
+                    </select>
                   </div>
-                </td>
-                <td>2,16 PLN</td>
-                <td>3,16 PLN</td>
-                <td>
-                  <input type="number" name="product-quantity" id="product-quantity" min="0">
-                </td>
-                <td>34,76 PLN</td>
-                <td>
-                  <a class="delete-icon" href="#">
-                    <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
-                    <span>Usuń</span>
-                  </a>
-                </td>
-              </tr>
-              <tr class="summary">
-                <td></td>
-                <td colspan="6">
-                  <div class="summary-cart-box">
-                    <p class="summary-title">Podsumowanie</p>
-                    <div class="summary-files-box">
-                      <div class="summary-files-box__left">
-                        <span>Wgraj pliki:</span>
-                        <label for="files" class="add-files" id="add-files">
-                          <div class="files-top">
-                            <img class="add-files-img" src="./assets/icons/cart/upload-icon.svg" alt="upload" width="31" height="21">
-                            <p class="add-files-text">Przeciągnij i upuść albo <u>Dodaj plik</u>
-                            </p>
-                          </div>
-                          <div class="files-btn">
-                            <input class="file file-block" type="file" name="product_photo" id="files">
-                          </div>
-                          <small>Wymagamy plik w wektorach format pliku pdf zapisany w krzywych (czcionka i kontury)</small>
-                        </label>
-                      </div>
-                      <div class="summary-files-box__right">
-                        <div class="right-summary__price-text">
-                          <span>Cena:</span>
+                  <div class="product-brandings__slot">
+                    <label for="select-colors">Ilość kolorów:</label>
+                    <select class="form-select" name="select-colors" id="select-colors">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                    </select>
+                  </div>
+                </div>
+              </td>
+              <td>2,16 PLN</td>
+              <td>3,16 PLN</td>
+              <td>
+                <input type="number" name="product-quantity" id="product-quantity" min="0">
+              </td>
+              <td>34,76 PLN</td>
+              <td>
+                <a class="delete-icon" href="#">
+                  <img src="./assets/icons/cart/grey-delete-x-icon.svg" alt="delete" width="10" height="10">
+                  <span>Usuń</span>
+                </a>
+              </td>
+            </tr>
+            <tr class="summary">
+              <td></td>
+              <td colspan="6">
+                <div class="summary-cart-box">
+                  <p class="summary-title">Podsumowanie</p>
+                  <div class="summary-files-box">
+                    <div class="summary-files-box__left">
+                      <span>Wgraj pliki:</span>
+                      <label for="files" class="add-files" id="add-files">
+                        <div class="files-top">
+                          <img class="add-files-img" src="./assets/icons/cart/upload-icon.svg" alt="upload" width="31" height="21">
+                          <p class="add-files-text">Przeciągnij i upuść albo <u>Dodaj plik</u>
+                          </p>
                         </div>
-                        <div class="right-summary__price-value">
-                          <span>80,12 PLN</span>
+                        <div class="files-btn">
+                          <input class="file file-block" type="file" name="product_photo" id="files">
                         </div>
+                        <small>Wymagamy plik w wektorach format pliku pdf zapisany w krzywych (czcionka i kontury)</small>
+                      </label>
+                    </div>
+                    <div class="summary-files-box__right">
+                      <div class="right-summary__price-text">
+                        <span>Cena:</span>
+                      </div>
+                      <div class="right-summary__price-value">
+                        <span>80,12 PLN</span>
                       </div>
                     </div>
                   </div>
-                </td>
-              </tr>
-            </div>
+                </div>
+              </td>
+            </tr>
+            <!-- Product slot - end -->
           </tbody>
         </table>
       </div>

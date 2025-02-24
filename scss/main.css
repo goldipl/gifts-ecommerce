@@ -5348,8 +5348,11 @@ label.add-files:focus, label.add-files:hover {
   height: 8px;
 }
 
+.cart_container.step_three .cart-table-slot {
+  margin-bottom: 18px;
+}
 .cart_container.step_three .cart-payment-method {
-  margin-top: 47px;
+  margin-top: 36px;
   margin-bottom: 40px;
 }
 .cart_container.step_three .cart-payment-method__title {

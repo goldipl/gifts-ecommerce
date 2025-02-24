@@ -13,72 +13,130 @@
               <th>Suma netto</th>
               <th>Edycja</th>
             </tr>
+            <!-- Product slot - start -->
             <tr class="divider"></tr>
-            <div class="cart-table-slot">
-              <tr>
-                <td class="number">01</td>
-                <td>
-                  <div class="d-flex">
-                    <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
-                    <div class="product-description ms-3">
-                      <strong>Klip do dokumentów</strong>
-                      <span>Kod produktu KC2585-40</span>
-                    </div>
+            <tr>
+              <td class="number">01</td>
+              <td>
+                <div class="d-flex">
+                  <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
+                  <div class="product-description ms-3">
+                    <strong>Klip do dokumentów</strong>
+                    <span>Kod produktu KC2585-40</span>
                   </div>
-                </td>
-                <td>2,16 PLN</td>
-                <td>0,88 PLN</td>
-                <td>14</td>
-                <td>45,36 PLN</td>
-                <td></td>
-              </tr>
-              <tr class="cart-branding-expand-row">
-                <td></td>
-                <td colspan="4" class="branding-text">
-                  <strong>Znakowanie:</strong>
-                  <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
-                </td>
-                <td colspan="2"></td>
-              </tr>
-            </div>
+                </div>
+              </td>
+              <td>2,16 PLN</td>
+              <td>0,88 PLN</td>
+              <td>14</td>
+              <td>45,36 PLN</td>
+              <td></td>
+            </tr>
+            <tr class="cart-branding-expand-row">
+              <td></td>
+              <td colspan="4" class="branding-text">
+                <strong>Znakowanie:</strong>
+                <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
+              </td>
+              <td colspan="2"></td>
+            </tr>
+            <!-- Product slot - end -->
+
+            <!-- Product slot - start -->
+            <tr class="divider"></tr>
+            <tr>
+              <td class="number">02</td>
+              <td>
+                <div class="d-flex">
+                  <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
+                  <div class="product-description ms-3">
+                    <strong>Klip do dokumentów</strong>
+                    <span>Kod produktu KC2585-40</span>
+                  </div>
+                </div>
+              </td>
+              <td>2,16 PLN</td>
+              <td>0,88 PLN</td>
+              <td>14</td>
+              <td>45,36 PLN</td>
+              <td></td>
+            </tr>
+            <tr class="cart-branding-expand-row">
+              <td></td>
+              <td colspan="4" class="branding-text">
+                <strong>Znakowanie:</strong>
+                <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
+              </td>
+              <td colspan="2"></td>
+            </tr>
+            <!-- Product slot - end -->
+             
+            <!-- Product slot - start -->
+            <tr class="divider"></tr>
+            <tr>
+              <td class="number">03</td>
+              <td>
+                <div class="d-flex">
+                  <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
+                  <div class="product-description ms-3">
+                    <strong>Klip do dokumentów</strong>
+                    <span>Kod produktu KC2585-40</span>
+                  </div>
+                </div>
+              </td>
+              <td>2,16 PLN</td>
+              <td>0,88 PLN</td>
+              <td>14</td>
+              <td>45,36 PLN</td>
+              <td></td>
+            </tr>
+            <tr class="cart-branding-expand-row">
+              <td></td>
+              <td colspan="4" class="branding-text">
+                <strong>Znakowanie:</strong>
+                <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
+              </td>
+              <td colspan="2"></td>
+            </tr>
+            <!-- Product slot - end -->
           </tbody>
         </table>
         <div class="cart-payment-method">
-              <h3 class="cart-payment-method__title">Wybierz płatność</h3>
-              <div class="cart-payment-method__wrapper">
-              <div class="cart-payment-method__slot">
-                <label class="custom-radio-container">
-                  <img class="payment-img" src="./assets/icons/cart/przelewy24.svg" alt="Przelewy24" width="112" height="37">
-                  <span class="payment-title">Zapłać przelewem online - Przelewy24</span>
-                  <input type="radio" name="account" class="custom_input" checked>
-                  <span class="custom-radio-checkmark"></span>
-                </label>
-              </div> 
-              <div class="cart-payment-method__slot">
-                <label class="custom-radio-container">
-                  <img class="payment-img" src="./assets/icons/cart/transfer.svg" alt="Przelew tradycyjny" width="112" height="37">
-                  <span class="payment-title">Zapłać przelewem tradycyjnym</span>
-                  <input type="radio" name="account" class="custom_input" checked>
-                  <span class="custom-radio-checkmark"></span>
-                </label>
-              </div> 
-              <div class="cart-payment-method__slot">
-                <label class="custom-radio-container">
-                  <img class="payment-img" src="./assets/icons/cart/blik.svg" alt="Blik" width="112" height="37">
-                  <span class="payment-title">Zapłać przelewem online - BLIK</span>
-                  <input type="radio" name="account" class="custom_input" checked>
-                  <span class="custom-radio-checkmark"></span>
-                </label>
-              </div> 
-              </div>
+          <h3 class="cart-payment-method__title">Wybierz płatność</h3>
+          <div class="cart-payment-method__wrapper">
+            <div class="cart-payment-method__slot">
+              <label class="custom-radio-container">
+                <img class="payment-img" src="./assets/icons/cart/przelewy24.svg" alt="Przelewy24" width="112" height="37">
+                <span class="payment-title">Zapłać przelewem online - Przelewy24</span>
+                <input type="radio" name="account" class="custom_input" checked>
+                <span class="custom-radio-checkmark"></span>
+              </label>
+            </div>
+            <div class="cart-payment-method__slot">
+              <label class="custom-radio-container">
+                <img class="payment-img" src="./assets/icons/cart/transfer.svg" alt="Przelew tradycyjny" width="112" height="37">
+                <span class="payment-title">Zapłać przelewem tradycyjnym</span>
+                <input type="radio" name="account" class="custom_input" checked>
+                <span class="custom-radio-checkmark"></span>
+              </label>
+            </div>
+            <div class="cart-payment-method__slot">
+              <label class="custom-radio-container">
+                <img class="payment-img" src="./assets/icons/cart/blik.svg" alt="Blik" width="112" height="37">
+                <span class="payment-title">Zapłać przelewem online - BLIK</span>
+                <input type="radio" name="account" class="custom_input" checked>
+                <span class="custom-radio-checkmark"></span>
+              </label>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="bottom-cart-box-with-btn">
-        <div class="bottom-cart-buttons">
-          <a href="#" class="white-btn prev">
-            <img src="./assets/icons/cart/back-left-black-chevron.svg" alt="arrow icon" width="10" height="10">
-            <span>Wróć</span>
-          </a>
+        <div class="bottom-cart-box-with-btn">
+          <div class="bottom-cart-buttons">
+            <a href="#" class="white-btn prev">
+              <img src="./assets/icons/cart/back-left-black-chevron.svg" alt="arrow icon" width="10" height="10">
+              <span>Wróć</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
