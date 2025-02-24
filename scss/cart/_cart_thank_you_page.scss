@@ -1,0 +1,111 @@
+.thank-you-page {
+  background-color: $light_grey;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  @media (max-width: 991px) {
+    padding-top: 16px;
+    padding-bottom: 56px;
+  }
+  .bottom-cart-box-with-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .white-btn.prev {
+      padding: 10px 33px;
+      height: 41px;
+      width: 251px;
+      box-sizing: border-box;
+      margin: 28px auto 0 auto;
+      line-height: 1;
+    }
+  }
+}
+
+.thankyou-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 625px;
+  height: auto;
+  background-color: $white;
+  border: 1px solid $grey5;
+  border-radius: 10px;
+  margin: 0 auto;
+  @media (max-width: 991px) {
+    width: calc(100% - 32px);
+    margin: 16px;
+  }
+  &__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    text-align: center;
+    padding-bottom: 39px;
+    border-bottom: 1px solid $grey7;
+    width: 100%;
+    .checked-img {
+      margin-bottom: 19px;
+    }
+    .thankyou-box__title {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 37.5px;
+      color: $grey_main;
+      margin: 0 0 8px 0;
+      text-align: center;
+      @media (max-width: 991px) {
+        width: calc(100% - 32px);
+        margin: 16px;
+        font-size: 26px;
+        line-height: 1.1;
+      }
+    }
+    .thankyou-box__description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21.09px;
+      text-align: center;
+      color: $grey_main;
+      margin: 0;
+      @media (max-width: 991px) {
+        font-size: 14px;
+        line-height: 1.1;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    padding-bottom: 53px;
+    text-align: center;
+    .thankyou-box__description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21.09px;
+      text-align: center;
+      color: $grey_main;
+      margin: 0;
+      margin-bottom: 4px;
+      strong {
+        font-weight: 700;
+        color: $grey_main;
+        &.green {
+          color: $green;
+        }
+      }
+      @media (max-width: 991px) {
+        font-size: 14px;
+        line-height: 1.1;
+      }
+    }
+  }
+}

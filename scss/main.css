@@ -5463,6 +5463,128 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
 }
 
+.thank-you-page {
+  background-color: #f4f4f4;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+@media (max-width: 991px) {
+  .thank-you-page {
+    padding-top: 16px;
+    padding-bottom: 56px;
+  }
+}
+.thank-you-page .bottom-cart-box-with-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thank-you-page .bottom-cart-box-with-btn .white-btn.prev {
+  padding: 10px 33px;
+  height: 41px;
+  width: 251px;
+  box-sizing: border-box;
+  margin: 28px auto 0 auto;
+  line-height: 1;
+}
+
+.thankyou-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 625px;
+  height: auto;
+  background-color: #ffffff;
+  border: 1px solid #8a8a8a;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .thankyou-box {
+    width: calc(100% - 32px);
+    margin: 16px;
+  }
+}
+.thankyou-box__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 27px;
+  text-align: center;
+  padding-bottom: 39px;
+  border-bottom: 1px solid #a4a4a4;
+  width: 100%;
+}
+.thankyou-box__top .checked-img {
+  margin-bottom: 19px;
+}
+.thankyou-box__top .thankyou-box__title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+  color: #333333;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .thankyou-box__top .thankyou-box__title {
+    width: calc(100% - 32px);
+    margin: 16px;
+    font-size: 26px;
+    line-height: 1.1;
+  }
+}
+.thankyou-box__top .thankyou-box__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .thankyou-box__top .thankyou-box__description {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+.thankyou-box__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 27px;
+  padding-bottom: 53px;
+  text-align: center;
+}
+.thankyou-box__bottom .thankyou-box__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 4px;
+}
+.thankyou-box__bottom .thankyou-box__description strong {
+  font-weight: 700;
+  color: #333333;
+}
+.thankyou-box__bottom .thankyou-box__description strong.green {
+  color: #68b236;
+}
+@media (max-width: 991px) {
+  .thankyou-box__bottom .thankyou-box__description {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+
 .contact-container h1 {
   font-weight: 700;
   font-size: 38px;
