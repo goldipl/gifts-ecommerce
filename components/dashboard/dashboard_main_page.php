@@ -13,7 +13,9 @@
             <th>Akcje </th>
           </tr>
           <tr>
-            <td>007347914</td>
+            <td>
+              <a href="">007347914</a>
+            </td>
             <td>27.12.2024</td>
             <td>Jan Kowalski</td>
             <td>9,49 PLN</td>
@@ -23,11 +25,13 @@
             </td>
           </tr>
           <tr>
-            <td>007347914</td>
+            <td>
+              <a href="">007347914</a>
+            </td>
             <td>27.12.2024</td>
             <td>Jan Kowalski</td>
             <td>9,49 PLN</td>
-            <td class="red">Odebrane</td>
+            <td class="red">Wysłane</td>
             <td>
               <a href="">Szczegóły zamówienia</a>
             </td>

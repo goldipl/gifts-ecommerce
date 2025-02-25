@@ -6173,6 +6173,7 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 991px) {
   .dashboard-menu .menu-links-container .menu-links-box {
     padding: 16px;
+    border-bottom: 1px solid #a4a4a4;
   }
 }
 .dashboard-menu .menu-links-container .menu-links-box .menu-link {
