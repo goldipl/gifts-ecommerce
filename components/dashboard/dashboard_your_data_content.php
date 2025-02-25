@@ -1,6 +1,6 @@
 <div class="dashboard-main inputs">
   <h2>Twoje dane:</h2>
-  <div class="db-inputs">
+  <form class="db-inputs">
     <div class="db-inputs__left">
       <h3>Edytuj informacje o koncie</h3>
       <div class="input-slot">
@@ -16,7 +16,7 @@
         <input class="form-input" type="email" name="email" id="email" placeholder="krzysztof.nowak@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
       </div>
       <div class="buttons">
-        <a href="" class="white-btn">Zapisz</a>
+        <button class="white-btn">Zapisz</button>
       </div>
     </div>
     <div class="db-inputs__right">
@@ -36,5 +36,5 @@
         <input class="form-input" type="password" name="new-password" id="new-password" placeholder="*************">
       </div>
     </div>
-  </div>
+  </form>
 </div>
