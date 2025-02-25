@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 45px;
-    width: 224px;
+    width: 260px;
   }
   &__right {
     display: flex;
@@ -36,6 +36,9 @@
 
 @media (max-width: 860px) {
   .dashboard-container {
-    padding: 0;
+    padding: 0 0 40px 0;
+    &__right {
+      padding: 0 16px;
+    }
   }
 }

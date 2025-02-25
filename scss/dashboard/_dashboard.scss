@@ -1,0 +1,219 @@
+.dashboard-main {
+  h2 {
+    font-family: "Roboto Condensed", serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25.78px;
+    margin-bottom: 12px;
+    color: $grey_main;
+    text-transform: uppercase;
+    @media (max-width: 991px) {
+      font-size: 19px;
+      line-height: 1.1;
+    }
+  }
+  .dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    .dashboard-table-container {
+      .dashboard-table {
+        width: 100%;
+        margin-bottom: 43px;
+        tr {
+          th {
+            height: 70px;
+            border-bottom: 2px solid $border_grey3;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21.09px;
+            color: $grey_main;
+            padding: 0 16px;
+            @media (max-width: 991px) {
+              font-size: 14px;
+              line-height: 1.1;
+            }
+          }
+          td {
+            height: 70px;
+            border-bottom: 2px solid $border_grey3;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25.6px;
+            color: $grey_main;
+            padding: 0 16px;
+            &.green {
+              font-weight: 700;
+              color: $green;
+            }
+            &.red {
+              font-weight: 700;
+              color: $red;
+            }
+            a {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 25.6px;
+              color: $grey_main;
+              text-decoration: none;
+              &:hover {
+                color: $main_color;
+              }
+            }
+            @media (max-width: 991px) {
+              font-size: 14px;
+              line-height: 1.1;
+              a {
+                font-size: 14px;
+                line-height: 1.1;
+              }
+            }
+          }
+        }
+      }
+    }
+    .dashboard-data-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      @media (max-width: 991px) {
+        flex-direction: column;
+      }
+      .dashboard-data {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        h2 {
+          margin-bottom: 23px;
+        }
+        .data {
+          p {
+            margin-bottom: 4px;
+            @media (max-width: 991px) {
+              font-size: 14px;
+              line-height: 1.1;
+            }
+          }
+        }
+        .buttons {
+          display: flex;
+          flex-direction: row;
+          gap: 8px;
+          .white-btn {
+            width: 182px;
+            height: 41px;
+            color: $black2;
+            text-transform: uppercase;
+            &:hover {
+              color: $white;
+            }
+            @media (max-width: 991px) {
+              font-size: 14px;
+              line-height: 1.1;
+              width: max-content;
+              padding: 4px 24px;
+            }
+          }
+        }
+      }
+      .dashboard-address {
+        margin-left: 16px;
+        @media (max-width: 991px) {
+          margin-left: 0;
+          margin-top: 24px;
+        }
+        h2 {
+          margin-bottom: 23px;
+        }
+
+        .addresses-dashboard-box {
+          display: flex;
+          flex-direction: row;
+          gap: 106px;
+          @media (max-width: 1400px) {
+            gap: 24px;
+          }
+          @media (max-width: 760px) {
+            flex-direction: column;
+          }
+          .data {
+            strong {
+              display: inline-flex;
+              margin-bottom: 13px;
+              @media (max-width: 991px) {
+                font-size: 14px;
+                line-height: 1.1;
+              }
+            }
+            p {
+              margin-bottom: 4px;
+              @media (max-width: 991px) {
+                font-size: 14px;
+                line-height: 1.1;
+              }
+            }
+            .buttons {
+              display: flex;
+              flex-direction: row;
+              gap: 8px;
+              .white-btn {
+                width: 182px;
+                height: 41px;
+                color: $black2;
+                text-transform: uppercase;
+                &:hover {
+                  color: $white;
+                }
+                @media (max-width: 991px) {
+                  font-size: 14px;
+                  line-height: 1.1;
+                  width: max-content;
+                  padding: 4px 24px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .dashboard-main {
+    .dashboard-wrapper {
+      .dashboard-table-container {
+        position: relative;
+        padding-bottom: 28px;
+        background-color: $white;
+        overflow-x: scroll;
+        margin-bottom: 24px;
+        &::before {
+          content: "Dotknij i przesuń, żeby zobaczyć więcej";
+          position: absolute;
+          width: 204px;
+          height: 10px;
+          bottom: 8px;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 16px;
+          color: $grey_main;
+          right: 18px;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          width: 14px;
+          height: 20px;
+          bottom: 2px;
+          right: 11px;
+          background: url("./../assets/icons/common/swipe-hand.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
+        .dashboard-table {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
