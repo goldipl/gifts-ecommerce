@@ -133,18 +133,17 @@
               <p>Twoje zamówienie</p>
             </div>
             <div class="summary-box__netto">
-              <p>Cena zamówienia netto: 95,72 PLN</p>
+              <p>Razem (netto): 543,65 PLN</p>
+              <p>Dostawa Kurier: 20,00 PLN</p>
             </div>
-            <div class="summary-box__delivery">
-              <p>Koszt&nbsp;dostawy netto: 20,00 PLN</p>
+            <div class="summary-box__summary">
+              <p>Wartość zamówienia (netto): 543,65 PLN</p>
             </div>
             <div class="summary-box__full-price">
-              <p>Cena zamówienia z dostawą&nbsp;brutto</p>
-              <strong>do zapłaty</strong>
-              <span class="green">100,12 PLN</span>
+              <strong>zapłacono</strong>
+              <span class="green">1510,66 PLN</span>
               <a href="" class="color-btn">
-                <span>Dalej</span>
-                <img src="./assets/icons/product_page/cart.svg" alt="koszyk" width="17" height="17">
+                <span>wróć do zamówień</span>
               </a>
             </div>
           </div>

@@ -6481,18 +6481,21 @@ label.add-files:focus, label.add-files:hover {
     line-height: 1.1;
   }
 }
-.dashboard-order__right .dashboard-summary-box .summary-box__netto, .dashboard-order__right .dashboard-summary-box .summary-box__delivery {
+.dashboard-order__right .dashboard-summary-box .summary-box__netto, .dashboard-order__right .dashboard-summary-box .summary-box__summary {
   text-align: center;
   padding: 18px;
   border-bottom: 1px solid #a4a4a4;
   width: 100%;
 }
-.dashboard-order__right .dashboard-summary-box .summary-box__netto p, .dashboard-order__right .dashboard-summary-box .summary-box__delivery p {
+.dashboard-order__right .dashboard-summary-box .summary-box__netto p, .dashboard-order__right .dashboard-summary-box .summary-box__summary p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
   text-align: center;
   color: #333333;
+  margin: 0 0 8px 0;
+}
+.dashboard-order__right .dashboard-summary-box .summary-box__netto p:last-of-type, .dashboard-order__right .dashboard-summary-box .summary-box__summary p:last-of-type {
   margin: 0;
 }
 .dashboard-order__right .dashboard-summary-box .summary-box__full-price {
@@ -6500,6 +6503,7 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
 }
 .dashboard-order__right .dashboard-summary-box .summary-box__full-price p {
   font-weight: 400;
@@ -6516,7 +6520,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
   color: #333333;
   text-transform: uppercase;
-  margin: 6px 0;
+  margin: 16px 0 6px;
 }
 .dashboard-order__right .dashboard-summary-box .summary-box__full-price span.green {
   font-weight: 700;

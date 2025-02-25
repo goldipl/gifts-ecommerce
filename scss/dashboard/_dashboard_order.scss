@@ -193,7 +193,7 @@
           }
         }
         &__netto,
-        &__delivery {
+        &__summary {
           text-align: center;
           padding: 18px;
           border-bottom: 1px solid $grey7;
@@ -204,7 +204,10 @@
             line-height: 16.41px;
             text-align: center;
             color: $grey_main;
-            margin: 0;
+            margin: 0 0 8px 0;
+            &:last-of-type {
+              margin: 0;
+            }
           }
         }
         &__full-price {
@@ -212,6 +215,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          width: 90%;
           p {
             font-weight: 400;
             font-size: 14px;
@@ -227,7 +231,7 @@
             text-align: center;
             color: $grey_main;
             text-transform: uppercase;
-            margin: 6px 0;
+            margin: 16px 0 6px;
           }
           span.green {
             font-weight: 700;
