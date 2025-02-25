@@ -387,6 +387,9 @@
     justify-content: center;
     width: 20%;
     height: 100%;
+    @media (max-width: 991px) {
+      position: relative;
+    }
     .summary-box {
       display: flex;
       flex-direction: column;
