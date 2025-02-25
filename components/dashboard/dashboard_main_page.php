@@ -31,7 +31,7 @@
             <td>27.12.2024</td>
             <td>Jan Kowalski</td>
             <td>9,49 PLN</td>
-            <td class="red">Wysłane</td>
+            <td class="send">Wysłane</td>
             <td>
               <a href="">Szczegóły zamówienia</a>
             </td>
