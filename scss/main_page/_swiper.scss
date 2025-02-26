@@ -11,6 +11,17 @@
     .swiper.desktop {
       margin-top: 22px;
       border-radius: 10px;
+      @media (max-width: 1652px) {
+        width: calc(90vw - 344px);
+        height: 646px;
+        .swiper-slide {
+          a {
+            img {
+              height: 646px;
+            }
+          }
+        }
+      }
       .swiper-slide {
         a {
           img {

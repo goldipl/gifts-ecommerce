@@ -600,6 +600,12 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     margin-right: 10px;
   }
 }
+@media (min-width: 1000px) and (max-width: 1360px) {
+  nav .navbar-bottom .nav-link.dropdown-toggle,
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 17px;
+  }
+}
 footer {
   background-color: #f4f4f4;
   border-top: 1px solid #a6a6a6;
@@ -1836,6 +1842,15 @@ label.add-files:focus, label.add-files:hover {
 #swiper.main-page-swiper .swiper.desktop {
   margin-top: 22px;
   border-radius: 10px;
+}
+@media (max-width: 1652px) {
+  #swiper.main-page-swiper .swiper.desktop {
+    width: calc(90vw - 344px);
+    height: 646px;
+  }
+  #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
+    height: 646px;
+  }
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
   -o-object-fit: cover;
