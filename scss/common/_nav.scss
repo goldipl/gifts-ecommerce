@@ -351,6 +351,10 @@ nav {
         height: 48px;
         padding: 0 60px 0 16px;
         margin: 0 !important;
+        font-size: 14px;
+        &::placeholder {
+          font-size: 14px;
+        }
       }
     }
     .navbar-brand-desktop {
