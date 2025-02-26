@@ -45,3 +45,10 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 - Desktop & mobile version :desktop_computer: :iphone:
 
 ![screenshot](./screenshots/screenshot01.jpg)
+![screenshot](./screenshots/screenshot02.jpg)
+![screenshot](./screenshots/screenshot03.jpg)
+![screenshot](./screenshots/screenshot04.jpg)
+![screenshot](./screenshots/screenshot05.jpg)
+![screenshot](./screenshots/screenshot06.jpg)
+![screenshot](./screenshots/screenshot07.jpg)
+![screenshot](./screenshots/screenshot08.jpg)
