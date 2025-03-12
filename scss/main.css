@@ -832,6 +832,16 @@ footer .footer__container__top .fourth-column .footer-contacts-box h2 {
 footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box {
   margin: 0 0 17px 0;
 }
+footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box .footer-contact-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 2px 0;
+}
+footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box .footer-contact-row:first-of-type {
+  margin-top: 6px;
+}
 footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box strong {
   font-size: 16px;
   font-style: normal;
@@ -846,11 +856,12 @@ footer .footer__container__top .fourth-column .footer-contacts-box .footer-conta
   line-height: 160%;
   color: #4a6375;
   margin: 0;
+  text-align: justify;
 }
 footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p:has(.gtm-phone.red) {
   margin-top: 8px;
 }
-footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p a {
+footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box a {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -858,10 +869,10 @@ footer .footer__container__top .fourth-column .footer-contacts-box .footer-conta
   color: #4a6375;
   text-decoration: none;
 }
-footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p a:hover {
+footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box a:hover {
   color: #c90c0f;
 }
-footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p a.gtm-phone.red {
+footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box a.gtm-phone.red {
   color: #c90c0f;
 }
 footer .footer__container__bottom {
@@ -1019,7 +1030,7 @@ footer .footer__container__bottom .contip img {
     line-height: 120%;
     margin-bottom: 9px;
   }
-  footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p a {
+  footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box a {
     font-size: 12px;
     line-height: 120%;
   }

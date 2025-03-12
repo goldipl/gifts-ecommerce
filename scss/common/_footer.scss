@@ -202,6 +202,16 @@ footer {
           }
           .footer-contact-box {
             margin: 0 0 17px 0;
+            .footer-contact-row {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+              margin: 0 0 2px 0;
+              &:first-of-type {
+                margin-top: 6px;
+              }
+            }
             strong {
               font-size: 16px;
               font-style: normal;
@@ -216,22 +226,23 @@ footer {
               line-height: 160%;
               color: $small_text_color;
               margin: 0;
+              text-align: justify;
               &:has(.gtm-phone.red) {
                 margin-top: 8px;
               }
-              a {
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 160%;
-                color: $small_text_color;
-                text-decoration: none;
-                &:hover {
-                  color: $main_color;
-                }
-                &.gtm-phone.red {
-                  color: $main_color;
-                }
+            }
+            a {
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 160%;
+              color: $small_text_color;
+              text-decoration: none;
+              &:hover {
+                color: $main_color;
+              }
+              &.gtm-phone.red {
+                color: $main_color;
               }
             }
           }
@@ -423,10 +434,10 @@ footer {
                 font-size: 12px;
                 line-height: 120%;
                 margin-bottom: 9px;
-                a {
-                  font-size: 12px;
-                  line-height: 120%;
-                }
+              }
+              a {
+                font-size: 12px;
+                line-height: 120%;
               }
             }
           }

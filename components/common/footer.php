@@ -67,15 +67,27 @@
             <div class="footer-contacts-box d-flex flex-column">
                 <h2>Kontakt</h2>
                 <div class="footer-contact-box">
-                    <p><img width="17" height="14" src="./assets/icons/common/topbar/topbar-envelope.svg" alt="e-mail"> <a class="gtm-mail" href="mailto:biuro@gifts24.pl">biuro@gifts24.pl</a></p>
-                    <p><img width="15" height="15" src="./assets/icons/common/topbar/topbar-telephone.svg" alt="telefon"> <a class="gtm-phone red" href="tel:+48 505 178 262">+48 505 178 262</a></p>
+                    <div class="footer-contact-row">
+                        <p><img width="17" height="14" src="./assets/icons/common/topbar/topbar-envelope.svg" alt="e-mail"></p><a class="gtm-mail" href="mailto:biuro@gifts24.pl">biuro@gifts24.pl</a>
+                    </div>
+                    <div class="footer-contact-row">
+                        <p><img width="15" height="15" src="./assets/icons/common/topbar/topbar-telephone.svg" alt="telefon"></p><a class="gtm-phone red" href="tel:+48 505 178 262">+48 505 178 262</a>
+                    </div>
                 </div>
                 <div class="footer-contact-box">
                     <strong>Dział Handlowy:</strong>
-                    <p>tel.: <a class="gtm-phone" href="tel:+48 32 750 86 56">+48 32 750 86 56</a></p>
-                    <p>tel.: <a class="gtm-phone" href="tel:+48 71 722 08 26">+48 71 722 08 26</a></p>
-                    <p>kom. <a class="gtm-phone" href="tel:+48 505 178 262">+48 505 178 262</a></p>
-                    <p>fax: <a class="gtm-phone" href="tel:+48 71 722 08 25">+48 71 722 08 25</a></p>
+                    <div class="footer-contact-row">
+                        <p>tel.:</p><a class="gtm-phone" href="tel:+48 32 750 86 56">+48 32 750 86 56</a>
+                    </div>
+                    <div class="footer-contact-row">
+                        <p>tel.:</p><a class="gtm-phone" href="tel:+48 71 722 08 26">+48 71 722 08 26</a>
+                    </div>
+                    <div class="footer-contact-row">
+                        <p>kom.</p><a class="gtm-phone" href="tel:+48 505 178 262">+48 505 178 262</a>
+                    </div>
+                    <div class="footer-contact-row">
+                        <p>fax:</p><a class="gtm-phone" href="tel:+48 71 722 08 25">+48 71 722 08 25</a>
+                    </div>
                 </div>
             </div>
         </div>
