@@ -239,10 +239,18 @@ nav .navbar-brand img {
 nav .container-fluid {
   padding: 0 !important;
 }
-nav #nav-searchbar {
+nav #nav-searchbar-mobile {
+  display: none;
+}
+nav #nav-searchbar-desktop {
+  display: flex;
+}
+nav #nav-searchbar-desktop,
+nav #nav-searchbar-mobile {
   position: relative;
 }
-nav #nav-searchbar input {
+nav #nav-searchbar-desktop input,
+nav #nav-searchbar-mobile input {
   all: unset;
   width: 568px;
   height: 60px;
@@ -254,19 +262,21 @@ nav #nav-searchbar input {
   line-height: 14.4px;
   color: #2e2e2e;
 }
-nav #nav-searchbar input::-moz-placeholder {
+nav #nav-searchbar-desktop input::-moz-placeholder, nav #nav-searchbar-mobile input::-moz-placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 14.4px;
   color: #2e2e2e;
 }
-nav #nav-searchbar input::placeholder {
+nav #nav-searchbar-desktop input::placeholder,
+nav #nav-searchbar-mobile input::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 14.4px;
   color: #2e2e2e;
 }
-nav #nav-searchbar button {
+nav #nav-searchbar-desktop button,
+nav #nav-searchbar-mobile button {
   all: unset;
   position: absolute;
   top: calc(50% - 12.5px);
@@ -286,7 +296,8 @@ nav #nav-searchbar button {
   background-position-x: 64px;
   padding-right: 64px;
 }
-nav #nav-searchbar button:hover {
+nav #nav-searchbar-desktop button:hover,
+nav #nav-searchbar-mobile button:hover {
   color: #c90c0f;
 }
 nav .nav-account-cart a .nav-cart-text {
@@ -393,13 +404,16 @@ nav .navbar-bottom .main-nav-item > a.show::after {
 }
 
 @media (max-width: 1576px) {
-  nav #nav-searchbar input {
+  nav #nav-searchbar-mobile {
+    display: none;
+  }
+  nav #nav-searchbar-desktop input {
     width: 300px;
   }
 }
 @media (min-width: 992px) {
   nav {
-    height: 160px;
+    height: 220px;
   }
   nav .navbar-brand-mobile {
     display: none;
@@ -496,20 +510,44 @@ nav .navbar-bottom .main-nav-item > a.show::after {
 }
 @media (max-width: 991px) {
   header {
-    height: 96px;
+    height: 160px;
   }
   nav {
     height: auto;
+    padding-bottom: 0 !important;
+  }
+  nav #nav-searchbar-mobile {
+    position: relative;
+    display: flex;
+    margin: 8px 0;
+    padding: 0 16px;
+    width: 100%;
+  }
+  nav #nav-searchbar-mobile input {
+    width: 100%;
+    height: 48px;
+    padding: 0 60px 0 16px;
+    margin: 0 !important;
+    font-size: 14px;
+  }
+  nav #nav-searchbar-mobile input::-moz-placeholder {
+    font-size: 14px;
+  }
+  nav #nav-searchbar-mobile input::placeholder {
+    font-size: 14px;
+  }
+  nav #nav-searchbar-mobile button {
+    font-size: 0;
+    right: 16px;
+    padding-right: 16px;
+    background-position-x: unset;
   }
   nav .navbar-menu {
     background-color: #ffffff;
     z-index: 15;
   }
-  nav .navbar-menu #nav-searchbar button {
-    font-size: 0;
-    right: 0;
-    padding-right: 16px;
-    background-position-x: unset;
+  nav .navbar-menu #nav-searchbar-desktop {
+    display: none;
   }
   nav .navbar-menu .navbar-bottom .main-nav-item > a {
     width: calc(100% - 16px);
@@ -530,23 +568,6 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     margin-left: 0;
     height: 32px;
     width: auto;
-  }
-  nav #nav-searchbar {
-    margin: 16px 0 0 0;
-    width: 100%;
-  }
-  nav #nav-searchbar input {
-    width: 100%;
-    height: 48px;
-    padding: 0 60px 0 16px;
-    margin: 0 !important;
-    font-size: 14px;
-  }
-  nav #nav-searchbar input::-moz-placeholder {
-    font-size: 14px;
-  }
-  nav #nav-searchbar input::placeholder {
-    font-size: 14px;
   }
   nav .navbar-brand-desktop {
     display: none;
