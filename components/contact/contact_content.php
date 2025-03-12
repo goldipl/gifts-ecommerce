@@ -7,9 +7,9 @@
             <div class="contact-grey-box">
                 <div class="grey-left-col">
                     <h3>Skontaktuj się</h3>
-                    <a class="gtm-phone" href="tel:032 750 86 56"><img src="./assets/icons/contact/telephone.svg" width="22" height="22" alt="telefon">032 750 86 56</a>
-                    <a class="gtm-phone" href="tel:071 722 08 26"><img src="./assets/icons/contact/telephone.svg" width="22" height="22" alt="telefon">071 722 08 26</a>
-                    <a class="gtm-phone" href="tel:505 178 262"><img src="./assets/icons/contact/smartphone.svg" width="22" height="22" alt="telefon">505 178 262</a>
+                    <a class="gtm-phone" href="tel:+48 032 750 86 56"><img src="./assets/icons/contact/telephone.svg" width="22" height="22" alt="telefon">+48 032 750 86 56</a>
+                    <a class="gtm-phone" href="tel:+48 071 722 08 26"><img src="./assets/icons/contact/telephone.svg" width="22" height="22" alt="telefon">+48 071 722 08 26</a>
+                    <a class="gtm-phone" href="tel:+48 505 178 262"><img src="./assets/icons/contact/smartphone.svg" width="22" height="22" alt="telefon">+48 505 178 262</a>
                     <a class="gtm-mail" href="mailto: biuro@gifts24.pl"><img src="./assets/icons/contact/letter.svg" width="22" height="22" alt="email"> biuro@gifts24.pl</a>
                 </div>
                 <div class="grey-right-col">
