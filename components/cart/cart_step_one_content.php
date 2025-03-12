@@ -7,7 +7,6 @@
             <tr>
               <th>Nr</th>
               <th>Produkt</th>
-              <th>Cena katalogowa </th>
               <th>Cena zakupu</th>
               <th>Ilość</th>
               <th>Suma netto</th>
@@ -26,7 +25,6 @@
                   </div>
                 </div>
               </td>
-              <td>2,16 PLN</td>
               <td>0,88 PLN</td>
               <td>
                 <input type="number" name="product-quantity" id="product-quantity" min="0">
@@ -79,7 +77,6 @@
                   </div>
                 </div>
               </td>
-              <td>2,16 PLN</td>
               <td>3,16 PLN</td>
               <td>
                 <input type="number" name="product-quantity" id="product-quantity" min="0">

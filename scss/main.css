@@ -4904,6 +4904,8 @@ label.add-files:focus, label.add-files:hover {
 }
 .cart_container .cart-table_box .cart-products-table tbody tr th:last-of-type {
   border-right: 1px solid #a4a4a4;
+  text-align: center;
+  padding-right: 26px;
 }
 .cart_container .cart-table_box .cart-products-table tbody tr td {
   border-collapse: collapse;
