@@ -45,7 +45,7 @@
                   <tr>
                     <th>Zdjęcie</th>
                     <th>Nazwa produktu</th>
-                    <th>Liczba</th>
+                    <th>Ilość</th>
                     <th>Cena netto (PLN)</th>
                     <th>Wartosc netto (PLN)</th>
                   </tr>
