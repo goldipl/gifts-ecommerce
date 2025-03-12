@@ -17,6 +17,7 @@
                     <p>Biznes Promotion</p>
                     <p>ul. Trzebnicka 26</p>
                     <p>51-217 Pruszowice</p>
+                    <p>Polska</p>
                 </div>
             </div>
         </div>
