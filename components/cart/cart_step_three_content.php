@@ -7,12 +7,12 @@
             <tr>
               <th>Nr</th>
               <th>Produkt</th>
-              <th>Cena katalogowa </th>
               <th>Cena zakupu</th>
               <th>Ilość</th>
               <th>Suma netto</th>
-              <th>Edycja</th>
+              <th></th>
             </tr>
+
             <!-- Product slot - start -->
             <tr class="divider"></tr>
             <tr>
@@ -26,7 +26,6 @@
                   </div>
                 </div>
               </td>
-              <td>2,16 PLN</td>
               <td>0,88 PLN</td>
               <td>14</td>
               <td>45,36 PLN</td>
@@ -34,18 +33,18 @@
             </tr>
             <tr class="cart-branding-expand-row">
               <td></td>
-              <td colspan="4" class="branding-text">
+              <td colspan="3" class="branding-text">
                 <strong>Znakowanie:</strong>
                 <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
               </td>
-              <td colspan="2"></td>
+              <td colspan="2"><small class="grey-small">22,36 pln</small></td>
             </tr>
             <!-- Product slot - end -->
 
             <!-- Product slot - start -->
             <tr class="divider"></tr>
             <tr>
-              <td class="number">02</td>
+              <td class="number">01</td>
               <td>
                 <div class="d-flex">
                   <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
@@ -55,7 +54,6 @@
                   </div>
                 </div>
               </td>
-              <td>2,16 PLN</td>
               <td>0,88 PLN</td>
               <td>14</td>
               <td>45,36 PLN</td>
@@ -63,18 +61,18 @@
             </tr>
             <tr class="cart-branding-expand-row">
               <td></td>
-              <td colspan="4" class="branding-text">
+              <td colspan="3" class="branding-text">
                 <strong>Znakowanie:</strong>
                 <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
               </td>
-              <td colspan="2"></td>
+              <td colspan="2"><small class="grey-small">22,36 pln</small></td>
             </tr>
             <!-- Product slot - end -->
-             
+
             <!-- Product slot - start -->
             <tr class="divider"></tr>
             <tr>
-              <td class="number">03</td>
+              <td class="number">01</td>
               <td>
                 <div class="d-flex">
                   <img class="product-img" src="./assets/img/cart/pen.jpg" alt="produkt" width="76" height="76">
@@ -84,7 +82,6 @@
                   </div>
                 </div>
               </td>
-              <td>2,16 PLN</td>
               <td>0,88 PLN</td>
               <td>14</td>
               <td>45,36 PLN</td>
@@ -92,13 +89,14 @@
             </tr>
             <tr class="cart-branding-expand-row">
               <td></td>
-              <td colspan="4" class="branding-text">
+              <td colspan="3" class="branding-text">
                 <strong>Znakowanie:</strong>
                 <span>(Metoda znakowania: <b>Sitodruk</b> | Ilość kolorów nadruku: <b>1</b> | Pozycja nadruku: <b>Przód</b> | Ilość: <b>11</b>) </span>
               </td>
-              <td colspan="2"></td>
+              <td colspan="2"><small class="grey-small">22,36 pln</small></td>
             </tr>
             <!-- Product slot - end -->
+
           </tbody>
         </table>
         <div class="cart-payment-method">

@@ -5409,6 +5409,10 @@ label.add-files:focus, label.add-files:hover {
   height: 8px;
 }
 
+.cart_container.step_three .cart-branding-expand-row .grey-small {
+  color: #8a8a8a;
+  text-transform: uppercase;
+}
 .cart_container.step_three .cart-table-slot {
   margin-bottom: 18px;
 }

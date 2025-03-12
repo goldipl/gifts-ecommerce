@@ -1,4 +1,10 @@
 .cart_container.step_three {
+  .cart-branding-expand-row {
+    .grey-small {
+      color: $grey5;
+      text-transform: uppercase;
+    }
+  }
   .cart-table-slot {
     margin-bottom: 18px;
   }
