@@ -1012,6 +1012,9 @@ footer .footer__container__bottom .contip img {
     line-height: 120%;
     margin-bottom: 9px;
   }
+  footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-row {
+    margin-bottom: 9px !important;
+  }
   footer .footer__container__top .fourth-column .footer-contacts-box h2 {
     font-size: 20px;
     margin: 0 0 24px 0;
@@ -1028,7 +1031,6 @@ footer .footer__container__bottom .contip img {
   footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box p {
     font-size: 12px;
     line-height: 120%;
-    margin-bottom: 9px;
   }
   footer .footer__container__top .fourth-column .footer-contacts-box .footer-contact-box a {
     font-size: 12px;

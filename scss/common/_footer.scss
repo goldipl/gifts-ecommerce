@@ -418,6 +418,9 @@ footer {
         }
         .fourth-column {
           .footer-contacts-box {
+            .footer-contact-row {
+              margin-bottom: 9px !important;
+            }
             h2 {
               font-size: 20px;
               margin: 0 0 24px 0;
@@ -433,7 +436,6 @@ footer {
               p {
                 font-size: 12px;
                 line-height: 120%;
-                margin-bottom: 9px;
               }
               a {
                 font-size: 12px;
