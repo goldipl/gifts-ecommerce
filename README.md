@@ -10,7 +10,7 @@
 ## Table of contents
 
 - [Technologies](#technologies)
-- [Live links](#live-links)
+- [Live link](#live-link)
 - [License](#license)
 - [Screenshots](#screenshots)
 
@@ -30,9 +30,9 @@ Used technologies:
 - Bootstrap 5.3.2
 - SCSS
 
-## Live links
+## Live link
 
-- To do
+http://gifts24.tiphost.net/templates/index.php
 
 ## License
 
