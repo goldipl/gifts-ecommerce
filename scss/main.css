@@ -1811,7 +1811,7 @@ label.add-files:focus, label.add-files:hover {
     top: -3px !important;
     left: 10px !important;
     z-index: 12 !important;
-    padding: 8px !important;
+    padding: 8px 0 !important;
     border-radius: 0 !important;
     width: 100% !important;
     border-left: 0 !important;
@@ -1861,6 +1861,36 @@ label.add-files:focus, label.add-files:hover {
     white-space: pre;
   }
 }
+#hero-left-menu .hero-left-menu .navbar-nav .nav-item.dropdown .dropdown-toggle-third + .dropdown-menu-child {
+  position: absolute;
+  top: -1px !important;
+  left: 99% !important;
+}
+@media (max-width: 991px) {
+  #hero-left-menu .hero-left-menu .navbar-nav .nav-item.dropdown .dropdown-toggle-third + .dropdown-menu-child {
+    position: relative;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+#hero-left-menu .dropdown-toggle-third {
+  padding-right: 64px;
+}
+@media (max-width: 991px) {
+  #hero-left-menu .dropdown-toggle-third {
+    padding-bottom: 8px;
+  }
+  #hero-left-menu .dropdown-toggle-third .nav-item-chevron-right {
+    transform: rotate(-270deg) !important;
+  }
+  #hero-left-menu .dropdown-toggle-third.show .nav-item-chevron-right {
+    transform: rotate(-90deg) !important;
+  }
+}
+#hero-left-menu .dropdown-toggle-third.show + .dropdown-menu.dropdown-menu-child {
+  display: block;
+}
+
 #swiper {
   width: 1207px;
   height: 646px;

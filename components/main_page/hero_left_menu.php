@@ -6,28 +6,37 @@
     </button>
     <div class="collapse navbar-collapse show" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <svg class="left-menu-icon" width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5.68799 10.3772C5.68799 9.63744 6.28768 9.03775 7.02748 9.03775C7.76723 9.03775 8.36693 9.63744 8.36693 10.3772" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
-            <path d="M12.3828 10.3772C12.3828 9.63744 12.9825 9.03775 13.7223 9.03775C14.4621 9.03775 15.0618 9.63744 15.0618 10.3772" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
-            <path d="M8.07007 13.0565C8.53604 13.8461 9.39508 14.3762 10.3784 14.3762C11.3617 14.3762 12.2207 13.8461 12.6867 13.0565" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
-            <path d="M19.7526 10.1439C19.7526 11.2403 18.8745 12.1316 17.7828 12.1522C16.9004 15.4153 13.9187 17.8162 10.3763 17.8162C6.83393 17.8162 3.85219 15.4153 2.9698 12.1522C1.87811 12.1316 1 11.2403 1 10.1439C1 9.58913 1.22488 9.08686 1.58826 8.72309C1.94347 8.36827 2.43057 8.14573 2.9698 8.13561C3.85219 4.87258 6.83393 2.4717 10.3763 2.4717C13.9187 2.4717 16.9004 4.87258 17.7828 8.13561C18.322 8.14573 18.8092 8.36827 19.1644 8.72309C19.5277 9.08686 19.7526 9.58913 19.7526 10.1439Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
-            <path d="M7.87714 4.96846C7.87714 6.34732 8.9949 7.46509 10.3738 7.46509C11.7526 7.46509 12.8704 6.34732 12.8704 4.96846C12.8704 3.5896 11.7526 2.47183 10.3738 2.47183H9.98249C8.71906 2.47183 7.69482 1.4476 7.69482 0.184131" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
-            <path d="M10.3769 2.47168H7.30671C6.04324 2.47168 5.01904 1.44744 5.01904 0.184016" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
-          </svg>
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Gadżety reklamowe dla dzieci</a>
-          <svg class="nav-item-chevron-right" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li class="nav-item dropdown">
+                        <svg class="left-menu-icon" width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.68799 10.3772C5.68799 9.63744 6.28768 9.03775 7.02748 9.03775C7.76723 9.03775 8.36693 9.63744 8.36693 10.3772" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
+                          <path d="M12.3828 10.3772C12.3828 9.63744 12.9825 9.03775 13.7223 9.03775C14.4621 9.03775 15.0618 9.63744 15.0618 10.3772" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
+                          <path d="M8.07007 13.0565C8.53604 13.8461 9.39508 14.3762 10.3784 14.3762C11.3617 14.3762 12.2207 13.8461 12.6867 13.0565" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
+                          <path d="M19.7526 10.1439C19.7526 11.2403 18.8745 12.1316 17.7828 12.1522C16.9004 15.4153 13.9187 17.8162 10.3763 17.8162C6.83393 17.8162 3.85219 15.4153 2.9698 12.1522C1.87811 12.1316 1 11.2403 1 10.1439C1 9.58913 1.22488 9.08686 1.58826 8.72309C1.94347 8.36827 2.43057 8.14573 2.9698 8.13561C3.85219 4.87258 6.83393 2.4717 10.3763 2.4717C13.9187 2.4717 16.9004 4.87258 17.7828 8.13561C18.322 8.14573 18.8092 8.36827 19.1644 8.72309C19.5277 9.08686 19.7526 9.58913 19.7526 10.1439Z" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
+                          <path d="M7.87714 4.96846C7.87714 6.34732 8.9949 7.46509 10.3738 7.46509C11.7526 7.46509 12.8704 6.34732 12.8704 4.96846C12.8704 3.5896 11.7526 2.47183 10.3738 2.47183H9.98249C8.71906 2.47183 7.69482 1.4476 7.69482 0.184131" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
+                          <path d="M10.3769 2.47168H7.30671C6.04324 2.47168 5.01904 1.44744 5.01904 0.184016" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" />
+                        </svg>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Gadżety reklamowe dla dzieci</a>
+                        <svg class="nav-item-chevron-right" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L7 7L1 13" stroke="#374957" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item position-relative dropdown-toggle-third" href="#">Artykuły szkolne
+                                      <svg class="nav-item-chevron-right" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 1L7 7L1 13" stroke="#374957" stroke-width="1.5" stroke-linecap="round" />
-          </svg>
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="#">Artykuły szkolne</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Piórniki</a>
-            </li>
-          </ul>
-        </li>
+          </svg></a>
+
+                            <ul class="dropdown-menu dropdown-menu-child">
+                              <li><a class="dropdown-item" href="#">Kredki</a></li>
+                              <li><a class="dropdown-item" href="#">Farby</a></li>
+                              <li><a class="dropdown-item" href="#">Zeszyty</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Piórniki</a>
+                          </li>
+                        </ul>
+                      </li>
         <li class="nav-item dropdown">
           <svg class="left-menu-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 10.0002L10.0157 0.984564L19.0314 10.0002" stroke="#374957" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />

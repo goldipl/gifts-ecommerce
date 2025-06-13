@@ -129,7 +129,7 @@
             top: -3px !important;
             left: 10px !important;
             z-index: 12 !important;
-            padding: 8px !important;
+            padding: 8px 0 !important;
             border-radius: 0 !important;
             width: 100% !important;
             border-left: 0 !important;
@@ -180,6 +180,43 @@
       left: 56px;
       display: inline-flex !important;
       white-space: pre;
+    }
+  }
+}
+
+// Third-lvl-menu
+#hero-left-menu {
+  .hero-left-menu
+    .navbar-nav
+    .nav-item.dropdown
+    .dropdown-toggle-third
+    + .dropdown-menu-child {
+    position: absolute;
+    top: -1px !important;
+    left: 99% !important;
+    @media (max-width: 991px) {
+      position: relative;
+      top: 0 !important;
+      left: 0 !important;
+    }
+  }
+  .dropdown-toggle-third {
+    padding-right: 64px;
+    @media (max-width: 991px) {
+      padding-bottom: 8px;
+      .nav-item-chevron-right {
+        transform: rotate(-270deg) !important;
+      }
+      &.show {
+        .nav-item-chevron-right {
+          transform: rotate(-90deg) !important;
+        }
+      }
+    }
+    &.show {
+      & + .dropdown-menu.dropdown-menu-child {
+        display: block;
+      }
     }
   }
 }

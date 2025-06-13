@@ -8,14 +8,34 @@ const main_wrapper = document.getElementById('main-wrapper');
 const toggleMainWrapperClass = () => {
     // Check if any element in toggle_menu_el has the "show" class
     const isMenuOpen = ([...toggle_menu_el]).some(el => el.classList.contains('show'));
-  
+
     // If the menu is open, add the "opened-menu" class to main_wrapper
     if (isMenuOpen) {
-      main_wrapper.classList.add('opened-menu');
+        main_wrapper.classList.add('opened-menu');
     } else {
-      // If the menu is not open, remove the "opened-menu" class from main_wrapper
-      main_wrapper.classList.remove('opened-menu');
+        // If the menu is not open, remove the "opened-menu" class from main_wrapper
+        main_wrapper.classList.remove('opened-menu');
     }
 }
 
 document.addEventListener('click', toggleMainWrapperClass);
+
+// Third level dropdown functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const thirdLevelToggles = document.querySelectorAll('.dropdown-toggle-third');
+
+    thirdLevelToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation(); // Prevent closing the parent dropdown
+            this.classList.toggle('show'); // Toggle the class on the anchor
+            const nextSibling = this.nextElementSibling;
+            if (nextSibling && nextSibling.classList.contains('nav-item-chevron-right')) {
+                const nextNextSibling = nextSibling.nextElementSibling;
+                if (nextNextSibling && nextNextSibling.classList.contains('dropdown-menu-child')) {
+                    nextNextSibling.classList.toggle('show'); // Toggle the class on the dropdown-menu
+                }
+            }
+        });
+    });
+});
