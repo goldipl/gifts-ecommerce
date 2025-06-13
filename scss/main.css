@@ -1698,7 +1698,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-direction: column;
   width: 346px;
-  height: 723px;
+  height: auto;
   margin-right: 22px;
   border: 1px solid #d4d1d1;
   border-radius: 10px;
