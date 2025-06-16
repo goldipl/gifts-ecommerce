@@ -28,12 +28,28 @@ document.addEventListener('DOMContentLoaded', function() {
         toggle.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation(); // Prevent closing the parent dropdown
-            this.classList.toggle('show'); // Toggle the class on the anchor
+
+            // Close all other open third-level dropdowns
+            thirdLevelToggles.forEach(otherToggle => {
+                if (otherToggle !== this) {
+                    otherToggle.classList.remove('show');
+                    const otherNext = otherToggle.nextElementSibling;
+                    if (otherNext && otherNext.classList.contains('nav-item-chevron-right')) {
+                        const otherMenu = otherNext.nextElementSibling;
+                        if (otherMenu && otherMenu.classList.contains('dropdown-menu-child')) {
+                            otherMenu.classList.remove('show');
+                        }
+                    }
+                }
+            });
+
+            // Toggle the current one
+            this.classList.toggle('show');
             const nextSibling = this.nextElementSibling;
             if (nextSibling && nextSibling.classList.contains('nav-item-chevron-right')) {
                 const nextNextSibling = nextSibling.nextElementSibling;
                 if (nextNextSibling && nextNextSibling.classList.contains('dropdown-menu-child')) {
-                    nextNextSibling.classList.toggle('show'); // Toggle the class on the dropdown-menu
+                    nextNextSibling.classList.toggle('show');
                 }
             }
         });
