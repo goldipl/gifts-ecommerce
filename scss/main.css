@@ -203,7 +203,7 @@ body #main-wrapper {
   #topbar > .container .left-topbar a,
   #topbar > .container .left-topbar span,
   #topbar > .container .left-topbar p {
-    font-size: 12px !important;
+    font-size: 11px !important;
     padding: 2px 8px !important;
   }
   #topbar > .container .left-topbar .topbar-text {
@@ -212,11 +212,26 @@ body #main-wrapper {
   #topbar > .container .topbar-links a,
   #topbar > .container .topbar-links span,
   #topbar > .container .topbar-links p {
-    font-size: 12px !important;
+    font-size: 11px !important;
     padding: 2px 8px !important;
   }
   #topbar > .container .topbar-links img {
     margin-left: 2px !important;
+  }
+}
+@media (max-width: 380px) {
+  #topbar > .container .left-topbar {
+    height: auto;
+  }
+  #topbar > .container .left-topbar a,
+  #topbar > .container .left-topbar span,
+  #topbar > .container .left-topbar p {
+    font-size: 10px !important;
+  }
+  #topbar > .container .topbar-links a,
+  #topbar > .container .topbar-links span,
+  #topbar > .container .topbar-links p {
+    font-size: 10px !important;
   }
 }
 header {

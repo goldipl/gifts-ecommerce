@@ -132,7 +132,7 @@
         a,
         span,
         p {
-          font-size: 12px !important;
+          font-size: 11px !important;
           padding: 2px 8px !important;
         }
         .topbar-text {
@@ -143,11 +143,33 @@
         a,
         span,
         p {
-          font-size: 12px !important;
+          font-size: 11px !important;
           padding: 2px 8px !important;
         }
         img {
           margin-left: 2px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  #topbar {
+    > .container {
+      .left-topbar {
+        height: auto;
+        a,
+        span,
+        p {
+          font-size: 10px !important;
+        }
+      }
+      .topbar-links {
+        a,
+        span,
+        p {
+          font-size: 10px !important;
         }
       }
     }
