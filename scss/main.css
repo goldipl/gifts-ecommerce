@@ -1787,6 +1787,8 @@ label.add-files:focus, label.add-files:hover {
   width: -moz-max-content;
   width: max-content;
   padding: 12px 39px;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 @media (min-width: 992px) {
