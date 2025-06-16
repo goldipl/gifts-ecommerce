@@ -60,6 +60,9 @@
           font-size: 14px;
           line-height: 14px;
           color: $grey12;
+          @media (max-width: 991px) {
+            padding-right: 0 !important;
+          }
         }
         &:hover {
           color: $main_color;

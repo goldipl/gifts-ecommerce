@@ -144,6 +144,11 @@ body #main-wrapper {
   line-height: 14px;
   color: #2e2e2e;
 }
+@media (max-width: 991px) {
+  #topbar .container .topbar-links a.gtm-phone {
+    padding-right: 0 !important;
+  }
+}
 #topbar .container .topbar-links a:hover {
   color: #c90c0f;
 }
