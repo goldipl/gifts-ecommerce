@@ -775,6 +775,12 @@ footer .footer__container__top .first-column .footer-text strong {
   color: #4a6375;
   margin: 0;
 }
+@media (max-width: 991px) {
+  footer .footer__container__top .first-column .footer-text strong {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+}
 footer .footer__container__top .first-column .footer-text p {
   font-family: "Roboto Condensed", serif;
   font-size: 16px;

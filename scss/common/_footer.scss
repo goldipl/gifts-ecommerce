@@ -118,6 +118,10 @@ footer {
             line-height: 160%;
             color: $small_text_color;
             margin: 0;
+            @media (max-width: 991px) {
+              font-size: 13px;
+              line-height: 1.2;
+            }
           }
           p {
             font-family: "Roboto Condensed", serif;
