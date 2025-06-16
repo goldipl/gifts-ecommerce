@@ -239,6 +239,11 @@
                 color: $main_color;
               }
             }
+            .white-btn img {
+              width: 18px;
+              height: 18px;
+              object-fit: contain;
+            }
             p {
               font-size: 14px;
               font-style: normal;

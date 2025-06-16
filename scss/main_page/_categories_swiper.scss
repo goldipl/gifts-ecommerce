@@ -79,6 +79,12 @@
       border: 0;
       max-width: 154px;
       padding: 8px;
+      &:hover {
+        .nav-tab-item {
+          filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg)
+            brightness(73%) contrast(130%);
+        }
+      }
       &.active {
         .nav-tab-item {
           filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg)

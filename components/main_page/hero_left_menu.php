@@ -38,6 +38,17 @@
               </ul>
             </li>
             <li>
+              <a class="dropdown-item position-relative dropdown-toggle-third" href="#">Artykuły szkolne 2 <svg class="nav-item-chevron-right" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 7L1 13" stroke="#374957" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-child">
+                <li>
+                  <a class="dropdown-item" href="#">Kredki</a>
+                </li>
+              </ul>
+            </li>
+            <li>
               <a class="dropdown-item" href="#">Piórniki</a>
             </li>
           </ul>
